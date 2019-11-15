@@ -1,0 +1,26 @@
+
+
+nav{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftSide {
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.rightSide {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navMenuDiv{
+    display: flex;
+    flex-direction: row;
+}
