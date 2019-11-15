@@ -1,0 +1,25 @@
+{
+  "name": "Portfolio-Next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlbroughton88/Portfolio-Next.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlbroughton88/Portfolio-Next/issues"
+  },
+  "homepage": "https://github.com/jlbroughton88/Portfolio-Next#readme",
+  "dependencies": {
+    "next": "^9.1.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
