@@ -1,0 +1,35 @@
+nav {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #EBEBEB; }
+  nav a {
+    text-decoration: none;
+    padding: 5px 8px;
+    border-radius: 5px;
+    color: #333; }
+    nav a:hover {
+      transition: ease-out all 0.2s;
+      box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2); }
+  nav .leftSide {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  nav .rightSide {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; }
+    nav .rightSide .navMenuDiv {
+      display: flex;
+      flex-direction: row;
+      width: 250px;
+      justify-content: space-evenly; }
+  @media (max-width: 600px) {
+    nav .rightSide {
+      width: 85%; }
+    nav .leftSide {
+      width: 15%; } }
+

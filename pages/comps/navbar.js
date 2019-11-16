@@ -1,18 +1,21 @@
 import styled from "styled-components";
+import Link from "next/link";
 import "../../public/css/navbar.scss"
 
 const navbar = () => (
     <div className="motherDiv">
         <nav className="nav">
             <div className="leftSide">
-                <div className="navLogo">Logo</div>
+                <Link href="/">
+                <a><div className="navLogo">Logo</div></a>
+                </Link>
             </div>
 
             <div className="rightSide">
                 <div className="navMenuDiv">
-                    <a className="myStory">My Story</a>
-                    <a className="work">Work</a>
-                    <a className="contact">Contact</a>
+                    <Link href="/story"><a className="myStory">My Story</a></Link>
+                    <Link href="/work"><a className="work">Work</a></Link>
+                    <Link href="/contact"><a className="contact">Contact</a></Link>
                 </div>
             </div>
 
