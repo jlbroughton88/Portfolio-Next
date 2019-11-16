@@ -4,8 +4,24 @@ import styled from "styled-components";
 
 const index = () => (
     <div className="motherDiv">
-        <Navbar/>
+        <Navbar />
         <div className="mainDiv">
+            <div className="surroundingDiv">
+                <div className="introBox">
+                    Intro Box
+                    {/* <div className="introBoxSmall">
+                        intro box
+                    </div>
+
+                    <div className="imageBoxSmall">
+                        included
+                    </div> */}
+                </div>
+                <div className="imageBox">
+                    Image
+            </div>
+            </div>
+
         </div>
 
 
@@ -18,7 +34,7 @@ const index = () => (
             } 
         `}
         </style>
-    </div> 
+    </div>
 )
 
 export default index;

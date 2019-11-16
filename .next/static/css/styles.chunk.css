@@ -1,9 +1,51 @@
 .motherDiv .mainDiv {
-  background: #e1e1e1;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center; }
+  .motherDiv .mainDiv .surroundingDiv {
+    margin-top: 50px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 225px;
+    grid-gap: 2%;
+    max-width: 750px;
+    min-width: 720px; }
+    .motherDiv .mainDiv .surroundingDiv .introBox {
+      height: 100%;
+      grid-column: 1/3;
+      background: #666;
+      color: #e4e4e4;
+      max-width: 450px;
+      display: flex; }
+    .motherDiv .mainDiv .surroundingDiv .imageBox {
+      height: 100%;
+      grid-column: 3;
+      background: #e1e1e1; }
+  @media (max-width: 720px) {
+    .motherDiv .mainDiv .surroundingDiv {
+      grid-template-columns: 48% 48%;
+      min-width: inherit;
+      min-width: 550px; }
+      .motherDiv .mainDiv .surroundingDiv .introBox {
+        grid-column: 1; }
+      .motherDiv .mainDiv .surroundingDiv .imageBox {
+        grid-column: 2; } }
+  @media (min-width: 551px) {
+    .motherDiv .mainDiv .introBoxSmall {
+      display: none; }
+    .motherDiv .mainDiv .imageBoxSmall {
+      display: none; }
+    .motherDiv .mainDiv .imageBox {
+      display: inline-block; } }
+  @media (max-width: 550px) {
+    .motherDiv .mainDiv .surroundingDiv {
+      min-width: inherit;
+      justify-content: center; } }
 
 nav {
   height: 50px;

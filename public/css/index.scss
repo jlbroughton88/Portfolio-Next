@@ -5,10 +5,100 @@
 }
 
 .motherDiv{
+    
     .mainDiv{
-        background: #e1e1e1;
         width: 100%;
-        @include flex-center()
+        @include flex-center();
+
+        .surroundingDiv{
+            margin-top: 50px;
+            width: 90%;
+            @include flex-center();
+            display: grid;
+            grid-template-columns: 30% 30% 30%;
+            grid-template-rows: 225px;
+            grid-gap: 2%;
+            max-width: 750px;
+            min-width: 720px;
+
+                .introBox{
+                    height: 100%;
+                    grid-column: 1/3;
+                    background: #666;
+                    color: #e4e4e4;
+                    max-width: 450px;
+                    display: flex;
+                }
+
+                .imageBox{
+                    height: 100%;
+                    grid-column: 3;
+                    background: #e1e1e1;
+            }
+        }
+
+        @media(max-width: 720px) {
+            .surroundingDiv {
+                grid-template-columns: 48% 48%;
+                min-width: inherit;
+                min-width: 550px;
+
+                .introBox{
+                    grid-column: 1;
+                    
+                }
+
+                .imageBox{
+                    grid-column: 2;
+                }
+            }
+        }
+
+        @media(min-width: 551px) {
+
+            .introBoxSmall{
+                display: none;
+            }
+            .imageBoxSmall{
+                display: none;
+            }
+
+            .imageBox{
+                display: inline-block
+            }
+        }
+
+
+        @media(max-width: 550px) {
+            .surroundingDiv{
+                min-width: inherit;
+                justify-content: center;
+            }
+
+        //     .introBox{
+        //         display: grid;
+        //         grid-template-columns: 70% 30%;
+        //         justify-self: center;
+        //         width: 100%;
+        //     }
+
+        //     .introBoxSmall{
+        //         display: flex;
+        //         grid-column: 1/3;
+        //     }
+
+        //     .imageBoxSmall{   
+        //         display: inline-block;
+        //         background: #e4e4e4;
+        //         color: black;
+        //         grid-column: 3;
+            
+        //     }
+
+        //     .imageBox{
+        //         display: none;
+        //     }
+        }
     }
 }
 
