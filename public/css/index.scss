@@ -4,6 +4,10 @@
     align-items: center;
 }
 
+html, body{
+    height: 100%;
+}
+
 .motherDiv{
     
     .mainDiv{
@@ -15,8 +19,8 @@
             width: 90%;
             @include flex-center();
             display: grid;
-            grid-template-columns: 30% 30% 30%;
-            grid-template-rows: 275px;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 275px 275px;
             grid-gap: 2%;
             min-width: 720px;
 
@@ -35,10 +39,9 @@
             }
         }
 
-        @media(max-width: 720px) {
+        @media(max-width: 755px) {
             .surroundingDiv {
-                grid-template-columns: 48% 48%;
-                min-width: inherit;
+                grid-template-columns: repeat(2, 1fr);
                 min-width: 550px;
 
                 .introBox{ grid-column: 1; }
@@ -46,22 +49,14 @@
             }
         }
 
-        @media(min-width: 551px) {
-            .introBoxSmall{ display: none; }
-            .imageBoxSmall{ display: none; }
-            .imageBox{ display: inline-block }
-        }
-
-
-        @media(max-width: 570px) {
+        @media(max-width: 585px) {
             .surroundingDiv{
-                width: 95%;
-                grid-template-rows: 275px 275px;
-                min-width: 530px;
+                min-width: inherit;
+                .introBox{ grid-column: span 2;  }
+                .imageBox{ grid-column: span 2; }
             }
-            .introBox{ grid-row: 1;}
-            .imageBox{ grid-row: 2;}
         }
+
     }
 }
 

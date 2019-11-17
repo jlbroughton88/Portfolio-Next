@@ -1,3 +1,6 @@
+html, body {
+  height: 100%; }
+
 .motherDiv .mainDiv {
   width: 100%;
   display: flex;
@@ -10,8 +13,8 @@
     justify-content: center;
     align-items: center;
     display: grid;
-    grid-template-columns: 30% 30% 30%;
-    grid-template-rows: 275px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 275px 275px;
     grid-gap: 2%;
     min-width: 720px; }
     .motherDiv .mainDiv .surroundingDiv .introBox {
@@ -24,31 +27,21 @@
       height: 100%;
       grid-column: 3;
       background: #e1e1e1; }
-  @media (max-width: 720px) {
+  @media (max-width: 755px) {
     .motherDiv .mainDiv .surroundingDiv {
-      grid-template-columns: 48% 48%;
-      min-width: inherit;
+      grid-template-columns: repeat(2, 1fr);
       min-width: 550px; }
       .motherDiv .mainDiv .surroundingDiv .introBox {
         grid-column: 1; }
       .motherDiv .mainDiv .surroundingDiv .imageBox {
         grid-column: 2; } }
-  @media (min-width: 551px) {
-    .motherDiv .mainDiv .introBoxSmall {
-      display: none; }
-    .motherDiv .mainDiv .imageBoxSmall {
-      display: none; }
-    .motherDiv .mainDiv .imageBox {
-      display: inline-block; } }
-  @media (max-width: 570px) {
+  @media (max-width: 585px) {
     .motherDiv .mainDiv .surroundingDiv {
-      width: 95%;
-      grid-template-rows: 275px 275px;
-      min-width: 530px; }
-    .motherDiv .mainDiv .introBox {
-      grid-row: 1; }
-    .motherDiv .mainDiv .imageBox {
-      grid-row: 2; } }
+      min-width: inherit; }
+      .motherDiv .mainDiv .surroundingDiv .introBox {
+        grid-column: span 2; }
+      .motherDiv .mainDiv .surroundingDiv .imageBox {
+        grid-column: span 2; } }
 
 nav {
   height: 50px;

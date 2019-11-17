@@ -10,7 +10,6 @@ const index = () => (
                 <div className="introBox"> Intro Box </div>
                 <div className="imageBox">Image </div>
             </div>
-
         </div>
 
 
