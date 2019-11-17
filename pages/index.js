@@ -7,8 +7,14 @@ const index = () => (
         <Navbar />
         <div className="mainDiv">
             <div className="surroundingDiv">
-                <div className="introBox"> Intro Box </div>
-                <div className="imageBox">Image </div>
+                    <div className="introBox"> Intro Box </div>
+                    <div className="imageBox">Image </div>
+                    <div className="toolboxHeadBox">Toolbox Head</div>
+                    <div className="comfortableBox">comfortable</div>
+                    <div className="experienceBox">experience</div>
+                    <div className="toolsBox">tools</div>
+                    <div className="storyBox">Story</div>
+                    <div className="socialBox">social</div>
             </div>
         </div>
 

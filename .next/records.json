@@ -77,7 +77,14 @@
       "static/3RqT0VsC1Qd7sVldvN4tg/pages/contact.js": 15,
       "static/3RqT0VsC1Qd7sVldvN4tg/pages/index.js": 16,
       "static/3RqT0VsC1Qd7sVldvN4tg/pages/story.js": 17,
-      "static/3RqT0VsC1Qd7sVldvN4tg/pages/work.js": 18
+      "static/3RqT0VsC1Qd7sVldvN4tg/pages/work.js": 18,
+      "static/pGgEbMWMrKIUGFxnBvMZu/pages/_app.js": 2,
+      "static/pGgEbMWMrKIUGFxnBvMZu/pages/_error.js": 3,
+      "static/pGgEbMWMrKIUGFxnBvMZu/pages/comps/navbar.js": 4,
+      "static/pGgEbMWMrKIUGFxnBvMZu/pages/contact.js": 5,
+      "static/pGgEbMWMrKIUGFxnBvMZu/pages/index.js": 6,
+      "static/pGgEbMWMrKIUGFxnBvMZu/pages/story.js": 7,
+      "static/pGgEbMWMrKIUGFxnBvMZu/pages/work.js": 8
     },
     "bySource": {},
     "usedIds": [
@@ -85,13 +92,13 @@
       1,
       10,
       11,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
       9
     ]
   }
