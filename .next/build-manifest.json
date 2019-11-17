@@ -5,8 +5,8 @@
       "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
       "static/css/commons.bf6e6a0d.chunk.css",
       "static/chunks/commons.9c987dc5c7789378ce72.js",
-      "static/css/styles.72b7983d.chunk.css",
-      "static/chunks/styles.a412350d48ee80fb2d9f.js",
+      "static/css/styles.1ad731c5.chunk.css",
+      "static/chunks/styles.4fad5e98a6cd050e4a59.js",
       "static/runtime/main-74811155f79fc9b1eeb5.js"
     ],
     "/_app": [
@@ -24,6 +24,14 @@
     "/_polyfills": [
       "static/runtime/polyfills-0b79e9d0d98c13999cc6.js"
     ],
+    "/comps/footer": [
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/css/commons.bf6e6a0d.chunk.css",
+      "static/chunks/commons.9c987dc5c7789378ce72.js",
+      "static/css/styles.1ad731c5.chunk.css",
+      "static/chunks/styles.4fad5e98a6cd050e4a59.js",
+      "static/runtime/main-74811155f79fc9b1eeb5.js"
+    ],
     "/comps/navbar": [
       "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
       "static/css/commons.bf6e6a0d.chunk.css",
@@ -40,8 +48,8 @@
       "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
       "static/css/commons.bf6e6a0d.chunk.css",
       "static/chunks/commons.9c987dc5c7789378ce72.js",
-      "static/css/styles.72b7983d.chunk.css",
-      "static/chunks/styles.a412350d48ee80fb2d9f.js",
+      "static/css/styles.1ad731c5.chunk.css",
+      "static/chunks/styles.4fad5e98a6cd050e4a59.js",
       "static/runtime/main-74811155f79fc9b1eeb5.js"
     ],
     "/story": [

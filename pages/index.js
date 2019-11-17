@@ -1,5 +1,6 @@
 import "../public/css/index.scss";
 import Navbar from "./comps/navbar";
+import Footer from "./comps/footer";
 import styled from "styled-components";
 
 const index = () => (
@@ -15,8 +16,9 @@ const index = () => (
                     <div className="toolsBox">tools</div>
                     <div className="storyBox">Story</div>
                     <div className="socialBox">social</div>
-            </div>
+            </div> 
         </div>
+       <Footer/>
 
 
 
