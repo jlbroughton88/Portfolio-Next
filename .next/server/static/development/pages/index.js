@@ -2145,65 +2145,135 @@ const index = () => __jsx("div", {
     lineNumber: 11
   },
   __self: undefined
-}, " Intro Box "), __jsx("div", {
-  className: "jsx-266929325" + " " + "imageBox",
+}, __jsx("div", {
+  className: "jsx-266929325" + " " + "introContainer",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 12
   },
   __self: undefined
-}, "Image "), __jsx("div", {
-  className: "jsx-266929325" + " " + "toolboxHeadBox",
+}, __jsx("h1", {
+  className: "jsx-266929325" + " " + "introHead",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 13
   },
   __self: undefined
-}, "Toolbox Head"), __jsx("div", {
-  className: "jsx-266929325" + " " + "comfortableBox",
+}, "Jacob Broughton"), __jsx("p", {
+  className: "jsx-266929325" + " " + "introPara",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 14
   },
   __self: undefined
-}, "comfortable"), __jsx("div", {
-  className: "jsx-266929325" + " " + "experienceBox",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 15
-  },
-  __self: undefined
-}, "experience"), __jsx("div", {
-  className: "jsx-266929325" + " " + "toolsBox",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 16
-  },
-  __self: undefined
-}, "tools"), __jsx("div", {
-  className: "jsx-266929325" + " " + "storyBox",
+}, "Hi, i'm a Full Stack Web Developer, specializing in the MERN Stack. Take a look around and feel free to get in touch with me."), __jsx("button", {
+  className: "jsx-266929325" + " " + "cta",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 17
   },
   __self: undefined
-}, "Story"), __jsx("div", {
+}, "Get In Touch"))), __jsx("div", {
+  className: "jsx-266929325" + " " + "imageBox",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 22
+  },
+  __self: undefined
+}, "Image"), __jsx("div", {
+  className: "jsx-266929325" + " " + "toolboxHeadBox",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 25
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "jsx-266929325" + " " + "toolheadDiv",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 26
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "jsx-266929325" + " " + "toolhead",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27
+  },
+  __self: undefined
+}, "My Toolbox"))), __jsx("div", {
+  className: "jsx-266929325" + " " + "comfortableBox",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 32
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "jsx-266929325" + " " + "boxHeadDiv",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 33
+  },
+  __self: undefined
+}, "Most Comfortable")), __jsx("div", {
+  className: "jsx-266929325" + " " + "experienceBox",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 37
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "jsx-266929325" + " " + "boxHeadDiv",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 38
+  },
+  __self: undefined
+}, " Experience With")), __jsx("div", {
+  className: "jsx-266929325" + " " + "toolsBox",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 42
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "jsx-266929325" + " " + "boxHeadDiv",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 43
+  },
+  __self: undefined
+}, "Tools")), __jsx("div", {
+  className: "jsx-266929325" + " " + "storyBox",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 47
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "jsx-266929325" + " " + "boxHeadDiv",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 48
+  },
+  __self: undefined
+}, "A Brief Overview")), __jsx("div", {
   className: "jsx-266929325" + " " + "socialBox",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 18
+    lineNumber: 52
   },
   __self: undefined
 }, "social"))), __jsx(_comps_footer__WEBPACK_IMPORTED_MODULE_4__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 21
+    lineNumber: 57
   },
   __self: undefined
 }), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
   id: "266929325",
   __self: undefined
-}, "body{margin:0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9KYWNvYkJyb3VnaHRvbi9jb2RpbmcvcGVyc29uYWwvUG9ydGZvbGlvLU5leHQvcGFnZXMvaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBMEIyQixBQUcwQixTQUNiIiwiZmlsZSI6Ii9Vc2Vycy9KYWNvYkJyb3VnaHRvbi9jb2RpbmcvcGVyc29uYWwvUG9ydGZvbGlvLU5leHQvcGFnZXMvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgXCIuLi9wdWJsaWMvY3NzL2luZGV4LnNjc3NcIjtcbmltcG9ydCBOYXZiYXIgZnJvbSBcIi4vY29tcHMvbmF2YmFyXCI7XG5pbXBvcnQgRm9vdGVyIGZyb20gXCIuL2NvbXBzL2Zvb3RlclwiO1xuaW1wb3J0IHN0eWxlZCBmcm9tIFwic3R5bGVkLWNvbXBvbmVudHNcIjtcblxuY29uc3QgaW5kZXggPSAoKSA9PiAoXG4gICAgPGRpdiBjbGFzc05hbWU9XCJtb3RoZXJEaXZcIj5cbiAgICAgICAgPE5hdmJhciAvPlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1haW5EaXZcIj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwic3Vycm91bmRpbmdEaXZcIj5cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJpbnRyb0JveFwiPiBJbnRybyBCb3ggPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiaW1hZ2VCb3hcIj5JbWFnZSA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ0b29sYm94SGVhZEJveFwiPlRvb2xib3ggSGVhZDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbWZvcnRhYmxlQm94XCI+Y29tZm9ydGFibGU8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJleHBlcmllbmNlQm94XCI+ZXhwZXJpZW5jZTwvZGl2PlxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInRvb2xzQm94XCI+dG9vbHM8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJzdG9yeUJveFwiPlN0b3J5PC9kaXY+XG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwic29jaWFsQm94XCI+c29jaWFsPC9kaXY+XG4gICAgICAgICAgICA8L2Rpdj4gXG4gICAgICAgIDwvZGl2PlxuICAgICAgIDxGb290ZXIvPlxuXG5cblxuXG5cbiAgICAgICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcbiAgICAgICAgICAgIGJvZHl7XG4gICAgICAgICAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICAgICAgfSBcbiAgICAgICAgYH1cbiAgICAgICAgPC9zdHlsZT5cbiAgICA8L2Rpdj5cbilcblxuZXhwb3J0IGRlZmF1bHQgaW5kZXg7Il19 */\n/*@ sourceURL=/Users/JacobBroughton/coding/personal/Portfolio-Next/pages/index.js */"));
+}, "body{margin:0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9KYWNvYkJyb3VnaHRvbi9jb2RpbmcvcGVyc29uYWwvUG9ydGZvbGlvLU5leHQvcGFnZXMvaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBOEQyQixBQUcwQixTQUNiIiwiZmlsZSI6Ii9Vc2Vycy9KYWNvYkJyb3VnaHRvbi9jb2RpbmcvcGVyc29uYWwvUG9ydGZvbGlvLU5leHQvcGFnZXMvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgXCIuLi9wdWJsaWMvY3NzL2luZGV4LnNjc3NcIjtcbmltcG9ydCBOYXZiYXIgZnJvbSBcIi4vY29tcHMvbmF2YmFyXCI7XG5pbXBvcnQgRm9vdGVyIGZyb20gXCIuL2NvbXBzL2Zvb3RlclwiO1xuaW1wb3J0IHN0eWxlZCBmcm9tIFwic3R5bGVkLWNvbXBvbmVudHNcIjtcblxuY29uc3QgaW5kZXggPSAoKSA9PiAoXG4gICAgPGRpdiBjbGFzc05hbWU9XCJtb3RoZXJEaXZcIj5cbiAgICAgICAgPE5hdmJhciAvPlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1haW5EaXZcIj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwic3Vycm91bmRpbmdEaXZcIj5cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJpbnRyb0JveFwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJpbnRyb0NvbnRhaW5lclwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxoMSBjbGFzc05hbWU9XCJpbnRyb0hlYWRcIj5KYWNvYiBCcm91Z2h0b248L2gxPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT1cImludHJvUGFyYVwiPkhpLCBpJ20gYSBGdWxsIFN0YWNrIFdlYiBEZXZlbG9wZXIsIHNwZWNpYWxpemluZyBpbiB0aGUgTUVSTiBTdGFjay5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVGFrZSBhIGxvb2sgYXJvdW5kIGFuZCBmZWVsIGZyZWUgdG8gZ2V0IGluIHRvdWNoIHdpdGggbWUuXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9wPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxidXR0b24gY2xhc3NOYW1lPVwiY3RhXCI+R2V0IEluIFRvdWNoPC9idXR0b24+XG4gICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG5cblxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImltYWdlQm94XCI+SW1hZ2U8L2Rpdj5cblxuXG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidG9vbGJveEhlYWRCb3hcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidG9vbGhlYWREaXZcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInRvb2xoZWFkXCI+TXkgVG9vbGJveDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuXG5cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb21mb3J0YWJsZUJveFwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJib3hIZWFkRGl2XCI+TW9zdCBDb21mb3J0YWJsZTwvZGl2PlxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cblxuXG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZXhwZXJpZW5jZUJveFwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJib3hIZWFkRGl2XCI+IEV4cGVyaWVuY2UgV2l0aDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cblxuXG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidG9vbHNCb3hcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiYm94SGVhZERpdlwiPlRvb2xzPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuXG5cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJzdG9yeUJveFwiPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJib3hIZWFkRGl2XCI+QSBCcmllZiBPdmVydmlldzwvZGl2PlxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cblxuXG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwic29jaWFsQm94XCI+c29jaWFsPC9kaXY+XG5cblxuICAgICAgICAgICAgPC9kaXY+IFxuICAgICAgICA8L2Rpdj5cbiAgICAgICA8Rm9vdGVyLz5cblxuXG5cblxuXG4gICAgICAgIDxzdHlsZSBqc3ggZ2xvYmFsPntgXG4gICAgICAgICAgICBib2R5e1xuICAgICAgICAgICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgICAgIH0gXG4gICAgICAgIGB9XG4gICAgICAgIDwvc3R5bGU+XG4gICAgPC9kaXY+XG4pXG5cbmV4cG9ydCBkZWZhdWx0IGluZGV4OyJdfQ== */\n/*@ sourceURL=/Users/JacobBroughton/coding/personal/Portfolio-Next/pages/index.js */"));
 
 /* harmony default export */ __webpack_exports__["default"] = (index);
 

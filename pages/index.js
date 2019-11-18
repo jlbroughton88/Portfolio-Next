@@ -8,14 +8,50 @@ const index = () => (
         <Navbar />
         <div className="mainDiv">
             <div className="surroundingDiv">
-                    <div className="introBox"> Intro Box </div>
-                    <div className="imageBox">Image </div>
-                    <div className="toolboxHeadBox">Toolbox Head</div>
-                    <div className="comfortableBox">comfortable</div>
-                    <div className="experienceBox">experience</div>
-                    <div className="toolsBox">tools</div>
-                    <div className="storyBox">Story</div>
+                    <div className="introBox">
+                        <div className="introContainer">
+                            <h1 className="introHead">Jacob Broughton</h1>
+                            <p className="introPara">Hi, i'm a Full Stack Web Developer, specializing in the MERN Stack.
+                                Take a look around and feel free to get in touch with me.
+                            </p>
+                            <button className="cta">Get In Touch</button>
+                        </div>
+                    </div>
+
+
+                    <div className="imageBox">Image</div>
+
+
+                    <div className="toolboxHeadBox">
+                        <div className="toolheadDiv">
+                            <div className="toolhead">My Toolbox</div>
+                        </div>
+                    </div>
+
+
+                    <div className="comfortableBox">
+                        <div className="boxHeadDiv">Most Comfortable</div>
+                    </div>
+
+
+                    <div className="experienceBox">
+                        <div className="boxHeadDiv"> Experience With</div>
+                    </div>
+
+
+                    <div className="toolsBox">
+                        <div className="boxHeadDiv">Tools</div>
+                    </div>
+
+
+                    <div className="storyBox">
+                        <div className="boxHeadDiv">A Brief Overview</div>
+                    </div>
+
+
                     <div className="socialBox">social</div>
+
+
             </div> 
         </div>
        <Footer/>
