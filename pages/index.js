@@ -33,7 +33,9 @@ const index = () => {
 
                     <div className="toolboxHeadBox">
                         <div className="toolheadDiv">
-                            <div className="toolhead">My Toolbox</div>
+                            <div className="toolhead">
+                                <h3 className="toolh3">My Toolbox</h3>
+                            </div>
                         </div>
                     </div>
 
