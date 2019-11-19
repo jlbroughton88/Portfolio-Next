@@ -296,23 +296,25 @@ a {
   position: sticky;
   background: #333;
   color: #e4e4e4; }
-  .motherDivFooter .nameDiv {
+  .motherDivFooter .name {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     grid-column: 1;
-    grid-row: 1/4; }
-    .motherDivFooter .nameDiv .name {
+    grid-row: 1/4;
+    font-size: 1.2rem; }
+    .motherDivFooter .name .nameDiv {
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 45%; }
+      width: 45%;
+      grid-row: 2; }
     @media (max-width: 600px) {
-      .motherDivFooter .nameDiv .name {
-        width: 60%; } }
+      .motherDivFooter .name .nameDiv {
+        width: 70%; } }
     @media (max-width: 450px) {
-      .motherDivFooter .nameDiv .name {
-        width: 85%; } }
+      .motherDivFooter .name .nameDiv {
+        width: 100%; } }
   .motherDivFooter .storyDiv {
     grid-column: 2;
     display: flex;
@@ -340,13 +342,17 @@ a {
       display: flex;
       justify-content: center;
       align-items: center;
+      max-width: 500px;
       transition: all ease-in-out 0.25s; }
       .motherDivFooter .contactDiv .contact:hover {
-        width: 100%;
+        width: 65%;
         border-left: #00bcc5 10px solid;
         border-right: none;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
         cursor: pointer; }
+      @media (max-width: 600px) {
+        .motherDivFooter .contactDiv .contact:hover {
+          width: 100%; } }
     @media (max-width: 600px) {
       .motherDivFooter .contactDiv .contact {
         width: 60%; } }

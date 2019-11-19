@@ -26,27 +26,29 @@ a{
     color: #e4e4e4;
 
 
-    .nameDiv{ 
+    .name{ 
         display: flex;
         align-items: center;   
         justify-content: flex-start; 
         grid-column: 1;
         grid-row: 1/4;
+        font-size: 1.2rem;
 
-        .name{ 
+        .nameDiv{ 
             @include flex-center();
             width: 45%;
+            grid-row: 2;
          }
 
          @media(max-width: 600px) {
-             .name{
-                 width: 60%;
+             .nameDiv{
+                 width: 70%;
              }
          }
 
          @media(max-width: 450px) {
-             .name{
-                 width: 85%;
+             .nameDiv{
+                 width: 100%;
              }
          }
     };
@@ -78,17 +80,27 @@ a{
             color: black;
             height: 70%;
             @include flex-center();
+            max-width: 500px;
             
 
             transition: all ease-in-out 0.25s;
 
             &:hover{
-                width: 100%;
+                width: 65%;
                 border-left: #00bcc5 10px solid;
                 border-right: none;
                 box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
                 cursor: pointer;
                 
+            }
+
+            @media(max-width: 600px) {
+                // .contact{
+                    &:hover{
+                        width: 100%;
+                    }
+                // }
+
             }
          }
 
