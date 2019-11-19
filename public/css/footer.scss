@@ -78,6 +78,18 @@ a{
             color: black;
             height: 70%;
             @include flex-center();
+            
+
+            transition: all ease-in-out 0.25s;
+
+            &:hover{
+                width: 100%;
+                border-left: #00bcc5 10px solid;
+                border-right: none;
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+                cursor: pointer;
+                
+            }
          }
 
          @media(max-width: 600px) {

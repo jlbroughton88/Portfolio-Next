@@ -1867,13 +1867,6 @@ const Footer = () => __jsx("footer", {
   },
   __self: undefined
 }, __jsx("div", {
-  className: "nameDiv",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 6
-  },
-  __self: undefined
-}, __jsx("div", {
   className: "name",
   __source: {
     fileName: _jsxFileName,
@@ -1888,93 +1881,76 @@ const Footer = () => __jsx("footer", {
   },
   __self: undefined
 }, __jsx("a", {
+  className: "nameDiv",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 8
+    lineNumber: 9
   },
   __self: undefined
-}, "Jacob Broughton")))), __jsx("div", {
+}, "Jacob Broughton"))), __jsx("div", {
   className: "storyDiv",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 11
-  },
-  __self: undefined
-}, __jsx("div", {
-  className: "story",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 12
+    lineNumber: 13
   },
   __self: undefined
 }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   href: "/story",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 13
+    lineNumber: 14
   },
   __self: undefined
 }, __jsx("a", {
+  className: "story",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 13
+    lineNumber: 15
   },
   __self: undefined
-}, "My Story")))), __jsx("div", {
+}, "My Story"))), __jsx("div", {
   className: "contactDiv",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 16
-  },
-  __self: undefined
-}, __jsx("div", {
-  className: "contact",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 17
+    lineNumber: 19
   },
   __self: undefined
 }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   href: "/contact",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 18
+    lineNumber: 20
   },
   __self: undefined
 }, __jsx("a", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 18
-  },
-  __self: undefined
-}, "Contact")))), __jsx("div", {
-  className: "workDiv",
+  className: "contact",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 21
   },
   __self: undefined
-}, __jsx("div", {
-  className: "work",
+}, "Contact"))), __jsx("div", {
+  className: "workDiv",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 22
+    lineNumber: 24
   },
   __self: undefined
 }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   href: "/work",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 23
+    lineNumber: 26
   },
   __self: undefined
 }, __jsx("a", {
+  className: "work",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 23
+    lineNumber: 27
   },
   __self: undefined
-}, "Work")))));
+}, "Work"))));
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
 
