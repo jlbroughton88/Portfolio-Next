@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{"4Mqf":function(n,o,w){(window.__NEXT_P=window.__NEXT_P||[]).push(["/comps/logo",function(){return w("f3ab")}])}},[["4Mqf",0,1]]]);

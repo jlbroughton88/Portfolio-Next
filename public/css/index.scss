@@ -24,10 +24,36 @@
     list-style-image: url("https://img.icons8.com/material-sharp/15/000000/pentagon.png");
 }
 
+@mixin social-icons{
+    -webkit-filter: drop-shadow( 0 7px 3px rgba(0, 0, 0, .3));
+    filter: drop-shadow( 0 7px 3px rgba(0, 0, 0, .3));
+    height: 50%; 
+    fill: #333;
+    transition: all ease-in-out 0.25s;
+    
+    
+    &:hover{
+        cursor: pointer;
+        fill: #00bcc5;
+        transform: translate(0px, -6px);
+    }
+
+    @media(max-width: 600px) {
+        height: 40%
+    }
+}
+@font-face{
+    font-family: "Museo Sans";
+    src: url("../fonts/museoSans.ttf") format("TrueType");
+}
+
 html, body{
     height: 100%;
+    font-family: "Museo Sans";
     cursor: default;
 }
+
+
 
 .motherDiv{
     display: flex;
@@ -149,7 +175,7 @@ html, body{
 
                     .experienceList{ 
                     @include list-standard();
-                        height: 81%;
+                        height: 80%;
                      }
                 }
 
@@ -177,6 +203,20 @@ html, body{
                     grid-column: 1/7; 
                     grid-row: 5; 
                     @include the-color();
+                    @include flex-start();
+
+                    .linkedinSVG{ 
+                        @include social-icons();
+                     }
+
+                    .githubSVG{ 
+                        @include social-icons();
+
+                     }
+
+                    .emailSVG{ 
+                        @include social-icons();
+                     }
                  };
             }
 
@@ -186,8 +226,8 @@ html, body{
                 justify-content: start;
                 background: #CBCBCB;
                 height: 35px;
-                width: 100%;
-                // padding-left: 5%;
+                width: 95%;
+                padding-left: 5%;
             }
 
 

@@ -2,16 +2,19 @@
   "modules": {
     "byIdentifier": {
       "multi private-next-pages/comps/footer.js": 0,
-      "multi private-next-pages/comps/listIcon.js": 1,
-      "multi private-next-pages/comps/logo.js": 2,
-      "multi private-next-pages/comps/navbar.js": 3,
-      "multi private-next-pages/contact.js": 4,
-      "multi private-next-pages/index.js": 5,
-      "multi private-next-pages/story.js": 6,
-      "multi private-next-pages/work.js": 7,
-      "multi next/dist/pages/_app": 8,
-      "multi next/dist/pages/_error": 9,
-      "multi next/dist/pages/_document": 10
+      "multi private-next-pages/comps/icons/email.js": 1,
+      "multi private-next-pages/comps/icons/github.js": 2,
+      "multi private-next-pages/comps/icons/linkedIn.js": 3,
+      "multi private-next-pages/comps/listIcon.js": 4,
+      "multi private-next-pages/comps/logo.js": 5,
+      "multi private-next-pages/comps/navbar.js": 6,
+      "multi private-next-pages/contact.js": 7,
+      "multi private-next-pages/index.js": 8,
+      "multi private-next-pages/story.js": 9,
+      "multi private-next-pages/work.js": 10,
+      "multi next/dist/pages/_app": 11,
+      "multi next/dist/pages/_error": 12,
+      "multi next/dist/pages/_document": 13
     },
     "usedIds": {
       "0": 0,
@@ -24,24 +27,30 @@
       "7": 7,
       "8": 8,
       "9": 9,
-      "10": 10
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13
     }
   },
   "chunks": {
     "byName": {
       "init-server.js": 0,
       "on-error-server.js": 1,
-      "static/qVDSBq9cQ3mBWe27T0EpV/pages/_app.js": 2,
-      "static/qVDSBq9cQ3mBWe27T0EpV/pages/_document.js": 3,
-      "static/qVDSBq9cQ3mBWe27T0EpV/pages/_error.js": 4,
-      "static/qVDSBq9cQ3mBWe27T0EpV/pages/comps/footer.js": 5,
-      "static/qVDSBq9cQ3mBWe27T0EpV/pages/comps/listIcon.js": 6,
-      "static/qVDSBq9cQ3mBWe27T0EpV/pages/comps/logo.js": 7,
-      "static/qVDSBq9cQ3mBWe27T0EpV/pages/comps/navbar.js": 8,
-      "static/qVDSBq9cQ3mBWe27T0EpV/pages/contact.js": 9,
-      "static/qVDSBq9cQ3mBWe27T0EpV/pages/index.js": 10,
-      "static/qVDSBq9cQ3mBWe27T0EpV/pages/story.js": 11,
-      "static/qVDSBq9cQ3mBWe27T0EpV/pages/work.js": 12
+      "static/0o6ofTtOrbK9FOuYN6WvV/pages/_app.js": 2,
+      "static/0o6ofTtOrbK9FOuYN6WvV/pages/_document.js": 3,
+      "static/0o6ofTtOrbK9FOuYN6WvV/pages/_error.js": 4,
+      "static/0o6ofTtOrbK9FOuYN6WvV/pages/comps/footer.js": 5,
+      "static/0o6ofTtOrbK9FOuYN6WvV/pages/comps/icons/email.js": 6,
+      "static/0o6ofTtOrbK9FOuYN6WvV/pages/comps/icons/github.js": 7,
+      "static/0o6ofTtOrbK9FOuYN6WvV/pages/comps/icons/linkedIn.js": 8,
+      "static/0o6ofTtOrbK9FOuYN6WvV/pages/comps/listIcon.js": 9,
+      "static/0o6ofTtOrbK9FOuYN6WvV/pages/comps/logo.js": 10,
+      "static/0o6ofTtOrbK9FOuYN6WvV/pages/comps/navbar.js": 11,
+      "static/0o6ofTtOrbK9FOuYN6WvV/pages/contact.js": 12,
+      "static/0o6ofTtOrbK9FOuYN6WvV/pages/index.js": 13,
+      "static/0o6ofTtOrbK9FOuYN6WvV/pages/story.js": 14,
+      "static/0o6ofTtOrbK9FOuYN6WvV/pages/work.js": 15
     },
     "bySource": {},
     "usedIds": [
@@ -50,6 +59,9 @@
       10,
       11,
       12,
+      13,
+      14,
+      15,
       2,
       3,
       4,

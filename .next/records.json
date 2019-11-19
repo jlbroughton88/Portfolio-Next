@@ -16,7 +16,7 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/footer.scss": [
+  "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/navbar.scss": [
     {
       "modules": {
         "byIdentifier": {},
@@ -33,7 +33,7 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/navbar.scss": [
+  "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/footer.scss": [
     {
       "modules": {
         "byIdentifier": {},
@@ -67,18 +67,21 @@
       "static/runtime/webpack.js": 0,
       "commons": 1,
       "styles": 2,
-      "static/qVDSBq9cQ3mBWe27T0EpV/pages/_app.js": 3,
-      "static/qVDSBq9cQ3mBWe27T0EpV/pages/_error.js": 4,
-      "static/qVDSBq9cQ3mBWe27T0EpV/pages/comps/footer.js": 5,
-      "static/qVDSBq9cQ3mBWe27T0EpV/pages/comps/listIcon.js": 6,
-      "static/qVDSBq9cQ3mBWe27T0EpV/pages/comps/logo.js": 7,
-      "static/qVDSBq9cQ3mBWe27T0EpV/pages/comps/navbar.js": 8,
-      "static/qVDSBq9cQ3mBWe27T0EpV/pages/contact.js": 9,
-      "static/qVDSBq9cQ3mBWe27T0EpV/pages/index.js": 10,
-      "static/qVDSBq9cQ3mBWe27T0EpV/pages/story.js": 11,
-      "static/qVDSBq9cQ3mBWe27T0EpV/pages/work.js": 12,
-      "static/runtime/main.js": 13,
-      "static/runtime/polyfills.js": 14
+      "static/0o6ofTtOrbK9FOuYN6WvV/pages/_app.js": 3,
+      "static/0o6ofTtOrbK9FOuYN6WvV/pages/_error.js": 4,
+      "static/0o6ofTtOrbK9FOuYN6WvV/pages/comps/footer.js": 5,
+      "static/0o6ofTtOrbK9FOuYN6WvV/pages/comps/icons/email.js": 6,
+      "static/0o6ofTtOrbK9FOuYN6WvV/pages/comps/icons/github.js": 7,
+      "static/0o6ofTtOrbK9FOuYN6WvV/pages/comps/icons/linkedIn.js": 8,
+      "static/0o6ofTtOrbK9FOuYN6WvV/pages/comps/listIcon.js": 9,
+      "static/0o6ofTtOrbK9FOuYN6WvV/pages/comps/logo.js": 10,
+      "static/0o6ofTtOrbK9FOuYN6WvV/pages/comps/navbar.js": 11,
+      "static/0o6ofTtOrbK9FOuYN6WvV/pages/contact.js": 12,
+      "static/0o6ofTtOrbK9FOuYN6WvV/pages/index.js": 13,
+      "static/0o6ofTtOrbK9FOuYN6WvV/pages/story.js": 14,
+      "static/0o6ofTtOrbK9FOuYN6WvV/pages/work.js": 15,
+      "static/runtime/main.js": 16,
+      "static/runtime/polyfills.js": 17
     },
     "bySource": {},
     "usedIds": [
@@ -89,6 +92,9 @@
       12,
       13,
       14,
+      15,
+      16,
+      17,
       2,
       3,
       4,

@@ -1,5 +1,10 @@
+@font-face {
+  font-family: "Museo Sans";
+  src: url(/_next/static/chunks/fonts/museoSans-5b9453f7c8741b9337d517cdbdc2397d.ttf) format("TrueType"); }
+
 html, body {
   height: 100%;
+  font-family: "Museo Sans";
   cursor: default; }
 
 .motherDiv {
@@ -117,7 +122,7 @@ html, body {
           justify-content: space-evenly;
           padding: none;
           list-style-image: url("https://img.icons8.com/material-sharp/15/000000/pentagon.png");
-          height: 81%; }
+          height: 80%; }
       .motherDiv .mainDiv .surroundingDiv .toolsBox {
         height: 100%;
         grid-column: 5/7;
@@ -143,14 +148,57 @@ html, body {
         grid-column: 1/7;
         grid-row: 5;
         background: #EBEBEB;
-        color: #333; }
+        color: #333;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center; }
+        .motherDiv .mainDiv .surroundingDiv .socialBox .linkedinSVG {
+          -webkit-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
+          filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
+          height: 50%;
+          fill: #333;
+          transition: all ease-in-out 0.25s; }
+          .motherDiv .mainDiv .surroundingDiv .socialBox .linkedinSVG:hover {
+            cursor: pointer;
+            fill: #00bcc5;
+            transform: translate(0px, -6px); }
+          @media (max-width: 600px) {
+            .motherDiv .mainDiv .surroundingDiv .socialBox .linkedinSVG {
+              height: 40%; } }
+        .motherDiv .mainDiv .surroundingDiv .socialBox .githubSVG {
+          -webkit-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
+          filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
+          height: 50%;
+          fill: #333;
+          transition: all ease-in-out 0.25s; }
+          .motherDiv .mainDiv .surroundingDiv .socialBox .githubSVG:hover {
+            cursor: pointer;
+            fill: #00bcc5;
+            transform: translate(0px, -6px); }
+          @media (max-width: 600px) {
+            .motherDiv .mainDiv .surroundingDiv .socialBox .githubSVG {
+              height: 40%; } }
+        .motherDiv .mainDiv .surroundingDiv .socialBox .emailSVG {
+          -webkit-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
+          filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
+          height: 50%;
+          fill: #333;
+          transition: all ease-in-out 0.25s; }
+          .motherDiv .mainDiv .surroundingDiv .socialBox .emailSVG:hover {
+            cursor: pointer;
+            fill: #00bcc5;
+            transform: translate(0px, -6px); }
+          @media (max-width: 600px) {
+            .motherDiv .mainDiv .surroundingDiv .socialBox .emailSVG {
+              height: 40%; } }
     .motherDiv .mainDiv .boxHeadDiv {
       display: flex;
       align-items: center;
       justify-content: start;
       background: #CBCBCB;
       height: 35px;
-      width: 100%; }
+      width: 95%;
+      padding-left: 5%; }
     @media (max-width: 850px) {
       .motherDiv .mainDiv .surroundingDiv {
         grid-gap: 2.5%;

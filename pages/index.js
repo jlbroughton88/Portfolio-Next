@@ -2,6 +2,9 @@ import "../public/css/index.scss";
 import Navbar from "./comps/navbar";
 import Footer from "./comps/footer";
 import Arrow from "../public/images/listArrow.svg";
+import LinkedIn from "./comps/icons/linkedIn";
+import Github from "./comps/icons/github";
+import Email from "./comps/icons/email";
 import ListIcon from "./comps/listIcon";
 
 const index = () => {
@@ -82,7 +85,11 @@ const index = () => {
                     </div>
 
 
-                    <div className="socialBox">social</div>
+                    <div className="socialBox">
+                        <LinkedIn/>
+                        <Github/>
+                        <Email/>
+                    </div>
 
 
                 </div>
