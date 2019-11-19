@@ -5,22 +5,22 @@ const Footer = () => (
     <footer className="motherDivFooter">
         <div className="nameDiv">
             <div className="name">
-                <Link href="/">Jacob Broughton</Link>
+                <Link href="/"><a>Jacob Broughton</a></Link>
             </div>
         </div>
         <div className="storyDiv">
             <div className="story">
-                <Link href="/story">My Story</Link>
+                <Link href="/story"><a>My Story</a></Link>
             </div>
         </div>
         <div className="contactDiv">
             <div className="contact">
-                <Link href="/contact">Contact</Link>
+                <Link href="/contact"><a>Contact</a></Link>
             </div>
         </div>
         <div className="workDiv">
             <div className="work">
-                <Link href="/work">Work</Link>
+                <Link href="/work"><a>Work</a></Link>
             </div>
         </div>
     </footer>

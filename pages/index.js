@@ -1,13 +1,17 @@
 import "../public/css/index.scss";
 import Navbar from "./comps/navbar";
 import Footer from "./comps/footer";
-import styled from "styled-components";
+import Arrow from "../public/images/listArrow.svg";
+import ListIcon from "./comps/listIcon";
 
-const index = () => (
-    <div className="motherDiv">
-        <Navbar />
-        <div className="mainDiv">
-            <div className="surroundingDiv">
+const index = () => {
+
+    return (
+
+        <div className="motherDiv">
+            <Navbar />
+            <div className="mainDiv">
+                <div className="surroundingDiv">
                     <div className="introBox">
                         <div className="introContainer">
                             <h1 className="introHead">Jacob Broughton</h1>
@@ -19,7 +23,9 @@ const index = () => (
                     </div>
 
 
-                    <div className="imageBox">Image</div>
+                    <div className="imageBox">
+                        <ListIcon />
+                    </div>
 
 
                     <div className="toolboxHeadBox">
@@ -31,16 +37,43 @@ const index = () => (
 
                     <div className="comfortableBox">
                         <div className="boxHeadDiv">Most Comfortable</div>
+                        <ul className="comfortableList">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>ReactJS</li>
+                            <li>Node</li>
+                            <li>Express</li>
+                            <li>MongoDB</li>
+                            <li>NextJS</li>
+                            <li>ES6</li>
+                            <li>Heroku</li>
+                        </ul>
                     </div>
 
 
                     <div className="experienceBox">
                         <div className="boxHeadDiv"> Experience With</div>
+                        <ul className="experienceList">
+                            <li>Bootstrap</li>
+                            <li>Materialize</li>
+                            <li>Zeit Now</li>
+                            <li>Python</li>
+                            <li>Arduino C</li>
+                            <li>MySQL</li>
+                        </ul>
                     </div>
 
 
                     <div className="toolsBox">
                         <div className="boxHeadDiv">Tools</div>
+                        <ul className="toolList">
+                            <li>Git VC</li>
+                            <li>Github</li>
+                            <li>Macbook Pro i7</li>
+                            <li>MacOS</li>
+                            <li>Affinity Designer</li>
+                        </ul>
                     </div>
 
 
@@ -52,21 +85,24 @@ const index = () => (
                     <div className="socialBox">social</div>
 
 
-            </div> 
-        </div>
-       <Footer/>
+                </div>
+            </div>
+            <Footer />
 
 
 
 
 
-        <style jsx global>{`
+            <style jsx global>{`
             body{
                 margin: 0;
             } 
+
         `}
-        </style>
-    </div>
-)
+
+            </style>
+        </div>
+    )
+}
 
 export default index;

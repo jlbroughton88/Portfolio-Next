@@ -16,6 +16,23 @@
       }
     }
   ],
+  "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/footer.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
   "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/navbar.scss": [
     {
       "modules": {
@@ -35,9 +52,9 @@
   ],
   "modules": {
     "byIdentifier": {
-      "css node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/navbar.scss 0": 0,
-      "css node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/index.scss 0": 1,
-      "css node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/footer.scss 0": 2
+      "css node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/footer.scss 0": 0,
+      "css node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/navbar.scss 0": 1,
+      "css node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/index.scss 0": 2
     },
     "usedIds": {
       "0": 0,
@@ -49,76 +66,19 @@
     "byName": {
       "static/runtime/webpack.js": 0,
       "commons": 1,
-      "static/DamFHvg6v6jQajStvyz_S/pages/_app.js": 2,
-      "static/DamFHvg6v6jQajStvyz_S/pages/_error.js": 3,
-      "static/DamFHvg6v6jQajStvyz_S/pages/comps/navbar.js": 4,
-      "static/DamFHvg6v6jQajStvyz_S/pages/contact.js": 5,
-      "static/DamFHvg6v6jQajStvyz_S/pages/index.js": 6,
-      "static/DamFHvg6v6jQajStvyz_S/pages/story.js": 7,
-      "static/DamFHvg6v6jQajStvyz_S/pages/work.js": 8,
-      "static/runtime/main.js": 9,
-      "static/runtime/polyfills.js": 10,
-      "styles": 11,
-      "static/sQbRKnsUvrgovCvZPny-W/pages/_app.js": 12,
-      "static/sQbRKnsUvrgovCvZPny-W/pages/_error.js": 13,
-      "static/sQbRKnsUvrgovCvZPny-W/pages/comps/navbar.js": 14,
-      "static/sQbRKnsUvrgovCvZPny-W/pages/contact.js": 15,
-      "static/sQbRKnsUvrgovCvZPny-W/pages/index.js": 16,
-      "static/sQbRKnsUvrgovCvZPny-W/pages/story.js": 17,
-      "static/sQbRKnsUvrgovCvZPny-W/pages/work.js": 18,
-      "static/G3PsEcX1UeX08UZAg9etL/pages/_app.js": 2,
-      "static/G3PsEcX1UeX08UZAg9etL/pages/_error.js": 3,
-      "static/G3PsEcX1UeX08UZAg9etL/pages/comps/navbar.js": 4,
-      "static/G3PsEcX1UeX08UZAg9etL/pages/contact.js": 5,
-      "static/G3PsEcX1UeX08UZAg9etL/pages/index.js": 6,
-      "static/G3PsEcX1UeX08UZAg9etL/pages/story.js": 7,
-      "static/G3PsEcX1UeX08UZAg9etL/pages/work.js": 8,
-      "static/3RqT0VsC1Qd7sVldvN4tg/pages/_app.js": 12,
-      "static/3RqT0VsC1Qd7sVldvN4tg/pages/_error.js": 13,
-      "static/3RqT0VsC1Qd7sVldvN4tg/pages/comps/navbar.js": 14,
-      "static/3RqT0VsC1Qd7sVldvN4tg/pages/contact.js": 15,
-      "static/3RqT0VsC1Qd7sVldvN4tg/pages/index.js": 16,
-      "static/3RqT0VsC1Qd7sVldvN4tg/pages/story.js": 17,
-      "static/3RqT0VsC1Qd7sVldvN4tg/pages/work.js": 18,
-      "static/pGgEbMWMrKIUGFxnBvMZu/pages/_app.js": 2,
-      "static/pGgEbMWMrKIUGFxnBvMZu/pages/_error.js": 3,
-      "static/pGgEbMWMrKIUGFxnBvMZu/pages/comps/navbar.js": 4,
-      "static/pGgEbMWMrKIUGFxnBvMZu/pages/contact.js": 5,
-      "static/pGgEbMWMrKIUGFxnBvMZu/pages/index.js": 6,
-      "static/pGgEbMWMrKIUGFxnBvMZu/pages/story.js": 7,
-      "static/pGgEbMWMrKIUGFxnBvMZu/pages/work.js": 8,
-      "static/NPCwr6y3CEqOd_DfbuATN/pages/_app.js": 12,
-      "static/NPCwr6y3CEqOd_DfbuATN/pages/_error.js": 13,
-      "static/NPCwr6y3CEqOd_DfbuATN/pages/comps/footer.js": 14,
-      "static/NPCwr6y3CEqOd_DfbuATN/pages/comps/navbar.js": 15,
-      "static/NPCwr6y3CEqOd_DfbuATN/pages/contact.js": 16,
-      "static/NPCwr6y3CEqOd_DfbuATN/pages/index.js": 17,
-      "static/NPCwr6y3CEqOd_DfbuATN/pages/story.js": 18,
-      "static/NPCwr6y3CEqOd_DfbuATN/pages/work.js": 19,
-      "static/Y9BXzj99UTkXcHMDGXWQT/pages/_app.js": 2,
-      "static/Y9BXzj99UTkXcHMDGXWQT/pages/_error.js": 3,
-      "static/Y9BXzj99UTkXcHMDGXWQT/pages/comps/footer.js": 4,
-      "static/Y9BXzj99UTkXcHMDGXWQT/pages/comps/navbar.js": 5,
-      "static/Y9BXzj99UTkXcHMDGXWQT/pages/contact.js": 6,
-      "static/Y9BXzj99UTkXcHMDGXWQT/pages/index.js": 7,
-      "static/Y9BXzj99UTkXcHMDGXWQT/pages/story.js": 8,
-      "static/Y9BXzj99UTkXcHMDGXWQT/pages/work.js": 20,
-      "static/aAUAg8u9qxtBaP1FIkgpg/pages/_app.js": 12,
-      "static/aAUAg8u9qxtBaP1FIkgpg/pages/_error.js": 13,
-      "static/aAUAg8u9qxtBaP1FIkgpg/pages/comps/footer.js": 14,
-      "static/aAUAg8u9qxtBaP1FIkgpg/pages/comps/navbar.js": 15,
-      "static/aAUAg8u9qxtBaP1FIkgpg/pages/contact.js": 16,
-      "static/aAUAg8u9qxtBaP1FIkgpg/pages/index.js": 17,
-      "static/aAUAg8u9qxtBaP1FIkgpg/pages/story.js": 18,
-      "static/aAUAg8u9qxtBaP1FIkgpg/pages/work.js": 19,
-      "static/6Jxbpij-r4FW5hLzDZv2n/pages/_app.js": 2,
-      "static/6Jxbpij-r4FW5hLzDZv2n/pages/_error.js": 3,
-      "static/6Jxbpij-r4FW5hLzDZv2n/pages/comps/footer.js": 4,
-      "static/6Jxbpij-r4FW5hLzDZv2n/pages/comps/navbar.js": 5,
-      "static/6Jxbpij-r4FW5hLzDZv2n/pages/contact.js": 6,
-      "static/6Jxbpij-r4FW5hLzDZv2n/pages/index.js": 7,
-      "static/6Jxbpij-r4FW5hLzDZv2n/pages/story.js": 8,
-      "static/6Jxbpij-r4FW5hLzDZv2n/pages/work.js": 20
+      "styles": 2,
+      "static/qVDSBq9cQ3mBWe27T0EpV/pages/_app.js": 3,
+      "static/qVDSBq9cQ3mBWe27T0EpV/pages/_error.js": 4,
+      "static/qVDSBq9cQ3mBWe27T0EpV/pages/comps/footer.js": 5,
+      "static/qVDSBq9cQ3mBWe27T0EpV/pages/comps/listIcon.js": 6,
+      "static/qVDSBq9cQ3mBWe27T0EpV/pages/comps/logo.js": 7,
+      "static/qVDSBq9cQ3mBWe27T0EpV/pages/comps/navbar.js": 8,
+      "static/qVDSBq9cQ3mBWe27T0EpV/pages/contact.js": 9,
+      "static/qVDSBq9cQ3mBWe27T0EpV/pages/index.js": 10,
+      "static/qVDSBq9cQ3mBWe27T0EpV/pages/story.js": 11,
+      "static/qVDSBq9cQ3mBWe27T0EpV/pages/work.js": 12,
+      "static/runtime/main.js": 13,
+      "static/runtime/polyfills.js": 14
     },
     "bySource": {},
     "usedIds": [
@@ -126,8 +86,10 @@
       1,
       10,
       11,
+      12,
+      13,
+      14,
       2,
-      20,
       3,
       4,
       5,
@@ -136,22 +98,5 @@
       8,
       9
     ]
-  },
-  "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/footer.scss": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ]
+  }
 }
