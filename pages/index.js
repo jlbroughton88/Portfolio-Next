@@ -5,7 +5,7 @@ import Link from "next/link";
 import LinkedIn from "./comps/icons/linkedIn";
 import Github from "./comps/icons/github";
 import Email from "./comps/icons/email";
-import ListIcon from "./comps/listIcon";
+import ListIcon from "./comps/icons/listIcon";
 
 const index = () => {
 
@@ -88,11 +88,18 @@ const index = () => {
 
 
                     <div className="socialBox">
-                        <a href="https://www.linkedin.com/in/jacob-broughton-637189164/" className="linkedinA"><LinkedIn /></a>
-                        <a href="https://github.com/jlbroughton88" className="githubA"><Github /></a>
-                        <Link href="/contact">
-                            <a className="emailA"><Email /></a>
-                        </Link>
+                        <div className="socialThird">
+                            <a href="https://www.linkedin.com/in/jacob-broughton-637189164/" className="iconA"><LinkedIn className="linkedinSVG" /></a>
+                        </div>
+                        <div className="socialThird">
+                            <a href="https://github.com/jlbroughton88" className="iconA"><Github className="githubSVG" /></a>
+                        </div>
+                        <div className="socialThird">
+                            <Link href="/contact">
+                                <a className="iconA"><Email className="emailSVG" /></a>
+                            </Link>
+                        </div>
+
                     </div>
 
 

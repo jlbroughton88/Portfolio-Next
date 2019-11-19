@@ -27,10 +27,10 @@
 @mixin social-icons{
     -webkit-filter: drop-shadow( 0 7px 3px rgba(0, 0, 0, .3));
     filter: drop-shadow( 0 7px 3px rgba(0, 0, 0, .3));
-    height: 50%; 
+    height: 100%; 
     fill: #333;
     transition: all ease-in-out 0.25s;
-    
+    width: inherit;
     
     &:hover{
         cursor: pointer;
@@ -39,9 +39,12 @@
     }
 
     @media(max-width: 600px) {
-        height: 40%
+        height: 80%;
     }
 }
+
+
+
 @font-face{
     font-family: "Museo Sans";
     src: url("../fonts/museoSans.ttf") format("TrueType");
@@ -172,6 +175,12 @@ html, body{
                                     font-size: 1.5rem;
                                 }
                             }
+
+                            @media(max-width: 450px) {
+                                .toolh3{
+                                    font-size: 1.15rem;
+                                }
+                            }
   
                         }
                     }
@@ -227,34 +236,29 @@ html, body{
                     grid-row: 5; 
                     @include the-color();
                     @include flex-start();
-
-
-                    .linkedinA{ 
-                        height: 100%;
+                    .socialThird{
                         @include flex-center();
-                         .linkedinSVG{ 
-                            @include social-icons();
-                        }  
-                     }
+                        height: 100%;
+                        
+                        .iconA{ 
+                            height:50%;
+
+                            @include flex-center();
+                            .linkedinSVG{ 
+                                @include social-icons();
+                            }  
+
+                            .githubSVG{
+                                @include social-icons();
+                            }
+
+                            .emailSVG{
+                                @include social-icons();
+                            }
+                     }  
+                    }
 
 
-                     .githubA{ 
-                         height: 100%;
-                         @include flex-center();
-                        .githubSVG{ 
-                            @include social-icons();
-                        }
-                      }
-
-
-
-                     .emailA{ 
-                         height: 100%;
-                         @include flex-center();
-                        .emailSVG{ 
-                            @include social-icons();
-                        }
-                      }
 
                  };
             }
