@@ -50,6 +50,9 @@ html, body {
           .motherDiv .mainDiv .surroundingDiv .introBox .introContainer .introHead {
             align-self: start;
             margin: 0; }
+            @media (max-width: 600px) {
+              .motherDiv .mainDiv .surroundingDiv .introBox .introContainer .introHead {
+                font-size: 1.8rem; } }
           .motherDiv .mainDiv .surroundingDiv .introBox .introContainer .introPara {
             align-self: start;
             margin: 0; }
@@ -67,6 +70,10 @@ html, body {
               transform: translate(0px, -3px);
               box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
               cursor: pointer; }
+            @media (max-width: 600px) {
+              .motherDiv .mainDiv .surroundingDiv .introBox .introContainer .cta {
+                padding: 3px 7px;
+                font-size: 1.2rem; } }
       .motherDiv .mainDiv .surroundingDiv .imageBox {
         height: 100%;
         grid-column: 5/7;
@@ -154,45 +161,60 @@ html, body {
         display: flex;
         justify-content: space-evenly;
         align-items: center; }
-        .motherDiv .mainDiv .surroundingDiv .socialBox .linkedinSVG {
-          -webkit-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
-          filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
-          height: 50%;
-          fill: #333;
-          transition: all ease-in-out 0.25s; }
-          .motherDiv .mainDiv .surroundingDiv .socialBox .linkedinSVG:hover {
-            cursor: pointer;
-            fill: #00bcc5;
-            transform: translate(0px, -6px); }
-          @media (max-width: 600px) {
-            .motherDiv .mainDiv .surroundingDiv .socialBox .linkedinSVG {
-              height: 40%; } }
-        .motherDiv .mainDiv .surroundingDiv .socialBox .githubSVG {
-          -webkit-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
-          filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
-          height: 50%;
-          fill: #333;
-          transition: all ease-in-out 0.25s; }
-          .motherDiv .mainDiv .surroundingDiv .socialBox .githubSVG:hover {
-            cursor: pointer;
-            fill: #00bcc5;
-            transform: translate(0px, -6px); }
-          @media (max-width: 600px) {
-            .motherDiv .mainDiv .surroundingDiv .socialBox .githubSVG {
-              height: 40%; } }
-        .motherDiv .mainDiv .surroundingDiv .socialBox .emailSVG {
-          -webkit-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
-          filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
-          height: 50%;
-          fill: #333;
-          transition: all ease-in-out 0.25s; }
-          .motherDiv .mainDiv .surroundingDiv .socialBox .emailSVG:hover {
-            cursor: pointer;
-            fill: #00bcc5;
-            transform: translate(0px, -6px); }
-          @media (max-width: 600px) {
-            .motherDiv .mainDiv .surroundingDiv .socialBox .emailSVG {
-              height: 40%; } }
+        .motherDiv .mainDiv .surroundingDiv .socialBox .linkedinA {
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          .motherDiv .mainDiv .surroundingDiv .socialBox .linkedinA .linkedinSVG {
+            -webkit-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
+            filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
+            height: 50%;
+            fill: #333;
+            transition: all ease-in-out 0.25s; }
+            .motherDiv .mainDiv .surroundingDiv .socialBox .linkedinA .linkedinSVG:hover {
+              cursor: pointer;
+              fill: #00bcc5;
+              transform: translate(0px, -6px); }
+            @media (max-width: 600px) {
+              .motherDiv .mainDiv .surroundingDiv .socialBox .linkedinA .linkedinSVG {
+                height: 40%; } }
+        .motherDiv .mainDiv .surroundingDiv .socialBox .githubA {
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          .motherDiv .mainDiv .surroundingDiv .socialBox .githubA .githubSVG {
+            -webkit-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
+            filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
+            height: 50%;
+            fill: #333;
+            transition: all ease-in-out 0.25s; }
+            .motherDiv .mainDiv .surroundingDiv .socialBox .githubA .githubSVG:hover {
+              cursor: pointer;
+              fill: #00bcc5;
+              transform: translate(0px, -6px); }
+            @media (max-width: 600px) {
+              .motherDiv .mainDiv .surroundingDiv .socialBox .githubA .githubSVG {
+                height: 40%; } }
+        .motherDiv .mainDiv .surroundingDiv .socialBox .emailA {
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          .motherDiv .mainDiv .surroundingDiv .socialBox .emailA .emailSVG {
+            -webkit-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
+            filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
+            height: 50%;
+            fill: #333;
+            transition: all ease-in-out 0.25s; }
+            .motherDiv .mainDiv .surroundingDiv .socialBox .emailA .emailSVG:hover {
+              cursor: pointer;
+              fill: #00bcc5;
+              transform: translate(0px, -6px); }
+            @media (max-width: 600px) {
+              .motherDiv .mainDiv .surroundingDiv .socialBox .emailA .emailSVG {
+                height: 40%; } }
     .motherDiv .mainDiv .boxHeadDiv {
       display: flex;
       align-items: center;
@@ -309,12 +331,12 @@ a {
       align-items: center;
       width: 45%;
       grid-row: 2; }
-    @media (max-width: 600px) {
-      .motherDivFooter .name .nameDiv {
-        width: 70%; } }
-    @media (max-width: 450px) {
-      .motherDivFooter .name .nameDiv {
-        width: 100%; } }
+      @media (max-width: 600px) {
+        .motherDivFooter .name .nameDiv {
+          width: 70%; } }
+      @media (max-width: 450px) {
+        .motherDivFooter .name .nameDiv {
+          width: 100%; } }
   .motherDivFooter .storyDiv {
     grid-column: 2;
     display: flex;
@@ -326,9 +348,9 @@ a {
       align-items: center;
       height: 70%;
       width: 40%; }
-    @media (max-width: 600px) {
-      .motherDivFooter .storyDiv .story {
-        width: 60%; } }
+      @media (max-width: 600px) {
+        .motherDivFooter .storyDiv .story {
+          width: 60%; } }
   .motherDivFooter .contactDiv {
     grid-column: 2;
     display: flex;
@@ -368,9 +390,9 @@ a {
       display: flex;
       justify-content: center;
       align-items: center; }
-    @media (max-width: 600px) {
-      .motherDivFooter .workDiv .work {
-        width: 60%; } }
+      @media (max-width: 600px) {
+        .motherDivFooter .workDiv .work {
+          width: 60%; } }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

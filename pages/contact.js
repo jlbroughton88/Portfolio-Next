@@ -1,10 +1,12 @@
 import Link from "next/link";
 import Navbar from "./comps/navbar";
+import Footer from "./comps/footer";
 
 const Contact = () => (
     <div>
         <Navbar/>
         Contact
+        <Footer/>
 
         <style jsx global>{`
             body{

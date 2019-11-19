@@ -2,6 +2,7 @@ import styled from "styled-components";
 import Link from "next/link";
 import Logo from "./logo"
 import Logo1 from "../../public/images/logo1.png"
+import ListIcon from "./listIcon"
 import "../../public/css/navbar.scss"
 
 const navbar = () => (
@@ -9,7 +10,7 @@ const navbar = () => (
         <nav className="nav">
             <div className="leftSide">
                 <Link href="/">
-                <a><img src={Logo1}/></a>
+                <a><ListIcon/></a>
                 </Link>
             </div>
 

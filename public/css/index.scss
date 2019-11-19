@@ -94,6 +94,10 @@ html, body{
                         .introHead{  
                             align-self: start;
                             margin: 0;
+
+                            @media(max-width: 600px) {
+                                font-size: 1.8rem;
+                            }
                         }
                         .introPara{ 
                             align-self: start;
@@ -114,6 +118,11 @@ html, body{
                                 transform: translate(0px, -3px);
                                 box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
                                 cursor: pointer;
+                            }
+
+                            @media(max-width: 600px) {
+                                padding: 3px 7px;
+                                font-size: 1.2rem;
                             }
                          }
                     }
@@ -207,18 +216,34 @@ html, body{
                     @include the-color();
                     @include flex-start();
 
-                    .linkedinSVG{ 
-                        @include social-icons();
+
+                    .linkedinA{ 
+                        height: 100%;
+                        @include flex-center();
+                         .linkedinSVG{ 
+                            @include social-icons();
+                        }  
                      }
 
-                    .githubSVG{ 
-                        @include social-icons();
 
-                     }
+                     .githubA{ 
+                         height: 100%;
+                         @include flex-center();
+                        .githubSVG{ 
+                            @include social-icons();
+                        }
+                      }
 
-                    .emailSVG{ 
-                        @include social-icons();
-                     }
+
+
+                     .emailA{ 
+                         height: 100%;
+                         @include flex-center();
+                        .emailSVG{ 
+                            @include social-icons();
+                        }
+                      }
+
                  };
             }
 

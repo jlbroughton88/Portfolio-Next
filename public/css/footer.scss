@@ -37,20 +37,18 @@ a{
         .nameDiv{ 
             @include flex-center();
             width: 45%;
-            grid-row: 2;
+            grid-row: 2;     
+
+                @media(max-width: 600px) {
+                    width: 70%;
+                }
+
+                @media(max-width: 450px) {
+                        width: 100%;
+                }
          }
 
-         @media(max-width: 600px) {
-             .nameDiv{
-                 width: 70%;
-             }
-         }
 
-         @media(max-width: 450px) {
-             .nameDiv{
-                 width: 100%;
-             }
-         }
     };
 
     .storyDiv{ 
@@ -60,14 +58,14 @@ a{
         .story{ 
             @include flex-center();
             height: 70%;
-            width: 40%;
+            width: 40%;    
+
+                @media(max-width: 600px) {
+                    width: 60%;
+                }
          }
 
-         @media(max-width: 600px) {
-            .story{
-                width: 60%;
-            }
-        }
+
     };
 
     .contactDiv{ 
@@ -95,12 +93,9 @@ a{
             }
 
             @media(max-width: 600px) {
-                // .contact{
-                    &:hover{
-                        width: 100%;
-                    }
-                // }
-
+                &:hover{
+                    width: 100%;
+                }
             }
          }
 
@@ -119,14 +114,13 @@ a{
         .work{ 
             width: 40%;
             height: 70%;
-            @include flex-center();
+            @include flex-center();        
+                @media(max-width: 600px) {
+                    width: 60%;
+                }
          }
 
-         @media(max-width: 600px) {
-            .work{
-                width: 60%;
-            }
-        }
+
     };
 };
 

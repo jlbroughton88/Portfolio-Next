@@ -1,7 +1,7 @@
 import "../public/css/index.scss";
 import Navbar from "./comps/navbar";
 import Footer from "./comps/footer";
-import Arrow from "../public/images/listArrow.svg";
+import Link from "next/link";
 import LinkedIn from "./comps/icons/linkedIn";
 import Github from "./comps/icons/github";
 import Email from "./comps/icons/email";
@@ -21,7 +21,7 @@ const index = () => {
                             <p className="introPara">Hi, i'm a Full Stack Web Developer, specializing in the MERN Stack.
                                 Take a look around and feel free to get in touch with me.
                             </p>
-                            <button className="cta">Get In Touch</button>
+                            <Link href="/contact"><a className="cta">Get In Touch</a></Link>
                         </div>
                     </div>
 
@@ -86,9 +86,11 @@ const index = () => {
 
 
                     <div className="socialBox">
-                        <LinkedIn/>
-                        <Github/>
-                        <Email/>
+                        <a href="https://www.linkedin.com/in/jacob-broughton-637189164/" className="linkedinA"><LinkedIn /></a>
+                        <a href="https://github.com/jlbroughton88" className="githubA"><Github /></a>
+                        <Link href="/contact">
+                            <a className="emailA"><Email /></a>
+                        </Link>
                     </div>
 
 
@@ -97,14 +99,10 @@ const index = () => {
             <Footer />
 
 
-
-
-
             <style jsx global>{`
             body{
                 margin: 0;
             } 
-
         `}
 
             </style>
