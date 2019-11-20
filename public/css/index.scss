@@ -31,10 +31,10 @@
     -moz-filter:drop-shadow( 0 7px 3px rgba(0, 0, 0, .3));
     -webkit-filter: drop-shadow( 0 7px 3px rgba(0, 0, 0, .3));
     fill: #333;
-    -webkit-transition: all ease-in-out 0.25s;
-    -moz-transition: all ease-in-out 0.25s;
-    -o-transition: all ease-in-out 0.25s;
-    transition: all ease-in-out 0.25s;
+    -webkit-transition: fill ease-in-out 0.25s;
+    -moz-transition: fill ease-in-out 0.25s;
+    -o-transition: fill ease-in-out 0.25s;
+    transition: fill ease-in-out 0.25s;
     height: 100%; 
     width: 100%;
     
@@ -60,6 +60,7 @@ html, body{
     font-family: "Museo Sans";
     cursor: default;
 }
+
 
 
 .motherDiv{
@@ -250,9 +251,8 @@ html, body{
                             width: 75px;
                             transition: all ease-in-out 0.25s;
                             padding: 10px 8px;
-  
-
                             @include flex-center();
+
                             .linkedinSVG{ 
                                 @include social-icons();
                             }  
