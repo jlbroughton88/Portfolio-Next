@@ -39,6 +39,10 @@ a{
             width: 45%;
             grid-row: 2;     
 
+            @media(max-width: 850px) {
+                width: 60%;
+            }
+
                 @media(max-width: 600px) {
                     width: 70%;
                 }

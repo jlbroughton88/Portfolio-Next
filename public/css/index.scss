@@ -25,17 +25,22 @@
 }
 
 @mixin social-icons{
-    -webkit-filter: drop-shadow( 0 7px 3px rgba(0, 0, 0, .3));
     filter: drop-shadow( 0 7px 3px rgba(0, 0, 0, .3));
+    -o-filter:drop-shadow( 0 7px 3px rgba(0, 0, 0, .3));
+    -ms-filter:drop-shadow( 0 7px 3px rgba(0, 0, 0, .3));
+    -moz-filter:drop-shadow( 0 7px 3px rgba(0, 0, 0, .3));
+    -webkit-filter: drop-shadow( 0 7px 3px rgba(0, 0, 0, .3));
     height: 100%; 
+    width: 100%;
     fill: #333;
     transition: all ease-in-out 0.25s;
-    width: inherit;
+    -webkit-transition: all ease-in-out 0.25s;
+    -moz-transition: all ease-in-out 0.25s;
+    -o-transition: all ease-in-out 0.25s;
     
     &:hover{
         cursor: pointer;
         fill: #00bcc5;
-        transform: translate(0px, -6px);
     }
 
     @media(max-width: 600px) {
@@ -54,7 +59,6 @@ html, body{
     height: 100%;
     font-family: "Museo Sans";
     cursor: default;
-    transition: all ease-in-out 0.5s;
 }
 
 
@@ -220,7 +224,7 @@ html, body{
                     .toolList{  
                         height: 82%;
                         @include list-standard();
-                     }
+                    }
                 } 
 
                 .storyBox{ 
@@ -236,12 +240,18 @@ html, body{
                     grid-row: 5; 
                     @include the-color();
                     @include flex-start();
+
                     .socialThird{
                         @include flex-center();
                         height: 100%;
                         
+                        
                         .iconA{ 
                             height:50%;
+                            width: 75px;
+                            transition: all ease-in-out 0.25s;
+                            padding: 10px 5px;
+  
 
                             @include flex-center();
                             .linkedinSVG{ 
@@ -255,12 +265,19 @@ html, body{
                             .emailSVG{
                                 @include social-icons();
                             }
-                     }  
+
+                            &:hover{
+                                transition: all ease-in-out 0.25s;
+                                -webkit-transition: all ease-in-out 0.25s;
+                                -moz-transition: all ease-in-out 0.25s;
+                                -o-transition: all ease-in-out 0.25s;
+                                cursor: pointer;
+                                transform: translate(0px, -6px);
+                                transform: translate(0px, -6px);
+                            }
+                        }  
                     }
-
-
-
-                 };
+                }
             }
 
             .boxHeadDiv{
@@ -347,9 +364,9 @@ html, body{
                             width: 75%;
                             .toolhead{
                                 font-size: 1.6rem;
-                            }
                         }
-                    } 
+                    }
+                } 
             }
         }
     }

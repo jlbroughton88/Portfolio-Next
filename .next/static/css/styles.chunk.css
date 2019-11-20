@@ -5,8 +5,7 @@
 html, body {
   height: 100%;
   font-family: "Museo Sans";
-  cursor: default;
-  transition: all ease-in-out 0.5s; }
+  cursor: default; }
 
 .motherDiv {
   display: flex;
@@ -178,51 +177,77 @@ html, body {
           height: 100%; }
           .motherDiv .mainDiv .surroundingDiv .socialBox .socialThird .iconA {
             height: 50%;
+            width: 75px;
+            transition: all ease-in-out 0.25s;
+            padding: 10px 5px;
             display: flex;
             justify-content: center;
             align-items: center; }
             .motherDiv .mainDiv .surroundingDiv .socialBox .socialThird .iconA .linkedinSVG {
-              -webkit-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
               filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
+              -o-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
+              -ms-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
+              -moz-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
+              -webkit-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
               height: 100%;
+              width: 100%;
               fill: #333;
               transition: all ease-in-out 0.25s;
-              width: inherit; }
+              -webkit-transition: all ease-in-out 0.25s;
+              -moz-transition: all ease-in-out 0.25s;
+              -o-transition: all ease-in-out 0.25s; }
               .motherDiv .mainDiv .surroundingDiv .socialBox .socialThird .iconA .linkedinSVG:hover {
                 cursor: pointer;
-                fill: #00bcc5;
-                transform: translate(0px, -6px); }
+                fill: #00bcc5; }
               @media (max-width: 600px) {
                 .motherDiv .mainDiv .surroundingDiv .socialBox .socialThird .iconA .linkedinSVG {
                   height: 80%; } }
             .motherDiv .mainDiv .surroundingDiv .socialBox .socialThird .iconA .githubSVG {
-              -webkit-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
               filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
+              -o-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
+              -ms-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
+              -moz-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
+              -webkit-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
               height: 100%;
+              width: 100%;
               fill: #333;
               transition: all ease-in-out 0.25s;
-              width: inherit; }
+              -webkit-transition: all ease-in-out 0.25s;
+              -moz-transition: all ease-in-out 0.25s;
+              -o-transition: all ease-in-out 0.25s; }
               .motherDiv .mainDiv .surroundingDiv .socialBox .socialThird .iconA .githubSVG:hover {
                 cursor: pointer;
-                fill: #00bcc5;
-                transform: translate(0px, -6px); }
+                fill: #00bcc5; }
               @media (max-width: 600px) {
                 .motherDiv .mainDiv .surroundingDiv .socialBox .socialThird .iconA .githubSVG {
                   height: 80%; } }
             .motherDiv .mainDiv .surroundingDiv .socialBox .socialThird .iconA .emailSVG {
-              -webkit-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
               filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
+              -o-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
+              -ms-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
+              -moz-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
+              -webkit-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
               height: 100%;
+              width: 100%;
               fill: #333;
               transition: all ease-in-out 0.25s;
-              width: inherit; }
+              -webkit-transition: all ease-in-out 0.25s;
+              -moz-transition: all ease-in-out 0.25s;
+              -o-transition: all ease-in-out 0.25s; }
               .motherDiv .mainDiv .surroundingDiv .socialBox .socialThird .iconA .emailSVG:hover {
                 cursor: pointer;
-                fill: #00bcc5;
-                transform: translate(0px, -6px); }
+                fill: #00bcc5; }
               @media (max-width: 600px) {
                 .motherDiv .mainDiv .surroundingDiv .socialBox .socialThird .iconA .emailSVG {
                   height: 80%; } }
+            .motherDiv .mainDiv .surroundingDiv .socialBox .socialThird .iconA:hover {
+              transition: all ease-in-out 0.25s;
+              -webkit-transition: all ease-in-out 0.25s;
+              -moz-transition: all ease-in-out 0.25s;
+              -o-transition: all ease-in-out 0.25s;
+              cursor: pointer;
+              transform: translate(0px, -6px);
+              transform: translate(0px, -6px); }
     .motherDiv .mainDiv .boxHeadDiv {
       display: flex;
       align-items: center;
@@ -339,6 +364,9 @@ a {
       align-items: center;
       width: 45%;
       grid-row: 2; }
+      @media (max-width: 850px) {
+        .motherDivFooter .name .nameDiv {
+          width: 60%; } }
       @media (max-width: 600px) {
         .motherDivFooter .name .nameDiv {
           width: 70%; } }
