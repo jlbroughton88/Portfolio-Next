@@ -30,15 +30,15 @@ html, body{
 .mainStoryDiv{
     @include flex-center();
     margin-top: 60px;
-    margin-bottom: 150px;
+    margin-bottom: 190px;
     
     .surroundingStoryDiv{
         width: 90%;
         max-width: 790px;
         display: grid;
         grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: 110px auto auto;
-        grid-gap: 5%;
+        grid-template-rows: 110px auto auto auto;
+        grid-gap: 3.5%;
         justify-items: center;
     
 
@@ -68,7 +68,7 @@ html, body{
                 @include the-color();
                 @include flex-start();
                 width: 87.5%;
-                padding: 5% 7.5%;
+                padding: 5% 6.33%;
 
                 .story{
 
@@ -86,9 +86,27 @@ html, body{
                 @include the-color();
                 @include flex-start();
                 width: 87.5%;
-                padding: 5% 7.5%;
+                padding: 5% 6.33%;
 
                 .story2{
+
+                }
+            }
+        }
+
+        .storyDiv3{
+            width: 100%;
+            max-width: 790px;
+            grid-column: 1/5;
+            grid-row: 4;
+
+            .insideStoryDiv3{
+                @include the-color();
+                @include flex-start();
+                width: 87.5%;
+                padding: 5% 6.33%;
+
+                .story3{
 
                 }
             }
@@ -123,6 +141,37 @@ html, body{
             }
         }
 
+        .imageDiv3{
+            @include flex-center();
+            @include the-color();
+            width: 100%;
+            grid-column: 5/7;
+            grid-row: 4;
+
+            .imageInside3{
+                width: 80%;
+                height: 80%;
+                background: grey;
+                color: white;
+            }
+        }
+
+
+        .imageDiv4{
+            @include flex-center();
+            @include the-color();
+            width: 100%;
+            grid-column: 5/7;
+            grid-row: 4;
+
+            .imageInside4{
+                width: 80%;
+                height: 80%;
+                background: grey;
+                color: white;
+            }
+        }
+
 
         @media(max-width: 750px) {
             .storyDiv{
@@ -140,11 +189,29 @@ html, body{
             .imageDiv2{
                 grid-column: 1/4;
             }
+
+            .storyDiv3{
+                grid-column: 1/4;
+            }
+
+            .imageDiv3{
+                grid-column: 4/7;
+            }
+        }
+
+        @media(min-width: 651px) {
+            .imageDiv4{
+                display: none;
+                .imageInside4{
+                    
+                }
+            }
         }
 
         @media(max-width: 650px) {
-                    grid-template-rows: 110px auto 200px auto;
-                    grid-gap: 3%;
+                    grid-template-rows: 110px auto 200px auto 200px auto ;
+                    grid-gap: 2%;
+                    margin-bottom: 80px;
 
                     .headerDiv{
                         grid-row: 1;
@@ -155,26 +222,46 @@ html, body{
                         grid-row: 2;
                     }
 
-                    .storyDiv2{
-                        grid-column: 1/7;
-                        grid-row: 4;
-                    }
-
                     .imageDiv{
                         grid-column: 1/4;
                         grid-row: 3;
+                    }
+
+                    .storyDiv2{
+                        grid-column: 1/7;
+                        grid-row: 4;
                     }
 
                     .imageDiv2{
                         grid-column: 4/7;
                         grid-row: 3;
                     }
+
+                    .imageDiv3{
+                        grid-column: 1/4;
+                        grid-row: 5;
+                    }
+
+                    .storyDiv3{
+                        grid-column: 1/7;
+                        grid-row: 6;
+                    }
+
+                    .imageDiv4{
+                        grid-column: 4/7;
+                        grid-row: 5;
+                    }
+
                 }
 
+            @media(max-width: 450px) {
+                grid-gap: 2%;
+            }
         }
         
     @media(max-width: 450px) {
-        margin-bottom: 165px;
+        grid-gap: 2%;
+        margin-bottom: 130px;
     }
 
 }

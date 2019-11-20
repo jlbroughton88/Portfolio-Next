@@ -44,7 +44,8 @@ const index = () => {
                         <div className="boxHeadDiv">Most Comfortable</div>
                         <ul className="comfortableList">
                             <li>HTML</li>
-                            <li>CSS</li>
+                            <li>CSS / SCSS</li>
+                            <li>CSS Grid / Flexbox</li>
                             <li>Javascript</li>
                             <li>ReactJS</li>
                             <li>Node</li>
@@ -96,7 +97,9 @@ const index = () => {
                         </div>
                         <div className="socialThird">
                             <Link href="/contact">
-                                <a className="iconA"><Email className="emailSVG" /></a>
+                                <a className="iconA">
+                                    <Email className="emailSVG" />
+                                </a>
                             </Link>
                         </div>
 
@@ -111,6 +114,7 @@ const index = () => {
             <style jsx global>{`
             body{
                 margin: 0;
+                cursor: default;
             } 
         `}
 

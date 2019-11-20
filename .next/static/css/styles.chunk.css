@@ -39,7 +39,7 @@ html, body {
         background: #EBEBEB;
         color: #333;
         display: flex;
-        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35); }
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35); }
         .motherDiv .mainDiv .surroundingDiv .introBox .introContainer {
           display: flex;
           justify-content: space-evenly;
@@ -179,7 +179,7 @@ html, body {
             height: 50%;
             width: 75px;
             transition: all ease-in-out 0.25s;
-            padding: 10px 5px;
+            padding: 10px 8px;
             display: flex;
             justify-content: center;
             align-items: center; }
@@ -189,15 +189,14 @@ html, body {
               -ms-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
               -moz-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
               -webkit-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
-              height: 100%;
-              width: 100%;
               fill: #333;
-              transition: all ease-in-out 0.25s;
               -webkit-transition: all ease-in-out 0.25s;
               -moz-transition: all ease-in-out 0.25s;
-              -o-transition: all ease-in-out 0.25s; }
+              -o-transition: all ease-in-out 0.25s;
+              transition: all ease-in-out 0.25s;
+              height: 100%;
+              width: 100%; }
               .motherDiv .mainDiv .surroundingDiv .socialBox .socialThird .iconA .linkedinSVG:hover {
-                cursor: pointer;
                 fill: #00bcc5; }
               @media (max-width: 600px) {
                 .motherDiv .mainDiv .surroundingDiv .socialBox .socialThird .iconA .linkedinSVG {
@@ -208,15 +207,14 @@ html, body {
               -ms-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
               -moz-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
               -webkit-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
-              height: 100%;
-              width: 100%;
               fill: #333;
-              transition: all ease-in-out 0.25s;
               -webkit-transition: all ease-in-out 0.25s;
               -moz-transition: all ease-in-out 0.25s;
-              -o-transition: all ease-in-out 0.25s; }
+              -o-transition: all ease-in-out 0.25s;
+              transition: all ease-in-out 0.25s;
+              height: 100%;
+              width: 100%; }
               .motherDiv .mainDiv .surroundingDiv .socialBox .socialThird .iconA .githubSVG:hover {
-                cursor: pointer;
                 fill: #00bcc5; }
               @media (max-width: 600px) {
                 .motherDiv .mainDiv .surroundingDiv .socialBox .socialThird .iconA .githubSVG {
@@ -227,15 +225,14 @@ html, body {
               -ms-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
               -moz-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
               -webkit-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
-              height: 100%;
-              width: 100%;
               fill: #333;
-              transition: all ease-in-out 0.25s;
               -webkit-transition: all ease-in-out 0.25s;
               -moz-transition: all ease-in-out 0.25s;
-              -o-transition: all ease-in-out 0.25s; }
+              -o-transition: all ease-in-out 0.25s;
+              transition: all ease-in-out 0.25s;
+              height: 100%;
+              width: 100%; }
               .motherDiv .mainDiv .surroundingDiv .socialBox .socialThird .iconA .emailSVG:hover {
-                cursor: pointer;
                 fill: #00bcc5; }
               @media (max-width: 600px) {
                 .motherDiv .mainDiv .surroundingDiv .socialBox .socialThird .iconA .emailSVG {
@@ -446,14 +443,14 @@ html, body {
   justify-content: center;
   align-items: center;
   margin-top: 60px;
-  margin-bottom: 150px; }
+  margin-bottom: 190px; }
   .mainStoryDiv .surroundingStoryDiv {
     width: 90%;
     max-width: 790px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 110px auto auto;
-    grid-gap: 5%;
+    grid-template-rows: 110px auto auto auto;
+    grid-gap: 3.5%;
     justify-items: center; }
     .mainStoryDiv .surroundingStoryDiv .headerDiv {
       display: flex;
@@ -480,7 +477,7 @@ html, body {
         justify-content: flex-start;
         align-items: center;
         width: 87.5%;
-        padding: 5% 7.5%; }
+        padding: 5% 6.33%; }
     .mainStoryDiv .surroundingStoryDiv .storyDiv2 {
       width: 100%;
       max-width: 790px;
@@ -493,7 +490,20 @@ html, body {
         justify-content: flex-start;
         align-items: center;
         width: 87.5%;
-        padding: 5% 7.5%; }
+        padding: 5% 6.33%; }
+    .mainStoryDiv .surroundingStoryDiv .storyDiv3 {
+      width: 100%;
+      max-width: 790px;
+      grid-column: 1/5;
+      grid-row: 4; }
+      .mainStoryDiv .surroundingStoryDiv .storyDiv3 .insideStoryDiv3 {
+        background: #EBEBEB;
+        color: #333;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 87.5%;
+        padding: 5% 6.33%; }
     .mainStoryDiv .surroundingStoryDiv .imageDiv {
       display: flex;
       justify-content: center;
@@ -521,6 +531,34 @@ html, body {
         height: 80%;
         background: grey;
         color: white; }
+    .mainStoryDiv .surroundingStoryDiv .imageDiv3 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #EBEBEB;
+      color: #333;
+      width: 100%;
+      grid-column: 5/7;
+      grid-row: 4; }
+      .mainStoryDiv .surroundingStoryDiv .imageDiv3 .imageInside3 {
+        width: 80%;
+        height: 80%;
+        background: grey;
+        color: white; }
+    .mainStoryDiv .surroundingStoryDiv .imageDiv4 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #EBEBEB;
+      color: #333;
+      width: 100%;
+      grid-column: 5/7;
+      grid-row: 4; }
+      .mainStoryDiv .surroundingStoryDiv .imageDiv4 .imageInside4 {
+        width: 80%;
+        height: 80%;
+        background: grey;
+        color: white; }
     @media (max-width: 750px) {
       .mainStoryDiv .surroundingStoryDiv .storyDiv {
         grid-column: 1/4; }
@@ -529,28 +567,49 @@ html, body {
       .mainStoryDiv .surroundingStoryDiv .storyDiv2 {
         grid-column: 4/7; }
       .mainStoryDiv .surroundingStoryDiv .imageDiv2 {
-        grid-column: 1/4; } }
+        grid-column: 1/4; }
+      .mainStoryDiv .surroundingStoryDiv .storyDiv3 {
+        grid-column: 1/4; }
+      .mainStoryDiv .surroundingStoryDiv .imageDiv3 {
+        grid-column: 4/7; } }
+    @media (min-width: 651px) {
+      .mainStoryDiv .surroundingStoryDiv .imageDiv4 {
+        display: none; } }
     @media (max-width: 650px) {
       .mainStoryDiv .surroundingStoryDiv {
-        grid-template-rows: 110px auto 200px auto;
-        grid-gap: 3%; }
+        grid-template-rows: 110px auto 200px auto 200px auto;
+        grid-gap: 2%;
+        margin-bottom: 80px; }
         .mainStoryDiv .surroundingStoryDiv .headerDiv {
           grid-row: 1; }
         .mainStoryDiv .surroundingStoryDiv .storyDiv {
           grid-column: 1/7;
           grid-row: 2; }
-        .mainStoryDiv .surroundingStoryDiv .storyDiv2 {
-          grid-column: 1/7;
-          grid-row: 4; }
         .mainStoryDiv .surroundingStoryDiv .imageDiv {
           grid-column: 1/4;
           grid-row: 3; }
+        .mainStoryDiv .surroundingStoryDiv .storyDiv2 {
+          grid-column: 1/7;
+          grid-row: 4; }
         .mainStoryDiv .surroundingStoryDiv .imageDiv2 {
           grid-column: 4/7;
-          grid-row: 3; } }
+          grid-row: 3; }
+        .mainStoryDiv .surroundingStoryDiv .imageDiv3 {
+          grid-column: 1/4;
+          grid-row: 5; }
+        .mainStoryDiv .surroundingStoryDiv .storyDiv3 {
+          grid-column: 1/7;
+          grid-row: 6; }
+        .mainStoryDiv .surroundingStoryDiv .imageDiv4 {
+          grid-column: 4/7;
+          grid-row: 5; } }
+    @media (max-width: 450px) {
+      .mainStoryDiv .surroundingStoryDiv {
+        grid-gap: 2%; } }
   @media (max-width: 450px) {
     .mainStoryDiv {
-      margin-bottom: 165px; } }
+      grid-gap: 2%;
+      margin-bottom: 130px; } }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

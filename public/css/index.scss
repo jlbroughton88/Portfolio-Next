@@ -30,18 +30,18 @@
     -ms-filter:drop-shadow( 0 7px 3px rgba(0, 0, 0, .3));
     -moz-filter:drop-shadow( 0 7px 3px rgba(0, 0, 0, .3));
     -webkit-filter: drop-shadow( 0 7px 3px rgba(0, 0, 0, .3));
-    height: 100%; 
-    width: 100%;
     fill: #333;
-    transition: all ease-in-out 0.25s;
     -webkit-transition: all ease-in-out 0.25s;
     -moz-transition: all ease-in-out 0.25s;
     -o-transition: all ease-in-out 0.25s;
+    transition: all ease-in-out 0.25s;
+    height: 100%; 
+    width: 100%;
     
     &:hover{
-        cursor: pointer;
         fill: #00bcc5;
     }
+    
 
     @media(max-width: 600px) {
         height: 80%;
@@ -60,7 +60,6 @@ html, body{
     font-family: "Museo Sans";
     cursor: default;
 }
-
 
 
 .motherDiv{
@@ -91,7 +90,7 @@ html, body{
                     grid-row: 1;
                     @include the-color();
                     display: flex;
-                    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+                    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
 
                     .introContainer{
                         @include flex-start();
@@ -250,7 +249,7 @@ html, body{
                             height:50%;
                             width: 75px;
                             transition: all ease-in-out 0.25s;
-                            padding: 10px 5px;
+                            padding: 10px 8px;
   
 
                             @include flex-center();
@@ -273,6 +272,7 @@ html, body{
                                 -o-transition: all ease-in-out 0.25s;
                                 cursor: pointer;
                                 transform: translate(0px, -6px);
+                                
                             }
                         }  
                     }
