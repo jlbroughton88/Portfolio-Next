@@ -7,7 +7,7 @@ const navbar = () => (
         <nav className="nav">
             <div className="leftSide">
                 <Link href="/">
-                    <a><ListIcon/></a>
+                    <a className="iconA"><ListIcon className="navLogo"/></a>
                 </Link>
             </div>
 

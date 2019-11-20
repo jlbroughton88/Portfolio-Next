@@ -2236,12 +2236,14 @@ const navbar = () => __jsx("div", {
   },
   __self: undefined
 }, __jsx("a", {
+  className: "iconA",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 10
   },
   __self: undefined
 }, __jsx(_icons_listIcon__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  className: "navLogo",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 10

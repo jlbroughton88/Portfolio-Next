@@ -11659,12 +11659,14 @@ var navbar = function navbar() {
     },
     __self: this
   }, __jsx("a", {
+    className: "iconA",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
   }, __jsx(_icons_listIcon__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    className: "navLogo",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
@@ -12199,7 +12201,7 @@ var index = function index() {
 
 /***/ }),
 
-/***/ 0:
+/***/ 6:
 /*!**************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2FJacobBroughton%2Fcoding%2Fpersonal%2FPortfolio-Next%2Fpages%2Findex.js ***!
   \**************************************************************************************************************************************************/
@@ -12222,5 +12224,5 @@ module.exports = dll_ce55a549e3439867a796;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[6,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

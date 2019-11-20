@@ -1,0 +1,68 @@
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@mixin the-color{
+    background: #EBEBEB;
+    color: #333;
+}
+
+@font-face{
+    font-family: "Museo Sans";
+    src: url("../fonts/museoSans.ttf") format("TrueType");
+}
+
+html, body{
+    height: 100%;
+    font-family: "Museo Sans";
+    cursor: default;
+}
+
+
+.mainDiv{
+    display: grid;
+    grid-template-rows: 110px auto;
+    justify-items: center;
+    grid-gap: 5%;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    
+    
+    .headerDiv{                     
+        @include flex-center();
+        height: 100%;
+        width: 90%;
+        @include the-color();
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+        max-width: 790px;
+        font-size: 1.8rem;
+
+        .insideHeaderDiv{
+            width: 87%;
+
+            .name{ }
+        }
+    }
+
+    .storyDiv{
+        width: 90%;
+        max-width: 790px;
+        .insideStoryDiv{
+            @include the-color();
+            @include flex-start();
+            width: 90%;
+            padding: 2.5% 5%;
+            .story{
+
+            }
+        }
+    }
+}
