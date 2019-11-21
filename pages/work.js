@@ -4,7 +4,7 @@ import Footer from "./comps/footer";
 import "../public/css/work.scss";
 
 const Work = () => (
-    <div className="motherDivWork">
+    <div className="motherDiv">
         <Navbar />
         <div className="mainDivWork">
             <div className="surroundingDivWork">
