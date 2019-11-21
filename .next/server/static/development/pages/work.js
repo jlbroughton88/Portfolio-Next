@@ -2269,23 +2269,114 @@ const Work = () => __jsx("div", {
     lineNumber: 12
   },
   __self: undefined
-}, __jsx("div", {
+}, __jsx("h2", {
   className: "jsx-266929325" + " " + "headWork",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 13
   },
   __self: undefined
-}, "My Work"))))), __jsx(_comps_footer__WEBPACK_IMPORTED_MODULE_4__["default"], {
+}, "My Work"))), __jsx("div", {
+  className: "jsx-266929325" + " " + "workExampleWindow",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 19
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "jsx-266929325" + " " + "nameDivSec",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 20
   },
   __self: undefined
+}, __jsx("div", {
+  className: "jsx-266929325" + " " + "nameDiv",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 21
+  },
+  __self: undefined
+}, __jsx("h2", {
+  className: "jsx-266929325" + " " + "nameHead",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 22
+  },
+  __self: undefined
+}, "Name"))), __jsx("div", {
+  className: "jsx-266929325" + " " + "descDivSec",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 25
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "jsx-266929325" + " " + "descHead",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 26
+  },
+  __self: undefined
+}, "Project Description"), __jsx("div", {
+  className: "jsx-266929325" + " " + "descDiv",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27
+  },
+  __self: undefined
+}, "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,")), __jsx("div", {
+  className: "jsx-266929325" + " " + "takeawayDivSec",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 29
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "jsx-266929325" + " " + "takeawayHead",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 30
+  },
+  __self: undefined
+}, "Take away"), __jsx("div", {
+  className: "jsx-266929325" + " " + "takeawayDiv",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 31
+  },
+  __self: undefined
+}, "sadfasdfasdf")), __jsx("div", {
+  className: "jsx-266929325" + " " + "techDivSec",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 33
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "jsx-266929325" + " " + "techHead",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 34
+  },
+  __self: undefined
+}, "Tech Used"), __jsx("div", {
+  className: "jsx-266929325" + " " + "techDiv",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 35
+  },
+  __self: undefined
+}, "asdfasdfasdfadsfasf"))))), __jsx(_comps_footer__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 41
+  },
+  __self: undefined
 }), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
   id: "266929325",
   __self: undefined
-}, "body{margin:0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9KYWNvYkJyb3VnaHRvbi9jb2RpbmcvcGVyc29uYWwvUG9ydGZvbGlvLU5leHQvcGFnZXMvd29yay5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFxQjJCLEFBRzBCLFNBQ2IiLCJmaWxlIjoiL1VzZXJzL0phY29iQnJvdWdodG9uL2NvZGluZy9wZXJzb25hbC9Qb3J0Zm9saW8tTmV4dC9wYWdlcy93b3JrLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExpbmsgZnJvbSBcIm5leHQvbGlua1wiO1xuaW1wb3J0IE5hdmJhciBmcm9tIFwiLi9jb21wcy9uYXZiYXJcIjtcbmltcG9ydCBGb290ZXIgZnJvbSBcIi4vY29tcHMvZm9vdGVyXCI7XG5pbXBvcnQgXCIuLi9wdWJsaWMvY3NzL3dvcmsuc2Nzc1wiO1xuXG5jb25zdCBXb3JrID0gKCkgPT4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPVwibW90aGVyRGl2V29ya1wiPlxuICAgICAgICA8TmF2YmFyLz5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtYWluRGl2V29ya1wiPlxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJzdXJyb3VuZGluZ0RpdldvcmtcIj5cbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImhlYWRlckRpdldvcmtcIj5cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJpbnNpZGVIZWFkZXJEaXZXb3JrXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImhlYWRXb3JrXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgTXkgV29ya1xuICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8Rm9vdGVyLz5cblxuICAgICAgICA8c3R5bGUganN4IGdsb2JhbD57YFxuICAgICAgICAgICAgYm9keXtcbiAgICAgICAgICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgICAgICB9IFxuICAgICAgICBgfVxuICAgICAgICA8L3N0eWxlPlxuICAgIDwvZGl2PlxuKVxuXG5leHBvcnQgZGVmYXVsdCBXb3JrOyJdfQ== */\n/*@ sourceURL=/Users/JacobBroughton/coding/personal/Portfolio-Next/pages/work.js */"));
+}, "body{margin:0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9KYWNvYkJyb3VnaHRvbi9jb2RpbmcvcGVyc29uYWwvUG9ydGZvbGlvLU5leHQvcGFnZXMvd29yay5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUEwQzJCLEFBRzBCLFNBQ2IiLCJmaWxlIjoiL1VzZXJzL0phY29iQnJvdWdodG9uL2NvZGluZy9wZXJzb25hbC9Qb3J0Zm9saW8tTmV4dC9wYWdlcy93b3JrLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExpbmsgZnJvbSBcIm5leHQvbGlua1wiO1xuaW1wb3J0IE5hdmJhciBmcm9tIFwiLi9jb21wcy9uYXZiYXJcIjtcbmltcG9ydCBGb290ZXIgZnJvbSBcIi4vY29tcHMvZm9vdGVyXCI7XG5pbXBvcnQgXCIuLi9wdWJsaWMvY3NzL3dvcmsuc2Nzc1wiO1xuXG5jb25zdCBXb3JrID0gKCkgPT4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPVwibW90aGVyRGl2V29ya1wiPlxuICAgICAgICA8TmF2YmFyIC8+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWFpbkRpdldvcmtcIj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwic3Vycm91bmRpbmdEaXZXb3JrXCI+XG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJoZWFkZXJEaXZXb3JrXCI+XG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiaW5zaWRlSGVhZGVyRGl2V29ya1wiPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT1cImhlYWRXb3JrXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgTXkgV29ya1xuICAgICAgICAgICAgICAgICAgICAgICAgPC9oMj5cbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIndvcmtFeGFtcGxlV2luZG93XCI+XG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibmFtZURpdlNlY1wiPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJuYW1lRGl2XCI+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT1cIm5hbWVIZWFkXCI+TmFtZTwvaDI+XG4gICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZGVzY0RpdlNlY1wiPlxuICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJkZXNjSGVhZFwiPlByb2plY3QgRGVzY3JpcHRpb248L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZGVzY0RpdlwiPkxvcmVtIElwc3VtIGhhcyBiZWVuIHRoZSBpbmR1c3RyeSdzIHN0YW5kYXJkIGR1bW15IHRleHQgZXZlciBzaW5jZSB0aGUgMTUwMHMsIHdoZW4gYW4gdW5rbm93biBwcmludGVyIHRvb2sgYSBnYWxsZXkgb2YgdHlwZSBhbmQgc2NyYW1ibGVkIGl0IHRvIG1ha2UgYSB0eXBlIHNwZWNpbWVuIGJvb2suIEl0IGhhcyBzdXJ2aXZlZCBub3Qgb25seSBmaXZlIGNlbnR1cmllcyw8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGFrZWF3YXlEaXZTZWNcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGFrZWF3YXlIZWFkXCI+VGFrZSBhd2F5PC9kaXY+XG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInRha2Vhd2F5RGl2XCI+c2FkZmFzZGZhc2RmPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInRlY2hEaXZTZWNcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGVjaEhlYWRcIj5UZWNoIFVzZWQ8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGVjaERpdlwiPmFzZGZhc2RmYXNkZmFkc2Zhc2Y8L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPEZvb3RlciAvPlxuXG4gICAgICAgIDxzdHlsZSBqc3ggZ2xvYmFsPntgXG4gICAgICAgICAgICBib2R5e1xuICAgICAgICAgICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgICAgIH0gXG4gICAgICAgIGB9XG4gICAgICAgIDwvc3R5bGU+XG4gICAgPC9kaXY+XG4pXG5cbmV4cG9ydCBkZWZhdWx0IFdvcms7Il19 */\n/*@ sourceURL=/Users/JacobBroughton/coding/personal/Portfolio-Next/pages/work.js */"));
 
 /* harmony default export */ __webpack_exports__["default"] = (Work);
 

@@ -46,13 +46,14 @@ const index = () => {
                             <li>HTML</li>
                             <li>CSS / SCSS</li>
                             <li>CSS Grid / Flexbox</li>
-                            <li>Javascript</li>
+                            <li>Javascript / ES6</li>
                             <li>ReactJS</li>
                             <li>Node</li>
                             <li>Express</li>
                             <li>MongoDB</li>
+                            <li>Mongoose</li>
                             <li>NextJS</li>
-                            <li>ES6</li>
+                            
                             <li>Heroku</li>
                         </ul>
                     </div>
@@ -61,6 +62,7 @@ const index = () => {
                     <div className="experienceBox">
                         <div className="boxHeadDiv"> Experience With</div>
                         <ul className="experienceList">
+                            <li>JQuery</li>
                             <li>Bootstrap</li>
                             <li>Materialize</li>
                             <li>Zeit Now</li>
