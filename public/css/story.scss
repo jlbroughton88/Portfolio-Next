@@ -38,7 +38,7 @@ html, body{
 
 .mainStoryDiv{
     @include flex-center();
-    margin-top: 60px;
+    margin-top: 110px;
     margin-bottom: 190px;
     
     .surroundingStoryDiv{
@@ -52,7 +52,7 @@ html, body{
     
 
         .headerDiv{                     
-            @include flex-center();
+            @include flex-start();
             @include the-color();
             height: 100%;
             width: 100%;
@@ -63,9 +63,16 @@ html, body{
             grid-column: 1/7;
 
             .insideHeaderDiv{
-                width: 87%;
+                @include flex-center();
+                width: 30%;
+                height: 50px;
+                background: #fee002;
+                border-right: #00bcc5 solid 5px;
 
-                .name{ }
+                .name{ 
+                    font-size: 1.8rem;
+                    margin: 0;
+                }
             }
         }
 
@@ -130,6 +137,11 @@ html, body{
 
 
         @media(max-width: 750px) {
+            .headerDiv{
+                .insideHeaderDiv{
+                    width: 50%;
+                }
+            }
             .storyDiv{  grid-column: 1/4;  }
             .imageDiv{  grid-column: 4/7;  }
             .storyDiv2{  grid-column: 4/7;  }
@@ -160,6 +172,23 @@ html, body{
                 }
 
             @media(max-width: 450px) {
+                .headerDiv{
+                    .insideHeaderDiv{
+                        width: 60%;
+                        .name{
+                            font-size: 2.5rem;
+                        }
+                    }
+                }
+                grid-gap: 2%;
+            }
+
+            @media(max-width: 370px) {
+                .headerDiv{
+                    .insideHeaderDiv{
+                        width: 70%;
+                    }
+                }
                 grid-gap: 2%;
             }
         }

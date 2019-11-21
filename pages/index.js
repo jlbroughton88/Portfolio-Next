@@ -90,10 +90,14 @@ const index = () => {
 
                     <div className="socialBox">
                         <div className="socialThird">
-                            <a href="https://www.linkedin.com/in/jacob-broughton-637189164/" className="iconA"><LinkedIn className="linkedinSVG" /></a>
+                            <a href="https://www.linkedin.com/in/jacob-broughton-637189164/" className="iconA">
+                                <LinkedIn className="linkedinSVG" />
+                            </a>
                         </div>
                         <div className="socialThird">
-                            <a href="https://github.com/jlbroughton88" className="iconA"><Github className="githubSVG" /></a>
+                            <a href="https://github.com/jlbroughton88" className="iconA">
+                                <Github className="githubSVG" />
+                            </a>
                         </div>
                         <div className="socialThird">
                             <Link href="/contact">
@@ -102,7 +106,6 @@ const index = () => {
                                 </a>
                             </Link>
                         </div>
-
                     </div>
 
 

@@ -1,11 +1,14 @@
 import Link from "next/link";
 import Navbar from "./comps/navbar";
 import Footer from "./comps/footer";
+import "../public/css/work.scss";
 
 const Work = () => (
-    <div>
+    <div className="motherDiv">
         <Navbar/>
-        Work
+        <div className="mainDiv">
+            Work
+        </div>
         <Footer/>
 
         <style jsx global>{`

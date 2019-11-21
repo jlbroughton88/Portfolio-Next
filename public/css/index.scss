@@ -61,8 +61,6 @@ html, body{
     cursor: default;
 }
 
-
-
 .motherDiv{
     display: flex;
     flex-direction: column;
@@ -71,6 +69,7 @@ html, body{
     .mainDiv{
         width: 100%;
         @include flex-center();
+        margin-top: 50px;
 
         .surroundingDiv{
                 width: 100%;
@@ -156,8 +155,9 @@ html, body{
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        width: 40%;
+                        width: 43%;
                         height: 100%;
+                        
 
 
                         .toolhead{
@@ -168,7 +168,7 @@ html, body{
                             color: #333;
                             width: 100%;
                             height: 50%;
-
+                            border-left: #00bcc5 solid 5px;
                             .toolh3{
                                 font-size: 1.8rem;
                             }
@@ -253,23 +253,15 @@ html, body{
                             padding: 10px 8px;
                             @include flex-center();
 
-                            .linkedinSVG{ 
-                                @include social-icons();
-                            }  
-
-                            .githubSVG{
-                                @include social-icons();
-                            }
-
-                            .emailSVG{
+                            .emailSVG, .githubSVG,  .linkedinSVG{
                                 @include social-icons();
                             }
 
                             &:hover{
-                                transition: all ease-in-out 0.25s;
-                                -webkit-transition: all ease-in-out 0.25s;
-                                -moz-transition: all ease-in-out 0.25s;
-                                -o-transition: all ease-in-out 0.25s;
+                                // transition: all ease-in-out 0.25s;
+                                // -webkit-transition: all ease-in-out 0.25s;
+                                // -moz-transition: all ease-in-out 0.25s;
+                                // -o-transition: all ease-in-out 0.25s;
                                 cursor: pointer;
                                 transform: translate(0px, -6px);
                                 
