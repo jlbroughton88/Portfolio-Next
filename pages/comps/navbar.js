@@ -3,7 +3,6 @@ import ListIcon from "./icons/listIcon"
 import "../../public/css/navbar.scss"
 
 const navbar = () => (
-    <div className="motherDiv">
         <nav className="nav">
             <div className="leftSide">
                 <Link href="/">
@@ -20,7 +19,6 @@ const navbar = () => (
             </div>
 
         </nav>
-    </div>
 )
 
 export default navbar;

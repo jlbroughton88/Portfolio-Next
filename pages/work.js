@@ -4,18 +4,20 @@ import Footer from "./comps/footer";
 import "../public/css/work.scss";
 
 const Work = () => (
-    <div className="motherDiv">
+    <div className="motherDivWork">
         <Navbar />
         <div className="mainDivWork">
-            <div className="surroundingDivWork">
-                <div className="headerDivWork">
-                    <div className="insideHeaderDivWork">
-                        <h2 className="headWork">
-                            My Work
+            <div className="headContainer">
+            <div className="headerDivWork">
+                <div className="insideHeaderDivWork">
+                    <h2 className="headWork">
+                        My Work
                         </h2>
-                    </div>
                 </div>
+            </div>
+            </div>
 
+            <div className="surroundingDivWork">
                 <div className="workExampleWindow">
                     <div className="nameDivSec">
                         <div className="nameDiv">

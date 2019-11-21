@@ -35,7 +35,10 @@ html, body{
     cursor: default;
 }
 
-.motherDiv{
+.motherDivStory{
+    display: flex;
+    flex-direction: column;
+
     .mainStoryDiv{
         @include flex-center();
         margin-top: 110px;
@@ -203,7 +206,7 @@ html, body{
             
         @media(max-width: 450px) {
             grid-gap: 2%;
-            margin-bottom: 130px;
+            // margin-bottom: 130px;
         }
 
     }  
