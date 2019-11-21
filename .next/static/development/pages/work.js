@@ -11307,70 +11307,98 @@ var Footer = function Footer() {
       lineNumber: 9
     },
     __self: this
-  }, "Jacob Broughton"))), __jsx("div", {
+  }, __jsx("p", {
+    className: "nameP",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "Jacob Broughton")))), __jsx("div", {
     className: "storyDiv",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 15
     },
     __self: this
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/story",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 16
     },
     __self: this
   }, __jsx("a", {
     className: "story",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 17
     },
     __self: this
-  }, "My Story"))), __jsx("div", {
+  }, __jsx("p", {
+    className: "storyP",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, "My Story")))), __jsx("div", {
     className: "contactDiv",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 23
     },
     __self: this
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 24
     },
     __self: this
   }, __jsx("a", {
     className: "contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 25
     },
     __self: this
-  }, "Contact"))), __jsx("div", {
+  }, __jsx("p", {
+    className: "contactP",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, "Contact")))), __jsx("div", {
     className: "workDiv",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 30
     },
     __self: this
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/work",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 32
     },
     __self: this
   }, __jsx("a", {
     className: "work",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 33
     },
     __self: this
-  }, "Work"))));
+  }, __jsx("p", {
+    className: "workP",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, "Work")))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
@@ -11626,7 +11654,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 var Work = function Work() {
   return __jsx("div", {
-    className: "jsx-266929325" + " " + "motherDiv",
+    className: "jsx-266929325" + " " + "motherDivWork",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
@@ -11639,22 +11667,50 @@ var Work = function Work() {
     },
     __self: this
   }), __jsx("div", {
-    className: "jsx-266929325" + " " + "mainDiv",
+    className: "jsx-266929325" + " " + "mainDivWork",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  }, "Work"), __jsx(_comps_footer__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, __jsx("div", {
+    className: "jsx-266929325" + " " + "surroundingDivWork",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "jsx-266929325" + " " + "headerDivWork",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "jsx-266929325" + " " + "insideHeaderDivWork",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
+  }, __jsx("div", {
+    className: "jsx-266929325" + " " + "headWork",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, "My Work"))))), __jsx(_comps_footer__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
   }), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "266929325",
     __self: this
-  }, "body{margin:0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9KYWNvYkJyb3VnaHRvbi9jb2RpbmcvcGVyc29uYWwvUG9ydGZvbGlvLU5leHQvcGFnZXMvd29yay5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFhMkIsQUFHMEIsU0FDYiIsImZpbGUiOiIvVXNlcnMvSmFjb2JCcm91Z2h0b24vY29kaW5nL3BlcnNvbmFsL1BvcnRmb2xpby1OZXh0L3BhZ2VzL3dvcmsuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGluayBmcm9tIFwibmV4dC9saW5rXCI7XG5pbXBvcnQgTmF2YmFyIGZyb20gXCIuL2NvbXBzL25hdmJhclwiO1xuaW1wb3J0IEZvb3RlciBmcm9tIFwiLi9jb21wcy9mb290ZXJcIjtcbmltcG9ydCBcIi4uL3B1YmxpYy9jc3Mvd29yay5zY3NzXCI7XG5cbmNvbnN0IFdvcmsgPSAoKSA9PiAoXG4gICAgPGRpdiBjbGFzc05hbWU9XCJtb3RoZXJEaXZcIj5cbiAgICAgICAgPE5hdmJhci8+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWFpbkRpdlwiPlxuICAgICAgICAgICAgV29ya1xuICAgICAgICA8L2Rpdj5cbiAgICAgICAgPEZvb3Rlci8+XG5cbiAgICAgICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcbiAgICAgICAgICAgIGJvZHl7XG4gICAgICAgICAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICAgICAgfSBcbiAgICAgICAgYH1cbiAgICAgICAgPC9zdHlsZT5cbiAgICA8L2Rpdj5cbilcblxuZXhwb3J0IGRlZmF1bHQgV29yazsiXX0= */\n/*@ sourceURL=/Users/JacobBroughton/coding/personal/Portfolio-Next/pages/work.js */"));
+  }, "body{margin:0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9KYWNvYkJyb3VnaHRvbi9jb2RpbmcvcGVyc29uYWwvUG9ydGZvbGlvLU5leHQvcGFnZXMvd29yay5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFxQjJCLEFBRzBCLFNBQ2IiLCJmaWxlIjoiL1VzZXJzL0phY29iQnJvdWdodG9uL2NvZGluZy9wZXJzb25hbC9Qb3J0Zm9saW8tTmV4dC9wYWdlcy93b3JrLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExpbmsgZnJvbSBcIm5leHQvbGlua1wiO1xuaW1wb3J0IE5hdmJhciBmcm9tIFwiLi9jb21wcy9uYXZiYXJcIjtcbmltcG9ydCBGb290ZXIgZnJvbSBcIi4vY29tcHMvZm9vdGVyXCI7XG5pbXBvcnQgXCIuLi9wdWJsaWMvY3NzL3dvcmsuc2Nzc1wiO1xuXG5jb25zdCBXb3JrID0gKCkgPT4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPVwibW90aGVyRGl2V29ya1wiPlxuICAgICAgICA8TmF2YmFyLz5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtYWluRGl2V29ya1wiPlxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJzdXJyb3VuZGluZ0RpdldvcmtcIj5cbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImhlYWRlckRpdldvcmtcIj5cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJpbnNpZGVIZWFkZXJEaXZXb3JrXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImhlYWRXb3JrXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgTXkgV29ya1xuICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8Rm9vdGVyLz5cblxuICAgICAgICA8c3R5bGUganN4IGdsb2JhbD57YFxuICAgICAgICAgICAgYm9keXtcbiAgICAgICAgICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgICAgICB9IFxuICAgICAgICBgfVxuICAgICAgICA8L3N0eWxlPlxuICAgIDwvZGl2PlxuKVxuXG5leHBvcnQgZGVmYXVsdCBXb3JrOyJdfQ== */\n/*@ sourceURL=/Users/JacobBroughton/coding/personal/Portfolio-Next/pages/work.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Work);

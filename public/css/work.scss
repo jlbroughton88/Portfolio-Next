@@ -1,5 +1,114 @@
-.motherDiv{
-   .mainDiv{
-    margin-top: 50px;
-} 
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+@mixin flex-start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@mixin the-color{
+    background: #EBEBEB;
+    color: #333;
+}
+
+.motherDivWork{
+   .mainDivWork{
+    @include flex-center();
+    margin-top: 110px;
+    margin-bottom: 190px;
+
+    .surroundingDivWork{
+        width: 90%;
+        max-width: 790px;
+        display: grid;
+        grid-template-rows: 110px auto auto auto;
+        grid-template-columns: repeat(6, 1fr);
+        justify-items: center;
+        grid-gap: 3.5%;
+
+        .headerDivWork{                     
+            @include flex-start();
+            @include the-color();
+            height: 100%;
+            width: 100%;
+            
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+            max-width: 790px;
+            font-size: 1.8rem;
+            grid-column: 1/7;
+
+            .insideHeaderDivWork{
+                @include flex-center();
+                width: 30%;
+                height: 50px;
+                background: #fee002;
+                border-right: #00bcc5 solid 5px;
+
+                .name{ 
+                    font-size: 1.8rem;
+                    margin: 0;
+                }
+            }
+        }
+
+            @media(max-width: 750px) {
+                .headerDiv{
+                    .insideHeaderDiv{
+                        width: 50%;
+                    }
+                }
+                .storyDiv{  grid-column: 1/4;  }
+                .imageDiv{  grid-column: 4/7;  }
+                .storyDiv2{  grid-column: 4/7;  }
+                .imageDiv2{  grid-column: 1/4;  }
+                .storyDiv3{  grid-column: 1/4;  }
+                .imageDiv3{  grid-column: 4/7;  }
+            }
+
+            @media(min-width: 651px) {
+                .imageDiv4{  display: none;
+                    .imageInside4{  }
+                }
+            }
+
+            @media(max-width: 650px) {
+                        grid-template-rows: 110px auto 200px auto 200px auto ;
+                        grid-gap: 2%;
+                        margin-bottom: 80px;
+
+                        .headerDiv{  grid-row: 1; }
+
+                    }
+
+                @media(max-width: 450px) {
+                    .headerDiv{
+                        .insideHeaderDiv{
+                            width: 60%;
+                            .name{
+                                font-size: 2.5rem;
+                            }
+                        }
+                    }
+                    grid-gap: 2%;
+                }
+
+                @media(max-width: 370px) {
+                    .headerDiv{
+                        .insideHeaderDiv{
+                            width: 70%;
+                        }
+                    }
+                    grid-gap: 2%;
+                }
+            }
+            
+        @media(max-width: 450px) {
+            grid-gap: 2%;
+            margin-bottom: 130px;
+        }
+    }
+} 
