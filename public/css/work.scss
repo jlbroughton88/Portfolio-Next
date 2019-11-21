@@ -28,6 +28,7 @@
 .motherDivWork{
     display: flex;
     flex-direction: column;
+    background: #FFFFFF;
     
    .mainDivWork{
     @include flex-center();

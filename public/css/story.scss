@@ -38,6 +38,7 @@ html, body{
 .motherDivStory{
     display: flex;
     flex-direction: column;
+    background: #FFFFFF;
 
     .mainStoryDiv{
         @include flex-center();
