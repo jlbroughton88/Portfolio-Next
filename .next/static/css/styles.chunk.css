@@ -551,5 +551,8 @@ html, body {
       grid-gap: 2%;
       margin-bottom: 130px; } }
 
+.motherDiv .mainDiv {
+  margin-top: 50px; }
+
 
 /*# sourceMappingURL=styles.chunk.css.map*/

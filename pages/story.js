@@ -3,7 +3,7 @@ import Footer from "./comps/footer";
 import "../public/css/story.scss"
 
 const Story = () => (
-    <div>
+    <div className="motherDiv">
         <Navbar />
         <div className="mainStoryDiv">
             <div className="surroundingStoryDiv">
