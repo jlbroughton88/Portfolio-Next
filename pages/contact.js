@@ -54,7 +54,16 @@ const Contact = () => (
                         </div>
                     </div>
                 </div>
-                <div className="formContainer">Form</div>
+                <div className="formContainer">
+                    <form className="contactForm">
+                        <input placeholder="Name" id="name"></input>
+                        <input placeholder="Company" id="company"></input>
+                        <input placeholder="Email" id="email"></input>
+                        <input placeholder="Phone Number" id="phoneNum"></input>
+                        <textarea placeholder="Message" id="message"></textarea>
+                        <button id="sendBtn" type="submit">Send</button>
+                    </form>
+                </div>
             </div>
 
         </div>
