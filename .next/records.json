@@ -57,7 +57,8 @@
       "css node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/index.scss 0": 2,
       "css node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/story.scss 0": 3,
       "css node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/csstrial.scss 0": 4,
-      "css node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/work.scss 0": 5
+      "css node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/work.scss 0": 5,
+      "css node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/contact.scss 0": 6
     },
     "usedIds": {
       "0": 0,
@@ -65,7 +66,8 @@
       "2": 2,
       "3": 3,
       "4": 4,
-      "5": 5
+      "5": 5,
+      "6": 6
     }
   },
   "chunks": {
@@ -852,7 +854,35 @@
       "static/zJGdS8KpJF57SYj6Fkq1X/pages/csstrial.js": 13,
       "static/zJGdS8KpJF57SYj6Fkq1X/pages/index.js": 14,
       "static/zJGdS8KpJF57SYj6Fkq1X/pages/story.js": 15,
-      "static/zJGdS8KpJF57SYj6Fkq1X/pages/work.js": 31
+      "static/zJGdS8KpJF57SYj6Fkq1X/pages/work.js": 31,
+      "static/IOyQQdots3fU-a9b0MY7Y/pages/_app.js": 18,
+      "static/IOyQQdots3fU-a9b0MY7Y/pages/_error.js": 19,
+      "static/IOyQQdots3fU-a9b0MY7Y/pages/comps/footer.js": 20,
+      "static/IOyQQdots3fU-a9b0MY7Y/pages/comps/icons/email.js": 21,
+      "static/IOyQQdots3fU-a9b0MY7Y/pages/comps/icons/github.js": 22,
+      "static/IOyQQdots3fU-a9b0MY7Y/pages/comps/icons/linkedIn.js": 23,
+      "static/IOyQQdots3fU-a9b0MY7Y/pages/comps/icons/listIcon.js": 24,
+      "static/IOyQQdots3fU-a9b0MY7Y/pages/comps/icons/logo.js": 25,
+      "static/IOyQQdots3fU-a9b0MY7Y/pages/comps/navbar.js": 26,
+      "static/IOyQQdots3fU-a9b0MY7Y/pages/contact.js": 27,
+      "static/IOyQQdots3fU-a9b0MY7Y/pages/csstrial.js": 28,
+      "static/IOyQQdots3fU-a9b0MY7Y/pages/index.js": 29,
+      "static/IOyQQdots3fU-a9b0MY7Y/pages/story.js": 30,
+      "static/IOyQQdots3fU-a9b0MY7Y/pages/work.js": 32,
+      "static/Kd92WR9uZhC53YAAaE4Ya/pages/_app.js": 3,
+      "static/Kd92WR9uZhC53YAAaE4Ya/pages/_error.js": 4,
+      "static/Kd92WR9uZhC53YAAaE4Ya/pages/comps/footer.js": 5,
+      "static/Kd92WR9uZhC53YAAaE4Ya/pages/comps/icons/email.js": 6,
+      "static/Kd92WR9uZhC53YAAaE4Ya/pages/comps/icons/github.js": 7,
+      "static/Kd92WR9uZhC53YAAaE4Ya/pages/comps/icons/linkedIn.js": 8,
+      "static/Kd92WR9uZhC53YAAaE4Ya/pages/comps/icons/listIcon.js": 9,
+      "static/Kd92WR9uZhC53YAAaE4Ya/pages/comps/icons/logo.js": 10,
+      "static/Kd92WR9uZhC53YAAaE4Ya/pages/comps/navbar.js": 11,
+      "static/Kd92WR9uZhC53YAAaE4Ya/pages/contact.js": 12,
+      "static/Kd92WR9uZhC53YAAaE4Ya/pages/csstrial.js": 13,
+      "static/Kd92WR9uZhC53YAAaE4Ya/pages/index.js": 14,
+      "static/Kd92WR9uZhC53YAAaE4Ya/pages/story.js": 15,
+      "static/Kd92WR9uZhC53YAAaE4Ya/pages/work.js": 31
     },
     "bySource": {},
     "usedIds": [
@@ -912,6 +942,23 @@
     }
   ],
   "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/work.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/contact.scss": [
     {
       "modules": {
         "byIdentifier": {},
