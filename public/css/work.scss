@@ -40,7 +40,7 @@
             @include flex-center();
             width: 90%;
             height: 110px; 
-            margin-bottom: 2.9%;
+            margin-bottom: 52px;
             
             .headerDivWork{                     
                     @include flex-start();
@@ -70,9 +70,13 @@
                     }
                 }
 
-            @media(max-width: 700px) {
-                margin-bottom: 5.55%;
-            }
+            // @media(max-width: 700px) {
+            //     margin-bottom: 5.55%;
+            // }
+
+            // @media(max-width: 550px) {
+            //     margin-bottom: 10%;
+            // }
         }
 
         .surroundingDivWork{
@@ -219,7 +223,7 @@
             
                     
                 @media(max-width: 700px) {
-                    grid-gap: 6.5%;
+                    grid-gap:5.5%;
                         .headerDivWork{  grid-row: 1; }
                 }
 

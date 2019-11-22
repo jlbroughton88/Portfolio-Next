@@ -160,177 +160,6 @@ p {
         .motherDivFooter .workDiv .work .workP:hover {
           color: #fee100; }
 
-@font-face {
-  font-family: "Museo Sans";
-  src: url(/_next/static/chunks/fonts/museoSans-5b9453f7c8741b9337d517cdbdc2397d.ttf) format("TrueType"); }
-
-html, body {
-  height: 100%;
-  font-family: "Museo Sans";
-  cursor: default; }
-
-.motherDivStory {
-  display: flex;
-  flex-direction: column;
-  background: #FFFFFF; }
-  .motherDivStory .mainStoryDiv {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 110px;
-    margin-bottom: 190px; }
-    .motherDivStory .mainStoryDiv .surroundingStoryDiv {
-      width: 90%;
-      max-width: 790px;
-      display: grid;
-      grid-template-columns: repeat(6, 1fr);
-      grid-template-rows: 110px auto auto auto;
-      grid-gap: 3.5%;
-      justify-items: center; }
-      .motherDivStory .mainStoryDiv .surroundingStoryDiv .headerDiv {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        background: #EBEBEB;
-        color: #333;
-        height: 100%;
-        width: 100%;
-        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
-        max-width: 790px;
-        font-size: 1.8rem;
-        grid-column: 1/7; }
-        .motherDivStory .mainStoryDiv .surroundingStoryDiv .headerDiv .insideHeaderDiv {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          width: 30%;
-          height: 50px;
-          background: #fee002;
-          border-right: #00bcc5 solid 5px; }
-          .motherDivStory .mainStoryDiv .surroundingStoryDiv .headerDiv .insideHeaderDiv .name {
-            font-size: 1.8rem;
-            margin: 0; }
-      .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv, .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv2, .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv3 {
-        width: 100%;
-        max-width: 790px; }
-        .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv .insideStoryDiv, .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv .insideStoryDiv2, .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv .insideStoryDiv3, .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv2 .insideStoryDiv, .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv2 .insideStoryDiv2, .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv2 .insideStoryDiv3, .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv3 .insideStoryDiv, .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv3 .insideStoryDiv2, .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv3 .insideStoryDiv3 {
-          background: #EBEBEB;
-          color: #333;
-          display: flex;
-          justify-content: flex-start;
-          align-items: center;
-          width: 87.5%;
-          padding: 5% 6.33%; }
-      .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv {
-        grid-column: 1/5; }
-      .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv2 {
-        grid-column: 3/7;
-        grid-row: 3; }
-      .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv3 {
-        grid-column: 1/5;
-        grid-row: 4; }
-      .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv2, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv3, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv4 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: #EBEBEB;
-        color: #333;
-        width: 100%; }
-        .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv .imageInside, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv .imageInside2, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv .imageInside3, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv .imageInside4, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv2 .imageInside, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv2 .imageInside2, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv2 .imageInside3, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv2 .imageInside4, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv3 .imageInside, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv3 .imageInside2, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv3 .imageInside3, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv3 .imageInside4, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv4 .imageInside, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv4 .imageInside2, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv4 .imageInside3, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv4 .imageInside4 {
-          width: 80%;
-          height: 80%;
-          background: grey;
-          color: white;
-          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); }
-      .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv {
-        grid-column: 5/7; }
-        .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv .imageInside {
-          display: flex;
-          justify-content: center;
-          align-items: center; }
-      .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv2 {
-        grid-column: 1/3;
-        grid-row: 3; }
-        .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv2 .imageInside2 {
-          display: flex;
-          justify-content: center;
-          align-items: center; }
-      .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv3 {
-        grid-column: 5/7;
-        grid-row: 4; }
-        .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv3 .imageInside3 {
-          display: flex;
-          justify-content: center;
-          align-items: center; }
-      .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv4 {
-        grid-column: 5/7;
-        grid-row: 4; }
-        .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv4 .imageInside4 {
-          display: flex;
-          justify-content: center;
-          align-items: center; }
-      @media (max-width: 750px) {
-        .motherDivStory .mainStoryDiv .surroundingStoryDiv .headerDiv .insideHeaderDiv {
-          width: 50%; }
-        .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv {
-          grid-column: 1/4; }
-        .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv {
-          grid-column: 4/7; }
-        .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv2 {
-          grid-column: 4/7; }
-        .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv2 {
-          grid-column: 1/4; }
-        .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv3 {
-          grid-column: 1/4; }
-        .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv3 {
-          grid-column: 4/7; } }
-      @media (min-width: 651px) {
-        .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv4 {
-          display: none; } }
-      @media (max-width: 650px) {
-        .motherDivStory .mainStoryDiv .surroundingStoryDiv {
-          grid-template-rows: 110px auto 200px auto 200px auto;
-          grid-gap: 2%;
-          margin-bottom: 80px; }
-          .motherDivStory .mainStoryDiv .surroundingStoryDiv .headerDiv {
-            grid-row: 1; }
-          .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv {
-            grid-column: 1/7;
-            grid-row: 2; }
-          .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv {
-            grid-column: 1/4;
-            grid-row: 3; }
-          .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv2 {
-            grid-column: 1/7;
-            grid-row: 4; }
-          .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv2 {
-            grid-column: 4/7;
-            grid-row: 3; }
-          .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv3 {
-            grid-column: 1/4;
-            grid-row: 5; }
-          .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv3 {
-            grid-column: 1/7;
-            grid-row: 6; }
-          .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv4 {
-            grid-column: 4/7;
-            grid-row: 5; } }
-      @media (max-width: 450px) {
-        .motherDivStory .mainStoryDiv .surroundingStoryDiv {
-          grid-gap: 2%; }
-          .motherDivStory .mainStoryDiv .surroundingStoryDiv .headerDiv .insideHeaderDiv {
-            width: 60%; }
-            .motherDivStory .mainStoryDiv .surroundingStoryDiv .headerDiv .insideHeaderDiv .name {
-              font-size: 2.5rem; } }
-      @media (max-width: 370px) {
-        .motherDivStory .mainStoryDiv .surroundingStoryDiv {
-          grid-gap: 2%; }
-          .motherDivStory .mainStoryDiv .surroundingStoryDiv .headerDiv .insideHeaderDiv {
-            width: 70%; } }
-    @media (max-width: 450px) {
-      .motherDivStory .mainStoryDiv {
-        grid-gap: 2%; } }
-
 .motherDivWork {
   display: flex;
   flex-direction: column;
@@ -348,7 +177,7 @@ html, body {
       align-items: center;
       width: 90%;
       height: 110px;
-      margin-bottom: 2.9%; }
+      margin-bottom: 52px; }
       .motherDivWork .mainDivWork .headContainer .headerDivWork {
         display: flex;
         justify-content: flex-start;
@@ -375,9 +204,6 @@ html, body {
           @media (max-width: 750px) {
             .motherDivWork .mainDivWork .headContainer .headerDivWork .insideHeaderDivWork {
               width: 50%; } }
-      @media (max-width: 700px) {
-        .motherDivWork .mainDivWork .headContainer {
-          margin-bottom: 5.55%; } }
     .motherDivWork .mainDivWork .surroundingDivWork {
       width: 90%;
       height: 100%;
@@ -522,7 +348,7 @@ html, body {
                 padding-bottom: 5px; } }
       @media (max-width: 700px) {
         .motherDivWork .mainDivWork .surroundingDivWork {
-          grid-gap: 6.5%; }
+          grid-gap: 5.5%; }
           .motherDivWork .mainDivWork .surroundingDivWork .headerDivWork {
             grid-row: 1; } }
       @media (max-width: 450px) {
@@ -539,6 +365,173 @@ html, body {
     @media (max-width: 450px) {
       .motherDivWork .mainDivWork {
         margin-bottom: 830px; } }
+
+@font-face {
+  font-family: "Museo Sans";
+  src: url(/_next/static/chunks/fonts/museoSans-5b9453f7c8741b9337d517cdbdc2397d.ttf) format("TrueType"); }
+
+html, body {
+  height: 100%;
+  font-family: "Museo Sans";
+  cursor: default; }
+
+.motherDivStory {
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF; }
+  .motherDivStory .mainStoryDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 110px;
+    margin-bottom: 190px; }
+    .motherDivStory .mainStoryDiv .headContainerWork {
+      width: 90%;
+      max-width: 790px;
+      height: 110px;
+      margin-bottom: 52px; }
+      .motherDivStory .mainStoryDiv .headContainerWork .headerDiv {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background: #EBEBEB;
+        color: #333;
+        height: 100%;
+        width: 100%;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+        max-width: 790px;
+        font-size: 1.8rem;
+        grid-column: 1/7; }
+        .motherDivStory .mainStoryDiv .headContainerWork .headerDiv .insideHeaderDiv {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 30%;
+          height: 50px;
+          background: #fee002;
+          border-right: #00bcc5 solid 5px; }
+          .motherDivStory .mainStoryDiv .headContainerWork .headerDiv .insideHeaderDiv .name {
+            font-size: 1.8rem;
+            margin: 0; }
+          @media (max-width: 750px) {
+            .motherDivStory .mainStoryDiv .headContainerWork .headerDiv .insideHeaderDiv {
+              width: 50%; } }
+    .motherDivStory .mainStoryDiv .surroundingStoryDiv {
+      width: 90%;
+      max-width: 790px;
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: auto auto auto;
+      grid-gap: 3.5%;
+      justify-items: center; }
+      .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv, .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv2, .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv3 {
+        width: 100%;
+        max-width: 790px; }
+        .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv .insideStoryDiv, .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv .insideStoryDiv2, .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv .insideStoryDiv3, .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv2 .insideStoryDiv, .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv2 .insideStoryDiv2, .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv2 .insideStoryDiv3, .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv3 .insideStoryDiv, .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv3 .insideStoryDiv2, .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv3 .insideStoryDiv3 {
+          background: #EBEBEB;
+          color: #333;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          width: 87.5%;
+          padding: 5% 6.33%; }
+      .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv {
+        grid-column: 1/5; }
+      .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv2 {
+        grid-column: 3/7;
+        grid-row: 3; }
+      .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv3 {
+        grid-column: 1/5;
+        grid-row: 4; }
+      .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv2, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv3, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #EBEBEB;
+        color: #333;
+        width: 100%; }
+        .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv .imageInside, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv .imageInside2, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv .imageInside3, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv .imageInside4, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv2 .imageInside, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv2 .imageInside2, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv2 .imageInside3, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv2 .imageInside4, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv3 .imageInside, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv3 .imageInside2, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv3 .imageInside3, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv3 .imageInside4, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv4 .imageInside, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv4 .imageInside2, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv4 .imageInside3, .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv4 .imageInside4 {
+          width: 80%;
+          height: 80%;
+          background: grey;
+          color: white;
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+      .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv {
+        grid-column: 5/7; }
+      .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv2 {
+        grid-column: 1/3;
+        grid-row: 3; }
+      .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv3 {
+        grid-column: 5/7;
+        grid-row: 4; }
+      .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv4 {
+        grid-column: 5/7;
+        grid-row: 4; }
+      @media (max-width: 750px) {
+        .motherDivStory .mainStoryDiv .surroundingStoryDiv .headerDiv .insideHeaderDiv {
+          width: 50%; }
+        .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv {
+          grid-column: 1/4; }
+        .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv {
+          grid-column: 4/7; }
+        .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv2 {
+          grid-column: 4/7; }
+        .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv2 {
+          grid-column: 1/4; }
+        .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv3 {
+          grid-column: 1/4; }
+        .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv3 {
+          grid-column: 4/7; } }
+      @media (min-width: 651px) {
+        .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv4 {
+          display: none; } }
+      @media (max-width: 650px) {
+        .motherDivStory .mainStoryDiv .surroundingStoryDiv {
+          grid-template-rows: auto 200px auto 200px auto;
+          grid-gap: 2%;
+          margin-bottom: 80px; }
+          .motherDivStory .mainStoryDiv .surroundingStoryDiv .headerDiv {
+            grid-row: 1; }
+          .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv {
+            grid-column: 1/7;
+            grid-row: 1; }
+          .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv {
+            grid-column: 1/4;
+            grid-row: 2; }
+          .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv2 {
+            grid-column: 1/7;
+            grid-row: 3; }
+          .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv2 {
+            grid-column: 4/7;
+            grid-row: 2; }
+          .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv3 {
+            grid-column: 1/4;
+            grid-row: 4; }
+          .motherDivStory .mainStoryDiv .surroundingStoryDiv .storyDiv3 {
+            grid-column: 1/7;
+            grid-row: 5; }
+          .motherDivStory .mainStoryDiv .surroundingStoryDiv .imageDiv4 {
+            grid-column: 4/7;
+            grid-row: 4; } }
+      @media (max-width: 450px) {
+        .motherDivStory .mainStoryDiv .surroundingStoryDiv {
+          grid-gap: 2%; }
+          .motherDivStory .mainStoryDiv .surroundingStoryDiv .headerDiv .insideHeaderDiv {
+            width: 60%; }
+            .motherDivStory .mainStoryDiv .surroundingStoryDiv .headerDiv .insideHeaderDiv .name {
+              font-size: 2.5rem; } }
+      @media (max-width: 370px) {
+        .motherDivStory .mainStoryDiv .surroundingStoryDiv {
+          grid-gap: 2%; }
+          .motherDivStory .mainStoryDiv .surroundingStoryDiv .headerDiv .insideHeaderDiv {
+            width: 70%; } }
+    @media (max-width: 450px) {
+      .motherDivStory .mainStoryDiv {
+        grid-gap: 2%; } }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

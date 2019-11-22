@@ -6,13 +6,16 @@ const Story = () => (
     <div className="motherDivStory">
         <Navbar />
         <div className="mainStoryDiv">
-            <div className="surroundingStoryDiv">
+
+            <div className="headContainerWork">
                 <div className="headerDiv">
                     <div className="insideHeaderDiv">
                         <h2 className="name">My Story</h2>
                     </div>
                 </div>
+            </div>
 
+            <div className="surroundingStoryDiv">
                 {/* 1 */}
                 <div className="storyDiv">
                     <div className="insideStoryDiv">
@@ -38,8 +41,8 @@ const Story = () => (
                 </div>
                 <div className="imageDiv2">
                     <div className="imageInside2">Image 2</div>
-                </div> 
-                
+                </div>
+
                 {/* 3 */}
                 <div className="storyDiv3">
                     <div className="insideStoryDiv3">
