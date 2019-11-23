@@ -61,9 +61,11 @@ p{ margin: 0; }
 
             .nameP{
                 transition: all 0.4s ease-in-out;
-                padding: 3px;
+                padding: 5px 10px;
+                color: #d5f2f8;
                 &:hover{
-                    color: #fee100;
+                    transition: ease-out all 0.2s;
+                    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 1);
                 }
             }
 
@@ -88,9 +90,11 @@ p{ margin: 0; }
 
             .storyP{
                 transition: all 0.4s ease-in-out;
-                padding: 3px;
+                padding: 5px 10px;
+                color: #d5f2f8;
                 &:hover{
-                    color: #fee100;
+                    transition: ease-out all 0.2s;
+                    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 1);
                 }
             }
          }
@@ -104,7 +108,7 @@ p{ margin: 0; }
         
         .contact{ 
             width: 40%;
-            background: #FFE100;
+            background: #fbb635;
             color: black;
             height: 70%;
             @include flex-center();
@@ -113,7 +117,7 @@ p{ margin: 0; }
 
             &:hover{
                 width: 65%;
-                border-left: #00bcc5 10px solid;
+                border-left: #d5f2f8 10px solid;
                 border-right: none;
                 box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
                 cursor: pointer;
@@ -149,9 +153,11 @@ p{ margin: 0; }
 
             .workP{
                 transition: all 0.4s ease-in-out;
-                padding: 3px;
+                padding: 5px 10px;
+                color: #d5f2f8;
                 &:hover{
-                    color: #fee100;
+                    transition: ease-out all 0.2s;
+                    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 1);
                 }
             }
         }

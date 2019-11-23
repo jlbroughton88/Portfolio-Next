@@ -1,9 +1,8 @@
-$lightgrey: #EBEBEB;
 
 @mixin hover{
         &:hover{
             transition: ease-out all 0.2s;
-            box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.2)
+            box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 1)
         }
 }
 
@@ -18,15 +17,16 @@ nav{
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color: $lightgrey;
+    background-color: #333333;
+    color: #d5f2f8;
     position: fixed;
     margin-bottom: 100px;
-    border-bottom: #00bcc5 solid 1px;
+    border-bottom: #fbb635 solid 1px;
 
     a{
         text-decoration: none;
         padding: 5px 8px;
-        color: #333;
+        color: #d5f2f8;
     } 
     
     .leftSide {

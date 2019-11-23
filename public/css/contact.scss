@@ -210,6 +210,9 @@ html, body{
                                     width: 75px;
                                     transition: all ease-in-out 0.25s;
                                     padding: 10px 8px;
+                                    margin: 5%;
+                                    margin-top: 0;
+                                    margin-bottom: 0;
                                     @include flex-center();
         
                                     .emailSVG, .githubSVG,  .linkedinSVG{
@@ -225,8 +228,8 @@ html, body{
                                         transform: translate(0px, -6px);
                                     }
 
-                                    @media(max-width: 500px) {
-                                        height: 60%;
+                                    @media(max-width: 700px) {
+                                        margin: 5%;
                                     }
                                 }  
                             }
