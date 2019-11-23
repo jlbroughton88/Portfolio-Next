@@ -1,0 +1,41 @@
+{
+  "modules": {
+    "byIdentifier": {},
+    "usedIds": {}
+  },
+  "chunks": {
+    "byName": {
+      "init-server.js": 0,
+      "on-error-server.js": 1,
+      "pages/_error.js": 2,
+      "pages/comps/footer.js": 3,
+      "pages/comps/icons/email.js": 4,
+      "pages/comps/icons/github.js": 5,
+      "pages/comps/icons/linkedIn.js": 6,
+      "pages/comps/icons/listIcon.js": 7,
+      "pages/comps/icons/logo.js": 8,
+      "pages/comps/navbar.js": 9,
+      "pages/contact.js": 10,
+      "pages/index.js": 11,
+      "pages/story.js": 12,
+      "pages/work.js": 13
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      10,
+      11,
+      12,
+      13,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}

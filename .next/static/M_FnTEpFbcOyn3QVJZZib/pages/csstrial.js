@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[28],{"5ccq":function(n,c,t){"use strict";t.r(c);var w=t("q1tI"),e=t.n(w),i=(t("vm3t"),e.a.createElement);c.default=function(){return i("div",{className:"bb"})}},KHwd:function(n,c,t){(window.__NEXT_P=window.__NEXT_P||[]).push(["/csstrial",function(){return t("5ccq")}])}},[["KHwd",0,1,2]]]);
