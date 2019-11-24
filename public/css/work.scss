@@ -312,12 +312,13 @@ html, body{
                 }
 
 
+
                 @media(max-width: 700px) {
                     grid-template-rows: repeat(8, auto);
                     height: 100%;
                     grid-gap: 4%;
                     column-gap: 0;
-                    padding-bottom: 5%;
+                    padding-bottom: 7%;
                     .nameDivSec {
                         grid-column: 1/4; grid-row: 1/2;
                             .nameDiv{
@@ -328,6 +329,7 @@ html, body{
                         grid-column: 1/7; grid-row: 6/9;
 
                         .descHead{
+                            margin-bottom: 10px;
                             .desc{
                                 border-right: 3px solid #fbb634;
                             }

@@ -11,8 +11,8 @@
 }
 
 @mixin the-color{
-    background: #EBEBEB;
-    color: #333;
+    background: #02536D;
+    color: #D6F2F9;
 }
 
 @mixin image-inside{
@@ -38,47 +38,59 @@ html, body{
 .motherDivStory{
     display: flex;
     flex-direction: column;
-    background: #FFFFFF;
+    background: #02536D;
 
     .mainStoryDiv{
         @include flex-center();
+        align-self: center;
         flex-direction: column;
         margin-top: 110px;
         margin-bottom: 190px;
+        width: 90%;
 
         .headContainerWork{
-            width: 90%;
-            max-width: 790px;
+            @include flex-start();
+            @include the-color();
+            width: 100%;
             height: 110px;
+            background: #02536D;
+            border: 5px solid #D6F2F9;
+            box-shadow: 0 5px 25px #04A8BC, inset 0 2px 25px #04A8BC;
+            max-width: 790px;
             margin-bottom: 52px;
-
-            .headerDiv{                     
-                @include flex-start();
-                @include the-color();
-                height: 100%;
-                width: 100%;
-                
-                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
-                max-width: 790px;
-                font-size: 1.8rem;
-                grid-column: 1/7;
 
                 .insideHeaderDiv{
                     @include flex-center();
-                    width: 30%;
-                    height: 50px;
-                    background: #fee002;
-                    border-right: #00bcc5 solid 5px;
+                    color: #D6F2F9;
+                    font-size: 2rem;
+                    height: 40px;
+                    width: 45%;
 
-                    .name{ 
-                        font-size: 1.8rem;
+                    .storyHead{ 
+                        font-size: 2.3rem;
                         margin: 0;
                     }
 
-                    @media(max-width: 750px) {
-                        width: 50%;
+                    @media(max-width: 700px) {
+                        width: 60%;
                     }
-                }
+                
+                    @media(max-width: 500px) {
+                        width: 70%;
+                        .contactHead{
+                            font-size: 2rem;
+                        }
+                    }
+            }
+
+            @media(max-width: 700px) {
+                margin-bottom: 70px;
+            }
+
+            @media(max-width: 500px) {
+                height: 85px;
+                border: 4px solid #D6F2F9;
+                box-shadow: 0 5px 20px #04A8BC, inset 0 2px 20px #04A8BC;
             }
         }
         

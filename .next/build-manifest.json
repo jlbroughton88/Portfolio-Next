@@ -34,6 +34,12 @@
       "static/chunks/styles.js",
       "static/runtime/main.js"
     ],
+    "/story": [
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/runtime/main.js"
+    ],
     "/work": [
       "static/runtime/webpack.js",
       "static/css/styles.chunk.css",

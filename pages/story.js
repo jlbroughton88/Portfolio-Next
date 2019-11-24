@@ -8,11 +8,9 @@ const Story = () => (
         <div className="mainStoryDiv">
 
             <div className="headContainerWork">
-                <div className="headerDiv">
                     <div className="insideHeaderDiv">
-                        <h2 className="name">My Story</h2>
+                        <h2 className="storyHead">My Story</h2>
                     </div>
-                </div>
             </div>
 
             <div className="surroundingStoryDiv">
@@ -20,8 +18,7 @@ const Story = () => (
                 <div className="storyDiv">
                     <div className="insideStoryDiv">
                         <p className="storyP">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a imperdiet eros. Mauris sed tincidunt magna. Aenean commodo sem sapien. In sit amet feugiat tellus. Aenean accumsan urna justo, quis fermentum mauris sagittis et. Nullam commodo massa sed luctus ornare. Morbi lacinia efficitur mi, vel blandit turpis auctor eget. Donec eros neque, rhoncus nec ipsum
-                            id, molestie ullamcorper mauris. Etiam pulvinar elit justo, ac tempus quam tincidunt a. Suspendisse tincidunt lectus ultricies leo rhoncus mollis.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a imperdiet eros. Mauris sed tincidunt magna. Aenean commodo sem sapien. In sit amet feugiat tellus. Aenean accumsan urna justo, quis fermentum mauris sagittis et. Nullam commodo massa sed luctus ornare. Morbi lacinia efficitur mi, vel blandit turpis auctor eget. 
                         </p>
                     </div>
                 </div>
