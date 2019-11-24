@@ -1,40 +1,39 @@
 import Link from "next/link";
-import "../../public/css/footer.scss"
+import "../../public/css/footer.scss";
+import LinkedinFooter from "./icons/linkedinFooter";
+import InstagramFooter from "./icons/instagramFooter";
+import GithubFooter from "./icons/githubFooter"
 
 const Footer = () => (
     <footer className="motherDivFooter">
-
-        <div className="name">
-            <Link href="/">
-                <a className="nameDiv">
-                    <p className="nameP">Jacob Broughton</p>
-                    </a>
-            </Link>
+        <div className="topDiv">
+            <div className="subTopDiv">
+                <div className="socialsDivFooter">
+                    <div className="linkedInDivFooter">
+                        <LinkedinFooter/>
+                    </div>
+                    <div className="githubDivFooter">
+                        <GithubFooter/>
+                    </div>
+                    <div className="instagramDivFooter">
+                        <InstagramFooter/>
+                    </div>
+                    
+                </div>
+            </div>
         </div>
+        <div className="bottomDiv">
+            <div className="subBottomDiv">
+                <div className="contactDivContainer">
+                    <div className="contactDivFooter">
+                        <p id="nameFooter"><strong>Jacob Broughton</strong></p>
+                        <p id="emailFooter">Jbroughtondev@gmail.com</p>
+                        <p id="numberFooter">(704)770-8371</p>
+                        <p id="cityFooter">Matthews, NC</p>
+                    </div>
 
-        <div className="storyDiv">
-            <Link href="/story">
-                <a className="story">
-                    <p className="storyP">My Story</p>
-                    </a>
-            </Link>
-
-        </div>
-        <div className="contactDiv">
-            <Link href="/contact">
-                <a className="contact">
-                    <p className="contactP">Contact</p>
-                    </a>
-            </Link>
-        </div>
-        <div className="workDiv">
-
-            <Link href="/work">
-                <a className="work">
-                    <p className="workP">Work</p>
-                    </a>
-                </Link>
-
+                </div>
+            </div>
         </div>
     </footer>
 )

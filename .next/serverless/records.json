@@ -18,7 +18,10 @@
       "pages/contact.js": 10,
       "pages/index.js": 11,
       "pages/story.js": 12,
-      "pages/work.js": 13
+      "pages/work.js": 13,
+      "pages/comps/icons/githubFooter.js": 14,
+      "pages/comps/icons/instagramFooter.js": 15,
+      "pages/comps/icons/linkedinFooter.js": 16
     },
     "bySource": {},
     "usedIds": [
@@ -28,6 +31,9 @@
       11,
       12,
       13,
+      14,
+      15,
+      16,
       2,
       3,
       4,

@@ -23,145 +23,88 @@ p{ margin: 0; }
 
 
 .motherDivFooter{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(3, 1fr);
-    height: 150px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
     width: 100%;
     position: sticky;
-    background: #333;
+    background: #383838;
     color: #e4e4e4;
 
-
-    .name{ 
+    .topDiv{
         display: flex;
-        align-items: center;   
-        justify-content: flex-start; 
-        grid-column: 1;
-        grid-row: 1/4;
-        font-size: 1.2rem;
+        justify-content: flex-end;
+        height: 40%;
+        width: 100%;
+        padding-top: 20px;
 
-        .nameDiv{ 
-            @include flex-center();
-            width: 45%;
-            grid-row: 2;     
-            
+        .subTopDiv{
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 20px;
+            height: 100%;
+            width: 50%;
 
-            @media(max-width: 850px) {
-                width: 60%;
-            }
+            .socialsDivFooter{
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                height: 50px;
+                width: 150px;
+                background: #383838;
 
-            @media(max-width: 600px) {
-                width: 70%;
-            }
+                .linkedInDivFooter, .githubDivFooter, .instagramDivFooter{
+                    align-items: center;
+                    text-align: center;
+                    justify-content: center;
+                    height: 100%;
+                    width: 50px;
+                    transition: all ease-in-out .3s;
+                    fill: #ffffff;
 
-            @media(max-width: 450px) {
-                width: 100%;
-            }
-
-            .nameP{
-                transition: all 0.4s ease-in-out;
-                padding: 5px 10px;
-                color: #d5f2f8;
-                &:hover{
-                    transition: ease-out all 0.2s;
-                    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 1);
-                }
-            }
-
-
-        }
-
-
-    };
-
-    .storyDiv{ 
-        grid-column: 2; 
-        @include flex-end();
-
-        .story{ 
-            @include flex-center();
-            height: 70%;
-            width: 40%;    
-
-            @media(max-width: 600px) {
-                width: 60%;
-            }
-
-            .storyP{
-                transition: all 0.4s ease-in-out;
-                padding: 5px 10px;
-                color: #d5f2f8;
-                &:hover{
-                    transition: ease-out all 0.2s;
-                    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 1);
-                }
-            }
-         }
-
-
-    };
-
-    .contactDiv{ 
-        grid-column: 2; 
-        @include flex-end();
-        
-        .contact{ 
-            width: 40%;
-            background: #fbb635;
-            color: black;
-            height: 70%;
-            @include flex-center();
-            max-width: 500px;
-            transition: all ease-in-out 0.25s;
-
-            &:hover{
-                width: 65%;
-                border-left: #d5f2f8 10px solid;
-                border-right: none;
-                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-                cursor: pointer;
-            }
-
-            @media(max-width: 600px) {
-                &:hover{
-                    width: 100%;
-                }
-            }
-         }
-
-         @media(max-width: 600px) {
-            .contact{
-                width: 60%;
-            }
-        }
-    };
-
-    .workDiv{ 
-        grid-column: 2; 
-        height: 100%;
-        @include flex-end();
-
-        .work{ 
-            width: 40%;
-            height: 70%;
-            @include flex-center();  
-
-            @media(max-width: 600px) {
-                width: 60%;
-            }
-
-            .workP{
-                transition: all 0.4s ease-in-out;
-                padding: 5px 10px;
-                color: #d5f2f8;
-                &:hover{
-                    transition: ease-out all 0.2s;
-                    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 1);
+                    &:hover{
+                        fill: #f4c400;
+                    }
                 }
             }
         }
-    };
+    }
+
+
+
+
+    .bottomDiv{
+        height: 60%;
+        width: 100%;
+        .subBottomDiv{
+            display: flex;
+            justify-content: flex-start;
+            height: 100%;
+            width: 50%;
+
+            .contactDivContainer{
+                display: flex;
+                align-items: flex-end;
+                padding-left: 20px;
+                padding-bottom: 20px;
+                .contactDivFooter{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    height: 100px;
+                        #nameFooter{
+                            color: #f4c400;
+                            font-size: 1.2rem;
+                        }
+
+                        #emailFooter, #numberFooter, #cityFooter {
+                            color: #ffffff;
+                        }
+                }
+
+            }
+        }
+    }
 };
 
 
