@@ -18,15 +18,10 @@ const Contact = () => (
 
             <div className="surroundingDivContact">
                 <div className="infoContainer">
-                    {/* <div className="infoHeadDiv">
-                        <div className="infoHead">
-                            <h3>Jacob Broughton</h3>
-                        </div>
-                    </div> */}
                     <div className="infoDiv">
                         <div className="contactInfoSide">
                             <div className="contactInfoDiv">
-                                <p id="nameP">Jacob Broughton</p>
+                                <p id="nameP"><strong>Jacob Broughton</strong></p>
                                 <p id="emailP">Jlbroughtondev@gmail.com</p>
                                 <p id="numberP">(704)770-8371</p>
                                 <p id="addressP">Matthews, NC</p>
