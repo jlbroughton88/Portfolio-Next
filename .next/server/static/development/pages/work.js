@@ -2286,14 +2286,7 @@ const navbar = () => __jsx("nav", {
     lineNumber: 9
   },
   __self: undefined
-}, __jsx(_icons_listIcon__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  className: "navLogo",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 9
-  },
-  __self: undefined
-})))), __jsx("div", {
+}))), __jsx("div", {
   className: "rightSide",
   __source: {
     fileName: _jsxFileName,
@@ -2321,35 +2314,7 @@ const navbar = () => __jsx("nav", {
     lineNumber: 15
   },
   __self: undefined
-}, "My Story")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-  href: "/work",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 16
-  },
-  __self: undefined
-}, __jsx("a", {
-  className: "work",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 16
-  },
-  __self: undefined
-}, "Work")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-  href: "/contact",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 17
-  },
-  __self: undefined
-}, __jsx("a", {
-  className: "contact",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 17
-  },
-  __self: undefined
-}, "Contact")))));
+}, "My Story")))));
 
 /* harmony default export */ __webpack_exports__["default"] = (navbar);
 

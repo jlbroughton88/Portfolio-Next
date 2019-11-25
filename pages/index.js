@@ -14,10 +14,10 @@ const index = () => {
         <div className="motherDiv">
             <Navbar />
             <div className="mainDiv">
-                <div className="introSegment">
+                <header className="introSegment">
                     <p className="introP">Jacob Broughton</p>
-                </div>
-                <div className="workSegment"></div>
+                </header>
+                <div className="workSegment">Work</div>
                 <div className="skillsSegment"></div>
                 <div className="letsTalkSegment"></div>
             </div>

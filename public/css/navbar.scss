@@ -2,7 +2,7 @@
 @mixin hover{
         &:hover{
             transition: ease-out all 0.2s;
-            box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 1)
+            box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 1);
         }
 }
 
@@ -17,16 +17,16 @@ nav{
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color: #333333;
-    color: #d5f2f8;
     position: fixed;
     margin-bottom: 100px;
-    border-bottom: #fbb635 solid 1px;
+
 
     a{
         text-decoration: none;
         padding: 5px 8px;
-        color: #d5f2f8;
+        border-radius: 10px;
+        color:#ffffff;
+        font-weight: 900;
     } 
     
     .leftSide {
@@ -48,38 +48,18 @@ nav{
         align-items: center;
         justify-content: flex-end;
         
-            .navMenuDiv{
-                display: flex;
-                flex-direction: row;
-                width: 250px;
-                justify-content: space-evenly;
+        .navMenuDiv{
+            display: flex;
+            flex-direction: row;
+            width: 150px;
+            justify-content: space-evenly;
 
 
-                .myStory{                 
-                    transition: ease-out all 0.2s;
-                    @include hover();
-                 }
-
-                .work{ 
-                    transition: ease-out all 0.2s;
-                    @include hover();
-                 }
-
-                .contact{ 
-                    transition: ease-out all 0.2s;
-                    @include hover();
-                 }
-        }
+            .myStory{                 
+                transition: ease-out all 0.2s;
+                @include hover();
+             }
     }
-
-    @media(max-width: 600px) {
-        .rightSide{
-            width: 85%;
-        }
-
-        .leftSide{
-            width: 15%;
-        }
     }
 }
 

@@ -2440,14 +2440,7 @@ const navbar = () => __jsx("nav", {
     lineNumber: 9
   },
   __self: undefined
-}, __jsx(_icons_listIcon__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  className: "navLogo",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 9
-  },
-  __self: undefined
-})))), __jsx("div", {
+}))), __jsx("div", {
   className: "rightSide",
   __source: {
     fileName: _jsxFileName,
@@ -2475,35 +2468,7 @@ const navbar = () => __jsx("nav", {
     lineNumber: 15
   },
   __self: undefined
-}, "My Story")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-  href: "/work",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 16
-  },
-  __self: undefined
-}, __jsx("a", {
-  className: "work",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 16
-  },
-  __self: undefined
-}, "Work")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-  href: "/contact",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 17
-  },
-  __self: undefined
-}, __jsx("a", {
-  className: "contact",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 17
-  },
-  __self: undefined
-}, "Contact")))));
+}, "My Story")))));
 
 /* harmony default export */ __webpack_exports__["default"] = (navbar);
 
@@ -2566,7 +2531,7 @@ const index = () => {
       lineNumber: 16
     },
     __self: undefined
-  }, __jsx("div", {
+  }, __jsx("header", {
     className: "jsx-1951181445" + " " + "introSegment",
     __source: {
       fileName: _jsxFileName,
@@ -2587,7 +2552,7 @@ const index = () => {
       lineNumber: 20
     },
     __self: undefined
-  }), __jsx("div", {
+  }, "Work"), __jsx("div", {
     className: "jsx-1951181445" + " " + "skillsSegment",
     __source: {
       fileName: _jsxFileName,
@@ -2610,7 +2575,7 @@ const index = () => {
   }), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: "1951181445",
     __self: undefined
-  }, "body{margin:0;cursor:default;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9KYWNvYkJyb3VnaHRvbi9jb2RpbmcvcGVyc29uYWwvUG9ydGZvbGlvLU5leHQvcGFnZXMvaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBMEIrQixBQUcwQixTQUNNLGVBQ25CIiwiZmlsZSI6Ii9Vc2Vycy9KYWNvYkJyb3VnaHRvbi9jb2RpbmcvcGVyc29uYWwvUG9ydGZvbGlvLU5leHQvcGFnZXMvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgXCIuLi9wdWJsaWMvY3NzL2luZGV4LnNjc3NcIjtcbmltcG9ydCBOYXZiYXIgZnJvbSBcIi4vY29tcHMvbmF2YmFyXCI7XG5pbXBvcnQgRm9vdGVyIGZyb20gXCIuL2NvbXBzL2Zvb3RlclwiO1xuaW1wb3J0IExpbmsgZnJvbSBcIm5leHQvbGlua1wiO1xuaW1wb3J0IExpbmtlZEluIGZyb20gXCIuL2NvbXBzL2ljb25zL2xpbmtlZEluXCI7XG5pbXBvcnQgR2l0aHViIGZyb20gXCIuL2NvbXBzL2ljb25zL2dpdGh1YlwiO1xuaW1wb3J0IEVtYWlsIGZyb20gXCIuL2NvbXBzL2ljb25zL2VtYWlsXCI7XG5pbXBvcnQgTGlzdEljb24gZnJvbSBcIi4vY29tcHMvaWNvbnMvbGlzdEljb25cIjtcblxuY29uc3QgaW5kZXggPSAoKSA9PiB7XG5cbiAgICByZXR1cm4gKFxuXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibW90aGVyRGl2XCI+XG4gICAgICAgICAgICA8TmF2YmFyIC8+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1haW5EaXZcIj5cbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImludHJvU2VnbWVudFwiPlxuICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9XCJpbnRyb1BcIj5KYWNvYiBCcm91Z2h0b248L3A+XG4gICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ3b3JrU2VnbWVudFwiPjwvZGl2PlxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwic2tpbGxzU2VnbWVudFwiPjwvZGl2PlxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibGV0c1RhbGtTZWdtZW50XCI+PC9kaXY+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgIDxGb290ZXIgLz5cblxuXG4gICAgICAgICAgICA8c3R5bGUganN4IGdsb2JhbD57YFxuICAgICAgICAgICAgYm9keXtcbiAgICAgICAgICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgICAgICAgICAgY3Vyc29yOiBkZWZhdWx0O1xuICAgICAgICAgICAgfSBcbiAgICAgICAgYH1cblxuICAgICAgICAgICAgPC9zdHlsZT5cbiAgICAgICAgPC9kaXY+XG4gICAgKVxufVxuXG5leHBvcnQgZGVmYXVsdCBpbmRleDsiXX0= */\n/*@ sourceURL=/Users/JacobBroughton/coding/personal/Portfolio-Next/pages/index.js */"));
+  }, "body{margin:0;cursor:default;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9KYWNvYkJyb3VnaHRvbi9jb2RpbmcvcGVyc29uYWwvUG9ydGZvbGlvLU5leHQvcGFnZXMvaW5kZXguanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBMEIrQixBQUcwQixTQUNNLGVBQ25CIiwiZmlsZSI6Ii9Vc2Vycy9KYWNvYkJyb3VnaHRvbi9jb2RpbmcvcGVyc29uYWwvUG9ydGZvbGlvLU5leHQvcGFnZXMvaW5kZXguanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgXCIuLi9wdWJsaWMvY3NzL2luZGV4LnNjc3NcIjtcbmltcG9ydCBOYXZiYXIgZnJvbSBcIi4vY29tcHMvbmF2YmFyXCI7XG5pbXBvcnQgRm9vdGVyIGZyb20gXCIuL2NvbXBzL2Zvb3RlclwiO1xuaW1wb3J0IExpbmsgZnJvbSBcIm5leHQvbGlua1wiO1xuaW1wb3J0IExpbmtlZEluIGZyb20gXCIuL2NvbXBzL2ljb25zL2xpbmtlZEluXCI7XG5pbXBvcnQgR2l0aHViIGZyb20gXCIuL2NvbXBzL2ljb25zL2dpdGh1YlwiO1xuaW1wb3J0IEVtYWlsIGZyb20gXCIuL2NvbXBzL2ljb25zL2VtYWlsXCI7XG5pbXBvcnQgTGlzdEljb24gZnJvbSBcIi4vY29tcHMvaWNvbnMvbGlzdEljb25cIjtcblxuY29uc3QgaW5kZXggPSAoKSA9PiB7XG5cbiAgICByZXR1cm4gKFxuXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibW90aGVyRGl2XCI+XG4gICAgICAgICAgICA8TmF2YmFyIC8+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1haW5EaXZcIj5cbiAgICAgICAgICAgICAgICA8aGVhZGVyIGNsYXNzTmFtZT1cImludHJvU2VnbWVudFwiPlxuICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9XCJpbnRyb1BcIj5KYWNvYiBCcm91Z2h0b248L3A+XG4gICAgICAgICAgICAgICAgPC9oZWFkZXI+XG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ3b3JrU2VnbWVudFwiPldvcms8L2Rpdj5cbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInNraWxsc1NlZ21lbnRcIj48L2Rpdj5cbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImxldHNUYWxrU2VnbWVudFwiPjwvZGl2PlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICA8Rm9vdGVyIC8+XG5cblxuICAgICAgICAgICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcbiAgICAgICAgICAgIGJvZHl7XG4gICAgICAgICAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICAgICAgICAgIGN1cnNvcjogZGVmYXVsdDtcbiAgICAgICAgICAgIH0gXG4gICAgICAgIGB9XG5cbiAgICAgICAgICAgIDwvc3R5bGU+XG4gICAgICAgIDwvZGl2PlxuICAgIClcbn1cblxuZXhwb3J0IGRlZmF1bHQgaW5kZXg7Il19 */\n/*@ sourceURL=/Users/JacobBroughton/coding/personal/Portfolio-Next/pages/index.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (index);

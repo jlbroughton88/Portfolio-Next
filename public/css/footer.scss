@@ -25,9 +25,11 @@ p{ margin: 0; }
 .motherDivFooter{
     display: flex;
     flex-direction: column;
+    position: relative;
+    margin-top: 300px;
+    clear: both;
     height: 300px;
     width: 100%;
-    position: sticky;
     background: #383838;
     color: #e4e4e4;
 

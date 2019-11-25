@@ -11709,14 +11709,7 @@ var navbar = function navbar() {
       lineNumber: 9
     },
     __self: this
-  }, __jsx(_icons_listIcon__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    className: "navLogo",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  })))), __jsx("div", {
+  }))), __jsx("div", {
     className: "rightSide",
     __source: {
       fileName: _jsxFileName,
@@ -11744,35 +11737,7 @@ var navbar = function navbar() {
       lineNumber: 15
     },
     __self: this
-  }, "My Story")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/work",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "work",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, "Work")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/contact",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "contact",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, "Contact")))));
+  }, "My Story")))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (navbar);
