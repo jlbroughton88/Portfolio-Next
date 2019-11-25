@@ -54,11 +54,21 @@
     src: url("../fonts/museoSans.ttf") format("TrueType");
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 html, body{
     display: flex;
+    width: 100%;
     height: 100%;
     font-family: "Museo Sans";
     cursor: default;
+}
+
+strong{
+    font-weight: 900;
 }
 
 
@@ -67,19 +77,21 @@ html, body{
     height: 100%;
     min-height: 100%;
     overflow-y: scroll;
+    
+    &::-webkit-scrollbar{
+        width: 0px;
+        height: 0px;
+        background: transparent;
+}
 
     .mainDiv{
         width: 100%;
         height: 100%;
-        // overflow: auto;
-        // min-height: 100%;
-        // padding-top: 50px;
         
         
         .introSegment{ 
             @include flex-center();
             height: 100%;
-            // min-height: 100%;
             padding-left: 10%;
             padding-right: 10%;
            background: #019ED3;
@@ -101,11 +113,118 @@ html, body{
                     content: ' & I create great experiences on the internet.';
                     color: #ffffff;
                 }
+
+                @media(max-width: 1065px) {
+                    font-size: 2.6rem;
+                }
+
+                @media(max-width: 650px) {
+                    font-size: 2rem;
+                }
             }
          };
     
         .workSegment{ 
-            height: 400px;
+            @include flex-center();
+            flex-direction: column;
+            height: 100vh;
+            color: #ffffff;
+            position: relative;
+            background: #383838;
+
+            .workHeadDiv{
+                margin-bottom: 40px;
+                .workHead{
+                    
+                }
+            }
+
+            .workParaDiv{
+                margin-bottom: 40px;
+                .workPara{  }
+            }
+
+            .workDiv{
+                width: 100%;
+                @include flex-center();
+                border-top: 2px solid white;
+                border-bottom: 2px solid white;
+
+                .workSubDiv{
+                    height: 100%;
+                    width: 100%;
+                    display: grid;
+                    grid-template-columns: repeat(3, 28vw);
+                    grid-template-rows: auto;
+                    justify-items: center;
+                    justify-content: center;
+                    // grid-gap:2%;
+
+                    .workExample{
+                        align-self: center;
+                        width: 100%;
+                        height: 20vw;
+                        background: #019ed3;
+                        border-radius: 5px;
+                    }
+                }                    
+            }      
+                      
+            @media(max-width: 900px) {
+                height: 700px;
+                .workDiv{
+                    .workSubDiv{
+                        grid-template-columns: repeat(2, 1fr);
+                        grid-template-rows: auto auto;
+                        // row-gap: 8%;
+
+                        .workExample{
+                            width: 45vw;
+                            height: 24vw;
+                        }
+                    }
+                }
+            }
+
+            @media(max-width: 550px) {         
+                height: 950px;
+                padding-bottom: 50px;
+                // row-gap: 4%;
+                .workDiv{
+                    .workSubDiv{
+                        grid-template-columns: repeat(1, 1fr);
+                        grid-template-rows: auto auto auto; 
+
+                        .workExample{
+                            width: 45vh;
+                            height: 25vh;
+                        }
+                    }
+                }
+            }
+
+            @media(max-width: 450px) {
+                // row-gap: 2%;
+                .thirdLineBreak{
+                    display: none;
+                }
+                .workHeadDiv{
+                    .workHead{}
+                }
+
+                .workParaDiv{
+                    width: 40vh;
+                }
+                    
+                
+                .workDiv{
+                    .workSubDiv{
+                        .workExample{
+                            width: 40vh;
+                        }
+                    }
+                }
+            }
          };
     
         .skillsSegment{  };
