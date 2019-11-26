@@ -29,9 +29,15 @@ const index = () => {
 
                     <div className="workDiv">
                         <div className="workSubDiv">
-                            <div className="workExample">Work Example</div>
-                            <div className="workExample">Work Example</div>
-                            <div className="workExample">Work Example</div>
+                            <div className="workExample">
+                                <h1>Pokedex</h1>
+                            </div>
+                            <div className="workExample">
+                                <h1>Heavenly Details</h1>
+                            </div>
+                            <div className="workExample">
+                                <h1>New Age Oils</h1>
+                            </div> 
                         </div>
                     </div>
                 </div>
