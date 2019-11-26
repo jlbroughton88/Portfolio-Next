@@ -18,22 +18,26 @@
 ; }
 
 @font-face {
-  font-family: "Museo Sans";
-  src: url(/_next/static/chunks/fonts/museoSans-5b9453f7c8741b9337d517cdbdc2397d.ttf) format("TrueType"); }
+  font-family: "Open Sans";
+  src: url(/_next/static/chunks/fonts/OpenSans-Regular-629a55a7e793da068dc580d184cc0e31.ttf) format("TrueType"); }
 
 * {
   margin: 0;
   padding: 0; }
 
+h1, h2, h3, h4, h5, h6, p {
+  opacity: 0.9; }
+
 html, body {
   display: flex;
   width: 100%;
   height: 100%;
-  font-family: "Museo Sans";
-  cursor: default; }
+  font-family: "Open Sans";
+  cursor: default;
+  scroll-behavior: smooth; }
 
 strong {
-  font-weight: 900; }
+  font-weight: 800; }
 
 .motherDiv {
   background: #02536D;
@@ -57,8 +61,24 @@ strong {
       background-image: var(--gradient);
       background-size: 300%;
       background-position: cover;
-      transition: background-position 1s;
-      animation: bg-animate 7s infinite alternate; }
+      animation: bg-animate 5s infinite alternate; }
+      .motherDiv .mainDiv .introSegment :root {
+        --gradient: linear-gradient(
+            45deg,
+            #019ed3,
+            #17a3d4,
+            #24a6d7,
+            #31abda,
+            #37addb,
+            #46b3dc,
+            #52b8e0,
+            #64bee3,
+            #75c6e4,
+            #85cce8,
+            #95d3ec,
+            #a0d9ed,
+            #b0dff1
+        ); }
 
 @keyframes bg-animate {
   from {
@@ -292,12 +312,10 @@ p {
             color: #ffffff; }
 
 @font-face {
-  font-family: "Museo Sans";
   src: url(/_next/static/chunks/fonts/museoSans-5b9453f7c8741b9337d517cdbdc2397d.ttf) format("TrueType"); }
 
 html, body {
   height: 100%;
-  font-family: "Museo Sans";
   cursor: default; }
 
 .motherDivStory {
