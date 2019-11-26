@@ -18,12 +18,15 @@ const index = () => {
                     <p className="introP">Jacob Broughton</p>
                 </header>
                 <div className="workSegment">
-                    <div className="workHeadDiv">
-                        <h1 className="workHead">Work</h1>
+                    <div className="textDiv">
+                        <div className="workHeadDiv">
+                            <h1 className="workHead">Work</h1>
+                        </div>
+                        <div className="workParaDiv">
+                            <p className="workPara">I'm a <strong>full-stack developer</strong> living in Matthews, NC. I'm <strong>passionate</strong> about creating a great experience for the user, and a smooth process behind the scenes.</p>
+                        </div>
                     </div>
-                    <div className="workParaDiv">
-                        <p className="workPara">I'm a <strong>full-stack developer</strong> living in Matthews, NC. I'm <strong>passionate</strong> about creating a great experience for the user, and a smooth process behind the scenes.</p>
-                    </div>
+
                     <div className="workDiv">
                         <div className="workSubDiv">
                             <div className="workExample">Work Example</div>

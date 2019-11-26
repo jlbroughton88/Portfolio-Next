@@ -59,29 +59,44 @@ strong {
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      height: 100vh;
+      height: 40vw;
       color: #ffffff;
       position: relative;
-      background: #383838; }
-      .motherDiv .mainDiv .workSegment .workHeadDiv {
-        margin-bottom: 40px; }
-      .motherDiv .mainDiv .workSegment .workParaDiv {
-        margin-bottom: 40px; }
+      background: #383838;
+      padding: 150px;
+      padding-left: 0;
+      padding-right: 0; }
+      .motherDiv .mainDiv .workSegment .textDiv {
+        position: absolute;
+        top: 100px;
+        width: 65vw;
+        max-width: 750px; }
+        .motherDiv .mainDiv .workSegment .textDiv .workHeadDiv {
+          margin-bottom: 10px; }
+          .motherDiv .mainDiv .workSegment .textDiv .workHeadDiv .workHead {
+            font-size: 3rem; }
+        .motherDiv .mainDiv .workSegment .textDiv .workParaDiv {
+          margin-bottom: 40px; }
+          .motherDiv .mainDiv .workSegment .textDiv .workParaDiv .workPara {
+            font-size: 1.3rem; }
       .motherDiv .mainDiv .workSegment .workDiv {
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        border-top: 2px solid white;
-        border-bottom: 2px solid white; }
+        position: absolute;
+        top: 300px; }
         .motherDiv .mainDiv .workSegment .workDiv .workSubDiv {
+          padding-top: 30px;
+          padding-bottom: 30px;
           height: 100%;
           width: 100%;
           display: grid;
-          grid-template-columns: repeat(3, 28vw);
+          grid-template-columns: repeat(3, 30vw);
           grid-template-rows: auto;
           justify-items: center;
-          justify-content: center; }
+          justify-content: center;
+          grid-gap: 2%; }
           .motherDiv .mainDiv .workSegment .workDiv .workSubDiv .workExample {
             align-self: center;
             width: 100%;
@@ -90,17 +105,32 @@ strong {
             border-radius: 5px; }
       @media (max-width: 900px) {
         .motherDiv .mainDiv .workSegment {
-          height: 700px; }
+          height: 80vh; }
+          .motherDiv .mainDiv .workSegment .textDiv {
+            width: 70%; }
+            .motherDiv .mainDiv .workSegment .textDiv .workParaDiv {
+              width: 100%; }
           .motherDiv .mainDiv .workSegment .workDiv .workSubDiv {
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: auto auto; }
+            grid-template-columns: repeat(2, 46vw);
+            grid-template-rows: auto auto;
+            row-gap: 3vw; }
             .motherDiv .mainDiv .workSegment .workDiv .workSubDiv .workExample {
               width: 45vw;
               height: 24vw; } }
+      @media (max-width: 850px) {
+        .motherDiv .mainDiv .workSegment {
+          height: 65vh; } }
       @media (max-width: 550px) {
         .motherDiv .mainDiv .workSegment {
-          height: 950px;
-          padding-bottom: 50px; }
+          height: 95vh; }
+          .motherDiv .mainDiv .workSegment .textDiv {
+            width: 75vw;
+            align-self: center; }
+            .motherDiv .mainDiv .workSegment .textDiv .workParaDiv {
+              width: 100%; }
+              .motherDiv .mainDiv .workSegment .textDiv .workParaDiv .workPara {
+                font-size: 1.2rem;
+                width: 100%; }
           .motherDiv .mainDiv .workSegment .workDiv .workSubDiv {
             grid-template-columns: repeat(1, 1fr);
             grid-template-rows: auto auto auto; }
@@ -108,8 +138,6 @@ strong {
               width: 45vh;
               height: 25vh; } }
       @media (max-width: 450px) {
-        .motherDiv .mainDiv .workSegment .thirdLineBreak {
-          display: none; }
         .motherDiv .mainDiv .workSegment .workParaDiv {
           width: 40vh; }
         .motherDiv .mainDiv .workSegment .workDiv .workSubDiv .workExample {
