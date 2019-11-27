@@ -2286,35 +2286,55 @@ const navbar = () => __jsx("nav", {
     lineNumber: 9
   },
   __self: undefined
-}))), __jsx("div", {
+}, __jsx("h3", {
+  className: "navName",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10
+  },
+  __self: undefined
+}, "Jacob Broughton"), __jsx("h3", {
+  className: "navPara",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
+  },
+  __self: undefined
+}, "Portfolio")))), __jsx("div", {
   className: "rightSide",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 13
+    lineNumber: 16
   },
   __self: undefined
 }, __jsx("div", {
   className: "navMenuDiv",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 14
+    lineNumber: 17
   },
   __self: undefined
 }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   href: "/story",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 15
+    lineNumber: 18
   },
   __self: undefined
 }, __jsx("a", {
   className: "myStory",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 15
+    lineNumber: 19
   },
   __self: undefined
-}, "My Story")))));
+}, __jsx("h3", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 20
+  },
+  __self: undefined
+}, "My Story"))))));
 
 /* harmony default export */ __webpack_exports__["default"] = (navbar);
 

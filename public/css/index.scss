@@ -49,64 +49,59 @@
 }
 
 :root {
-    --gradient: linear-gradient(
-        45deg,
-        #019ed3,
-        #17a3d4,
-        #24a6d7,
-        #31abda,
-        #37addb,
-        #46b3dc,
-        #52b8e0,
-        #64bee3,
-        #75c6e4,
-        #85cce8,
-        #95d3ec,
-        #a0d9ed,
-        #b0dff1
-    )
-}
-
-@mixin gradient-bundle{
-    :root {
-        --gradient: linear-gradient(
+    @media(min-width: 600px) {
+            --gradient: linear-gradient(
             45deg,
             #019ed3,
-            #17a3d4,
-            #24a6d7,
-            #31abda,
-            #37addb,
-            #46b3dc,
-            #52b8e0,
-            #64bee3,
-            #75c6e4,
-            #85cce8,
-            #95d3ec,
-            #a0d9ed,
-            #b0dff1
-        );
-    }            
-    background-image: var(--gradient);
-        background-size: 300%;
-        background-position: cover;
+            #383838
+        )
+    }
 
-        @keyframes bg-animate {
-           from {background-position: left}
-           to { background-position: right }
-        };
-        animation: bg-animate 5s infinite alternate;
+    @media(max-width: 599px) {
+        --gradient: linear-gradient(
+            180deg,
+            #019ed3,
+            #383838
+        )
+    }
+
+
+
 }
 
+@mixin bg-gradient-bundle{
+        background-image: var(--gradient);
+        background-size: 500%;
+        background-position: cover;
+        animation: bg-animate 7s infinite alternate;
+        animation-delay: 1s;
+}
 
+@mixin name-gradient-bundle{
+
+    @keyframes name-animate {
+       from {
+           color: #282828}
+       to { 
+           color: #d34301;
+        }
+    };
+    
+    animation: name-animate 7s infinite alternate;
+    animation-delay: 1s;
+}
+
+// Open Sans Regular
 @font-face{
     font-family: "Open Sans";
     src: url("../fonts/open-sans/OpenSans-Regular.ttf") format("TrueType");
 }
 
-// @font-face{
-//     font-family: "Museo Sans";
-//     src: url("../fonts/museoSans.ttf") format("TrueType");
-// }
+// Open Sans Semi Bold
+@font-face{
+    font-family: "Open Sans Bold";
+    src: url("../fonts/open-sans/OpenSans-Bold.ttf") format("TrueType");
+}
 
 *{
     margin: 0;
@@ -136,6 +131,7 @@ strong{
     height: 100%;
     min-height: 100%;
     overflow-y: scroll;
+
     
     &::-webkit-scrollbar{
         width: 0px;
@@ -147,29 +143,32 @@ strong{
         width: 100%;
         height: 100%;
         
-        
         .introSegment{ 
             @include flex-center();
             height: 100%;
             padding-left: 10%;
             padding-right: 10%;
-        //    background: #019ED3;
-        @include gradient-bundle();
-
+            background: #019ed3;
+            // @include bg-gradient-bundle();
 
             .introP{
                 width: inherit;
                 font-size: 3rem;
                 align-self: center;
-                color: #383838;
+                color: #d34301;
+                color: #282828;
+                font-family: "Open Sans Bold";
+                @include name-gradient-bundle();
                 font-weight: 900;
 
                 &::before{
+                    font-family: "Open Sans";
                     content: 'My name is ';
                     color: #ffffff;
                 }
 
                 &::after{
+                    font-family: "Open Sans";
                     content: ' & I create great experiences on the internet.';
                     color: #ffffff;
                 }
@@ -180,6 +179,10 @@ strong{
 
                 @media(max-width: 650px) {
                     font-size: 2rem;
+                }
+
+                @media(max-width: 530px) {
+                    font-size: 1.8rem;
                 }
             }
          };
@@ -201,28 +204,20 @@ strong{
                 width: 65vw;
                 max-width: 750px;
 
-                .workHeadDiv{
-                    margin-bottom: 10px;
-                    .workHead{
-                        font-size: 3rem;
-                    }
+                .workHeadDiv{ margin-bottom: 10px;
+                    .workHead{ font-size: 3rem; }
                 }
     
-                .workParaDiv{
-                    margin-bottom: 40px;
-                    .workPara{ 
-                        font-size: 1.3rem;
-                     }
+                .workParaDiv{ margin-bottom: 40px;
+                    .workPara{ font-size: 1.3rem; }
                 }
             }
 
 
 
             .workDiv{
-                width: 100%;
                 @include flex-center();
-                // border-top: 2px solid white;
-                // border-bottom: 2px solid white;
+                width: 100%;
                 position: absolute;
                 top: 300px;
 
@@ -284,6 +279,16 @@ strong{
 
             @media(max-width: 850px) {
                 height: 65vh;
+            }            
+            
+            @media(max-width: 740px) {
+                .textDiv{
+                    .workParaDiv{
+                        .workPara{
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
             }
 
             @media(max-width: 550px) {         
@@ -298,7 +303,7 @@ strong{
                     .workParaDiv{
                         width: 100%;
                         .workPara{
-                            font-size: 1.2rem;
+                            font-size: 1.1rem;
                             width: 100%;
     
                         }
@@ -324,16 +329,9 @@ strong{
             }
 
             @media(max-width: 450px) {
-                // row-gap: 2%;
-
-                .workHeadDiv{
-                    .workHead{}
-                }
-
                 .workParaDiv{
                     width: 40vh;
-                }
-                    
+                }       
                 
                 .workDiv{
                     .workSubDiv{
@@ -349,7 +347,5 @@ strong{
     
         .letsTalkSegment{  };
     }
-
-
 }
 
