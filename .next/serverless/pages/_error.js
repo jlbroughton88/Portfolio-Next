@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "Emta");
+/******/ 	return __webpack_require__(__webpack_require__.s = "E85N");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2252,19 +2252,7 @@ module.exports = __webpack_require__("nWF0")
 
 /***/ }),
 
-/***/ "EXMj":
-/***/ (function(module, exports) {
-
-module.exports = function (it, Constructor, name, forbiddenField) {
-  if (!(it instanceof Constructor) || (forbiddenField !== undefined && forbiddenField in it)) {
-    throw TypeError(name + ': incorrect invocation!');
-  } return it;
-};
-
-
-/***/ }),
-
-/***/ "Emta":
+/***/ "E85N":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2322,7 +2310,7 @@ var private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_7___n
         unstable_getStaticProps,
         reactLoadableManifest: private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_7__,
         canonicalBase: "",
-        buildId: "QLTnB_AwrPbhtYbuOUzRC",
+        buildId: "8qIiP1DN_1y96uVQyF7Rv",
         assetPrefix: "",
         ampBindInitData: false,
       }
@@ -2331,7 +2319,7 @@ var private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_7___n
       if (req.url.match(/_next\/data/)) {
         sprData = true
         req.url = req.url
-          .replace(new RegExp('/_next/data/QLTnB_AwrPbhtYbuOUzRC/'), '/')
+          .replace(new RegExp('/_next/data/8qIiP1DN_1y96uVQyF7Rv/'), '/')
           .replace(/\.json$/, '')
       }
       const parsedUrl = Object(url__WEBPACK_IMPORTED_MODULE_0__["parse"])(req.url, true)
@@ -2397,6 +2385,18 @@ var private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_7___n
       }
     }
   
+
+/***/ }),
+
+/***/ "EXMj":
+/***/ (function(module, exports) {
+
+module.exports = function (it, Constructor, name, forbiddenField) {
+  if (!(it instanceof Constructor) || (forbiddenField !== undefined && forbiddenField in it)) {
+    throw TypeError(name + ': incorrect invocation!');
+  } return it;
+};
+
 
 /***/ }),
 
@@ -2979,7 +2979,7 @@ module.exports = __webpack_require__("UDep");
 /***/ "LZ9C":
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"devFiles\":[],\"pages\":{\"/\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/css/styles.c5a0969a.chunk.css\",\"static/chunks/styles.c00e852168ea3500cc5f.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"],\"/_app\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"],\"/_error\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"],\"/_polyfills\":[\"static/runtime/polyfills-9947a58d03a054fbb13b.js\"],\"/comps/footer\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/css/styles.c5a0969a.chunk.css\",\"static/chunks/styles.c00e852168ea3500cc5f.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"],\"/comps/icons/email\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"],\"/comps/icons/github\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"],\"/comps/icons/githubFooter\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"],\"/comps/icons/instagramFooter\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"],\"/comps/icons/linkedIn\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"],\"/comps/icons/linkedinFooter\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"],\"/comps/icons/listIcon\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"],\"/comps/icons/logo\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"],\"/comps/navbar\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/css/styles.c5a0969a.chunk.css\",\"static/chunks/styles.c00e852168ea3500cc5f.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"],\"/contact\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/css/styles.c5a0969a.chunk.css\",\"static/chunks/styles.c00e852168ea3500cc5f.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"],\"/index\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/css/styles.c5a0969a.chunk.css\",\"static/chunks/styles.c00e852168ea3500cc5f.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"],\"/story\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/css/styles.c5a0969a.chunk.css\",\"static/chunks/styles.c00e852168ea3500cc5f.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"],\"/work\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/css/styles.c5a0969a.chunk.css\",\"static/chunks/styles.c00e852168ea3500cc5f.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"]}}");
+module.exports = JSON.parse("{\"devFiles\":[],\"pages\":{\"/\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/css/styles.c65797d8.chunk.css\",\"static/chunks/styles.c00e852168ea3500cc5f.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"],\"/_app\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"],\"/_error\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"],\"/_polyfills\":[\"static/runtime/polyfills-9947a58d03a054fbb13b.js\"],\"/comps/footer\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/css/styles.c65797d8.chunk.css\",\"static/chunks/styles.c00e852168ea3500cc5f.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"],\"/comps/icons/email\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"],\"/comps/icons/github\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"],\"/comps/icons/githubFooter\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"],\"/comps/icons/instagramFooter\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"],\"/comps/icons/linkedIn\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"],\"/comps/icons/linkedinFooter\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"],\"/comps/icons/listIcon\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"],\"/comps/icons/logo\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"],\"/comps/navbar\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/css/styles.c65797d8.chunk.css\",\"static/chunks/styles.c00e852168ea3500cc5f.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"],\"/contact\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/css/styles.c65797d8.chunk.css\",\"static/chunks/styles.c00e852168ea3500cc5f.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"],\"/index\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/css/styles.c65797d8.chunk.css\",\"static/chunks/styles.c00e852168ea3500cc5f.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"],\"/story\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/css/styles.c65797d8.chunk.css\",\"static/chunks/styles.c00e852168ea3500cc5f.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"],\"/work\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.e141d2dc489cf1269abf.js\",\"static/css/styles.c65797d8.chunk.css\",\"static/chunks/styles.c00e852168ea3500cc5f.js\",\"static/runtime/main-93e5f98eb29c4fbf3b75.js\"]}}");
 
 /***/ }),
 

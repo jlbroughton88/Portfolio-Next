@@ -89,6 +89,16 @@ nav{
         }
     }
 
+    @media(max-width: 500px) {
+        .leftSide{
+            width: 60%;
+        }
+
+        .rightSide{
+            width: 50%;
+        }
+    }
+
 }
 
 

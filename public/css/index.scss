@@ -110,6 +110,7 @@
 
 h1, h2, h3, h4, h5, h6, p {
     opacity: 0.9;
+    -webkit-font-smoothing: antialiased;
 }
 
 html, body{
@@ -194,7 +195,7 @@ strong{
             color: #ffffff;
             position: relative;
             background: #383838;
-            padding: 150px;
+            padding: 100px;
             padding-left: 0;
             padding-right: 0; 
             // padding-bottom: 0;
@@ -205,12 +206,15 @@ strong{
                 top: 100px; 
                 width: 65vw;
                 max-width: 750px;
+                -webkit-font-smoothing: antialiased;    
 
                 .workHeadDiv{ margin-bottom: 10px;
+                    -webkit-font-smoothing: antialiased;    
                     .workHead{ font-size: 3rem; }
                 }
     
                 .workParaDiv{ margin-bottom: 40px;
+                    -webkit-font-smoothing: antialiased;
                     .workPara{ font-size: 1.3rem; }
                 }
             }
@@ -222,6 +226,8 @@ strong{
                 width: 100%;
                 position: absolute;
                 top: 300px;
+                max-width: 1110px;
+                // min-height: 830px;
                
 
                 .workSubDiv{
@@ -235,6 +241,7 @@ strong{
                     justify-items: center;
                     justify-content: center;
                     grid-gap:2%;
+                    max-width: 1110px;
 
                     .workExample{
                         @include flex-center();
@@ -258,7 +265,18 @@ strong{
 
                     }
                 }                    
-            }      
+            }   
+            
+            @media(max-width: 1301px) {
+                .workDiv{
+                    .workSubDiv{
+                        // grid-template-columns: repeat(3, 1fr);
+                        grid-template-rows: minmax(auto, 280px);
+                        .workExample{
+                        }
+                    }
+                }
+            }
                       
             @media(max-width: 900px) {
                 height: 80vh;
@@ -268,7 +286,6 @@ strong{
                         width: 100%;
                     }
                 }
-
 
                 .workDiv{
                     .workSubDiv{
@@ -356,53 +373,110 @@ strong{
          };
     
         .skillsSegment{ 
+            @include flex-center();
+            flex-direction: column;
             width: 100%;
             height: 100%;
-            display: flex;
-            flex-direction: row;
             background: #383838;
 
-            .leftSideSkills, .rightSideSkills, .skillsBlue, .skillsGrey{
-                @include flex-center();
+            .skillsHeaderDiv{
+                display: flex;
+                justify-content: flex-start;
+                width: 100%;
+                max-width: 530px;
+                margin-bottom: 30px;
+                height: 10%;
 
+                .skillsHeader{
+                    height: 100%;
+                    
+                    color: #ffffff;
+                    font-size: 3rem;
+                }                   
 
-                .skillsBlue{
-                    background: #019ED3;
-                    width: auto;
-                    height: auto;
-                    padding: 10px 8px;
-                    border-radius: 5%;
-                    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+                @media(max-width: 615px) {
+                    width: 430px;
+                }
 
-                    .skillsGrey{
-                        background: #383838;
-                        width: 100px;
-                        height: auto;
-                        width: auto;
-                        padding: 15px 40px;
-                        border-radius: 5px;
-    
-                        ul{
+                @media(max-width: 530px) {
+                    width: 390px;
+                        }
+            }
+            .skillsDiv{
+                height: 60%;
+                width: 100%;            
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+                max-width: 675px;
+
+                .leftSideSkills, .rightSideSkills, .skillsBlue, .skillsGrey{
+                    @include flex-center();
+                    justify-content: flex-start;
+                    flex-direction: column;
+
+                    .skillsHeadDiv{
+                        margin-bottom: 10px;
+
+                        .skillsHead{
                             color: #ffffff;
+                            font-size: 1.4rem;
+                        }
+                    }
     
-                            li{
-                                margin: 5px;
-                                font-size: 1.15rem;
+                    .skillsBlue{
+                        background: #019ED3;
+                        width: auto;
+                        height: auto;
+                        padding: 10px 8px;
+                        border-radius: 5%;
+                        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+    
+                        .skillsGrey{
+                           
+                            background: #383838;
+                            width: 100px;
+                            height: auto;
+                            width: auto;
+                            padding: 15px 40px;
+                            border-radius: 5px;
+        
+                            ul{ 
+                                color: #ffffff;
+                                padding: 0;
+        
+                                li{
+                                    margin: 5px;
+                                    font-size: 1.15rem;
+                                }
                             }
                         }
                     }
+                    
+                    @media(max-width: 530px) {
+                        .skillsBlue{
+                            .skillsGrey{
+                                padding: 15px 20px;
+                                ul{
+                                    margin-left: 5px;
+                                    li{
+                                        font-size: 0.95;
+                                    }
+                                }
+                            }
+                        }
+                    }
+     
                 }
-
- 
-            }
-            
-
-            .leftSideSkills{
-                width: 50%;
-            }
-
-            .rightSideSkills{
-                width: 50%;
+                
+    
+                .leftSideSkills{
+                    width: 50%;
+                }
+    
+                .rightSideSkills{
+                    width: 50%;
+                }
             }
          };
     
@@ -410,3 +484,19 @@ strong{
     }
 }
 
+.visuallyhidden { 
+    border: 0; 
+    clip: rect(0 0 0 0); 
+    height: 1px; 
+    margin: -1px; 
+    overflow: hidden; 
+    padding: 0; 
+    position: absolute; 
+    width: 1px;
+    /* ios7 scroll bug fixes. this is usually used for the skipnav link, but is a convenient hook for these styles*/
+    z-index: 100000; 
+    position: fixed;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+ }
+ html.ios7 body {height: 100%;position: fixed;width: 100%;}
