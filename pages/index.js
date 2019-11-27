@@ -40,9 +40,46 @@ const index = () => {
                             </div> 
                         </div>
                     </div>
+                </div> 
+                <div className="skillsSegment">
+                <div className="leftSideSkills">
+                    <div className="skillsBlue">
+                        <div className="skillsGrey">
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS/SCSS</li>
+                                <li>Grid/Flexbox</li>
+                                <li>Javascript</li>
+                                <li>ReactJS</li>
+                                <li>ExpressJS</li>
+                                <li>Node.js</li>
+                                <li>MongoDB</li>
+                                <li>Mongoose</li>
+                                <li>ES6</li>
+                                <li>GIT</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div className="rightSideSkills">
+                    <div className="skillsBlue">
+                        <div className="skillsGrey">
+                        <ul>
+                                <li>JQuery</li>
+                                <li>Python</li>
+                                <li>MySql</li>
+                                <li>Zeit Now</li>
+                                <li>Arduino C</li>
+                                <li>Next JS</li>
+                                <li>Materialize</li>
+                                <li>Bootstrap</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div className="skillsSegment"></div>
+            </div>
+           
             <div className="letsTalkSegment"></div>
             {/* <Footer /> */}
 

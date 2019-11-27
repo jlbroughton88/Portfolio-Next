@@ -203,6 +203,39 @@ strong {
           width: 40vh; }
         .motherDiv .mainDiv .workSegment .workDiv .workSubDiv .workExample {
           width: 40vh; } }
+    .motherDiv .mainDiv .skillsSegment {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      background: #383838; }
+      .motherDiv .mainDiv .skillsSegment .leftSideSkills, .motherDiv .mainDiv .skillsSegment .rightSideSkills, .motherDiv .mainDiv .skillsSegment .skillsBlue, .motherDiv .mainDiv .skillsSegment .skillsGrey {
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .motherDiv .mainDiv .skillsSegment .leftSideSkills .skillsBlue, .motherDiv .mainDiv .skillsSegment .rightSideSkills .skillsBlue, .motherDiv .mainDiv .skillsSegment .skillsBlue .skillsBlue, .motherDiv .mainDiv .skillsSegment .skillsGrey .skillsBlue {
+          background: #019ED3;
+          width: auto;
+          height: auto;
+          padding: 10px 8px;
+          border-radius: 5%;
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7); }
+          .motherDiv .mainDiv .skillsSegment .leftSideSkills .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .rightSideSkills .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsBlue .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsGrey .skillsBlue .skillsGrey {
+            background: #383838;
+            width: 100px;
+            height: auto;
+            width: auto;
+            padding: 15px 40px;
+            border-radius: 5px; }
+            .motherDiv .mainDiv .skillsSegment .leftSideSkills .skillsBlue .skillsGrey ul, .motherDiv .mainDiv .skillsSegment .rightSideSkills .skillsBlue .skillsGrey ul, .motherDiv .mainDiv .skillsSegment .skillsBlue .skillsBlue .skillsGrey ul, .motherDiv .mainDiv .skillsSegment .skillsGrey .skillsBlue .skillsGrey ul {
+              color: #ffffff; }
+              .motherDiv .mainDiv .skillsSegment .leftSideSkills .skillsBlue .skillsGrey ul li, .motherDiv .mainDiv .skillsSegment .rightSideSkills .skillsBlue .skillsGrey ul li, .motherDiv .mainDiv .skillsSegment .skillsBlue .skillsBlue .skillsGrey ul li, .motherDiv .mainDiv .skillsSegment .skillsGrey .skillsBlue .skillsGrey ul li {
+                margin: 5px;
+                font-size: 1.15rem; }
+      .motherDiv .mainDiv .skillsSegment .leftSideSkills {
+        width: 50%; }
+      .motherDiv .mainDiv .skillsSegment .rightSideSkills {
+        width: 50%; }
 
 * {
   margin: 0; }

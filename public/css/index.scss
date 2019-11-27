@@ -355,7 +355,56 @@ strong{
             }
          };
     
-        .skillsSegment{  };
+        .skillsSegment{ 
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            background: #383838;
+
+            .leftSideSkills, .rightSideSkills, .skillsBlue, .skillsGrey{
+                @include flex-center();
+
+
+                .skillsBlue{
+                    background: #019ED3;
+                    width: auto;
+                    height: auto;
+                    padding: 10px 8px;
+                    border-radius: 5%;
+                    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+
+                    .skillsGrey{
+                        background: #383838;
+                        width: 100px;
+                        height: auto;
+                        width: auto;
+                        padding: 15px 40px;
+                        border-radius: 5px;
+    
+                        ul{
+                            color: #ffffff;
+    
+                            li{
+                                margin: 5px;
+                                font-size: 1.15rem;
+                            }
+                        }
+                    }
+                }
+
+ 
+            }
+            
+
+            .leftSideSkills{
+                width: 50%;
+            }
+
+            .rightSideSkills{
+                width: 50%;
+            }
+         };
     
         .letsTalkSegment{  };
     }
