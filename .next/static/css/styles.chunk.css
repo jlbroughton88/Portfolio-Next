@@ -115,7 +115,7 @@ strong {
             font-size: 2rem; } }
         @media (max-width: 530px) {
           .motherDiv .mainDiv .introSegment .introP {
-            font-size: 1.8rem; } }
+            font-size: 1.55rem; } }
     .motherDiv .mainDiv .workSegment {
       display: flex;
       justify-content: center;
