@@ -108,6 +108,23 @@
     padding: 0;
 }
 
+.visuallyhidden { 
+    border: 0; 
+    clip: rect(0 0 0 0); 
+    height: 1px; 
+    margin: -1px; 
+    overflow: hidden; 
+    padding: 0; 
+    position: absolute; 
+    width: 1px;
+    /* ios7 scroll bug fixes. this is usually used for the skipnav link, but is a convenient hook for these styles*/
+    z-index: 100000; 
+    position: fixed;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+ }
+
+ html.ios7 body {height: 100%;position: fixed;width: 100%;}
 h1, h2, h3, h4, h5, h6, p {
     opacity: 0.9;
     -webkit-font-smoothing: antialiased;
@@ -350,7 +367,7 @@ strong{
                             height: 25vh;
 
                             h1{
-                                font-size: calc(3vw + 1.3rem)
+                                font-size: calc(2.5vw + 1.3rem)
                             }
                         }
                     }
@@ -365,7 +382,8 @@ strong{
                 .workDiv{
                     .workSubDiv{
                         .workExample{
-                            width: 40vh;
+                            width: 47vh;
+                            height: 27vh;
                         }
                     }
                 }
@@ -382,7 +400,8 @@ strong{
             .skillsHeaderDiv{
                 display: flex;
                 justify-content: flex-start;
-                width: 100%;
+                // width: 100%;
+                width: 65vw;
                 max-width: 530px;
                 margin-bottom: 30px;
                 height: 10%;
@@ -399,14 +418,15 @@ strong{
                 }
 
                 @media(max-width: 530px) {
-                    width: 390px;
-                        }
+                    // width: 390px;
+                    width: 40vh;
+                }
             }
             .skillsDiv{
                 height: 60%;
                 width: 100%;            
                 display: flex;
-                align-items: center;
+                align-items: flex-start;
                 flex-direction: row;
                 max-width: 675px;
 
@@ -429,7 +449,7 @@ strong{
                         width: auto;
                         height: auto;
                         padding: 10px 8px;
-                        border-radius: 5%;
+                        border-radius: 5px;
                         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
     
                         .skillsGrey{
@@ -454,13 +474,36 @@ strong{
                     }
                     
                     @media(max-width: 530px) {
+                        .skillsHeadDiv{
+                            .skillsHead{
+                                font-size: 1.2rem;
+                            }
+                        }
                         .skillsBlue{
                             .skillsGrey{
                                 padding: 15px 20px;
                                 ul{
                                     margin-left: 5px;
                                     li{
-                                        font-size: 0.95;
+                                        font-size: 0.95rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    @media(max-width: 425px) {
+                        .skillsHeadDiv{
+                            .skillsHead{
+
+                            }
+                        }
+                        .skillsBlue{
+                            .skillsGrey{
+                                padding: 5px 15px;
+                                ul{
+                                    li{
+                                        // font-size: 0.9rem;
                                     }
                                 }
                             }
@@ -484,19 +527,3 @@ strong{
     }
 }
 
-.visuallyhidden { 
-    border: 0; 
-    clip: rect(0 0 0 0); 
-    height: 1px; 
-    margin: -1px; 
-    overflow: hidden; 
-    padding: 0; 
-    position: absolute; 
-    width: 1px;
-    /* ios7 scroll bug fixes. this is usually used for the skipnav link, but is a convenient hook for these styles*/
-    z-index: 100000; 
-    position: fixed;
-    overflow: scroll;
-    -webkit-overflow-scrolling: touch;
- }
- html.ios7 body {height: 100%;position: fixed;width: 100%;}

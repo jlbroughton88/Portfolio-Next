@@ -49,6 +49,7 @@ nav{
 
             .navName{ 
                 color: #ffffff;
+                width: 100%;
              };
 
             .navPara{ 
@@ -81,23 +82,15 @@ nav{
     }
     @media(max-width: 650px) {
         .leftSide{
+            width: 60%;
+        }
+
+        .rightSide{
             width: 40%;
         }
-
-        .rightSide{
-            width: 60%;
-        }
     }
 
-    @media(max-width: 500px) {
-        .leftSide{
-            width: 60%;
-        }
 
-        .rightSide{
-            width: 50%;
-        }
-    }
 
 }
 

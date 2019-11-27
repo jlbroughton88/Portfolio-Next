@@ -28,6 +28,26 @@
   margin: 0;
   padding: 0; }
 
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  /* ios7 scroll bug fixes. this is usually used for the skipnav link, but is a convenient hook for these styles*/
+  z-index: 100000;
+  position: fixed;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch; }
+
+html.ios7 body {
+  height: 100%;
+  position: fixed;
+  width: 100%; }
+
 h1, h2, h3, h4, h5, h6, p {
   opacity: 0.9;
   -webkit-font-smoothing: antialiased; }
@@ -206,12 +226,13 @@ strong {
               width: 45vh;
               height: 25vh; }
               .motherDiv .mainDiv .workSegment .workDiv .workSubDiv .workExample h1 {
-                font-size: calc(3vw + 1.3rem); } }
+                font-size: calc(2.5vw + 1.3rem); } }
       @media (max-width: 450px) {
         .motherDiv .mainDiv .workSegment .workParaDiv {
           width: 40vh; }
         .motherDiv .mainDiv .workSegment .workDiv .workSubDiv .workExample {
-          width: 40vh; } }
+          width: 47vh;
+          height: 27vh; } }
     .motherDiv .mainDiv .skillsSegment {
       display: flex;
       justify-content: center;
@@ -223,7 +244,7 @@ strong {
       .motherDiv .mainDiv .skillsSegment .skillsHeaderDiv {
         display: flex;
         justify-content: flex-start;
-        width: 100%;
+        width: 65vw;
         max-width: 530px;
         margin-bottom: 30px;
         height: 10%; }
@@ -236,12 +257,12 @@ strong {
             width: 430px; } }
         @media (max-width: 530px) {
           .motherDiv .mainDiv .skillsSegment .skillsHeaderDiv {
-            width: 390px; } }
+            width: 40vh; } }
       .motherDiv .mainDiv .skillsSegment .skillsDiv {
         height: 60%;
         width: 100%;
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         flex-direction: row;
         max-width: 675px; }
         .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey {
@@ -260,7 +281,7 @@ strong {
             width: auto;
             height: auto;
             padding: 10px 8px;
-            border-radius: 5%;
+            border-radius: 5px;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7); }
             .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey .skillsBlue .skillsGrey {
               background: #383838;
@@ -276,36 +297,21 @@ strong {
                   margin: 5px;
                   font-size: 1.15rem; }
           @media (max-width: 530px) {
+            .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills .skillsHeadDiv .skillsHead, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills .skillsHeadDiv .skillsHead, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue .skillsHeadDiv .skillsHead, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey .skillsHeadDiv .skillsHead {
+              font-size: 1.2rem; }
             .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey .skillsBlue .skillsGrey {
               padding: 15px 20px; }
               .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills .skillsBlue .skillsGrey ul, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills .skillsBlue .skillsGrey ul, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue .skillsBlue .skillsGrey ul, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey .skillsBlue .skillsGrey ul {
                 margin-left: 5px; }
                 .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills .skillsBlue .skillsGrey ul li, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills .skillsBlue .skillsGrey ul li, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue .skillsBlue .skillsGrey ul li, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey .skillsBlue .skillsGrey ul li {
-                  font-size: 0.95; } }
+                  font-size: 0.95rem; } }
+          @media (max-width: 425px) {
+            .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey .skillsBlue .skillsGrey {
+              padding: 5px 15px; } }
         .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills {
           width: 50%; }
         .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills {
           width: 50%; }
-
-.visuallyhidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-  /* ios7 scroll bug fixes. this is usually used for the skipnav link, but is a convenient hook for these styles*/
-  z-index: 100000;
-  position: fixed;
-  overflow: scroll;
-  -webkit-overflow-scrolling: touch; }
-
-html.ios7 body {
-  height: 100%;
-  position: fixed;
-  width: 100%; }
 
 * {
   margin: 0; }
@@ -337,7 +343,8 @@ nav {
       height: 100%;
       width: 100%; }
       nav .leftSide .iconA .navName {
-        color: #ffffff; }
+        color: #ffffff;
+        width: 100%; }
       nav .leftSide .iconA .navPara {
         color: #383838;
         font-weight: 900;
@@ -359,14 +366,9 @@ nav {
           box-shadow: inset 1px 1px 5px black; }
   @media (max-width: 650px) {
     nav .leftSide {
-      width: 40%; }
-    nav .rightSide {
-      width: 60%; } }
-  @media (max-width: 500px) {
-    nav .leftSide {
       width: 60%; }
     nav .rightSide {
-      width: 50%; } }
+      width: 40%; } }
 
 a {
   text-decoration: none;
