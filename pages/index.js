@@ -43,7 +43,8 @@ const index = () => {
                 </div>
                 <div className="skillsSegment">
                     <div className="skillsHeaderDiv">
-                        <h2 className="skillsHeader">Skills</h2>
+                        <h1 className="skillsHeader">Skills</h1>
+                        <p className="skillsPara">Each day brings new challenges, and every day that passes brings new lessons. I love learning, it keeps me going. Things get tough quite often, but theres always a way.</p>
                     </div>
                     <div className="skillsDiv">
                         <div className="leftSideSkills">

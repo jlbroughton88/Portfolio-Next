@@ -252,14 +252,14 @@ strong{
                     padding-top: 30px;
                     padding-bottom: 30px;
                     height: 100%;
-                    width: 100%;
+                    width: auto;
                     display: grid;
                     grid-template-columns: repeat(3, 30vw);
                     grid-template-rows: auto;
                     justify-items: center;
                     justify-content: center;
                     grid-gap:2%;
-                    max-width: 1110px;
+                    max-width: 1260px;
 
                     .workExample{
                         @include flex-center();
@@ -284,6 +284,19 @@ strong{
                     }
                 }                    
             }   
+
+            @media(min-width: 1400px) {
+                height: 530px;
+                .workDiv{
+                    .workSubDiv{
+                        grid-template-columns: repeat(3, 1fr);
+                        .workExample{
+                            width: 415px;
+                            height: 280px;
+                        }
+                    }
+                }
+            }
             
             @media(max-width: 1301px) {
                 .workDiv{
@@ -396,31 +409,47 @@ strong{
             flex-direction: column;
             width: 100%;
             height: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
             background: #383838;
 
             .skillsHeaderDiv{
                 display: flex;
                 justify-content: flex-start;
+                flex-direction: column;
                 // width: 100%;
                 width: 65vw;
-                max-width: 530px;
-                margin-bottom: 30px;
-                height: 10%;
+                max-width: 750px;
+                margin-bottom: 40px;
+                height: 20%;;
+                
 
                 .skillsHeader{
-                    height: 100%;
                     
                     color: #ffffff;
                     font-size: 3rem;
                 }                   
 
-                @media(max-width: 615px) {
-                    width: 430px;
+                .skillsPara{
+                    color: #ffffff;
+                    font-size: 1.3rem;
+                    margin-bottom: 10px;
+                }                
+                
+                @media(max-width: 750px){
+                    .skillsPara{
+                        font-size: 1.2rem;
+                    }
                 }
 
-                @media(max-width: 530px) {
-                    // width: 390px;
-                    width: 40vh;
+                @media(max-width: 550px) {
+                    width: 75vw;
+                    margin-bottom: 90px;
+                    .skillsPara{
+                        font-size: 1.1rem;
+                        margin-top: 9px;
+                        
+                    }
                 }
             }
             .skillsDiv{
@@ -430,6 +459,7 @@ strong{
                 align-items: flex-start;
                 flex-direction: row;
                 max-width: 675px;
+                
 
                 .leftSideSkills, .rightSideSkills, .skillsBlue, .skillsGrey{
                     @include flex-center();
@@ -474,6 +504,32 @@ strong{
                         }
                     }
                     
+                    @media(min-width: 1250px) {
+                        .skillsBlue{
+                            .skillsGrey{
+                                padding: 30px 50px;
+                                ul{
+                                    li{
+                                        font-size: 1.6rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    @media(min-width: 1000px) and (max-width: 1249px) {
+                        .skillsBlue{
+                            .skillsGrey{
+                                padding: 20px 45px;
+                                ul{
+                                    li{
+                                        font-size: 1.4rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
                     @media(max-width: 530px) {
                         .skillsHeadDiv{
                             .skillsHead{
@@ -520,6 +576,10 @@ strong{
     
                 .rightSideSkills{
                     width: 50%;
+                }
+
+                @media(min-width: 1000px) {
+                    height: 80%;
                 }
             }
          };
