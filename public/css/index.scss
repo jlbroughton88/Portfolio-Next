@@ -2,12 +2,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 @mixin flex-start{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-direction: column;
 }
 
 @mixin the-color{
@@ -18,7 +20,7 @@
 @mixin list-standard{
     margin: 0;
     display: flex;
-    flex-direction: column;
+   
     justify-content: space-evenly;
     padding: none;
     list-style-image: url("https://img.icons8.com/material-sharp/15/000000/pentagon.png");
@@ -208,7 +210,7 @@ strong{
     
         .workSegment{ 
             @include flex-center();
-            flex-direction: column;
+           
             height: 37vw;
             color: #ffffff;
             position: relative;
@@ -216,60 +218,64 @@ strong{
             padding: 100px;
             padding-left: 0;
             padding-right: 0; 
-            // padding-bottom: 0;
-            // min-height: 750px;
 
+            // =================
+            // WORK TEXT
             .textDiv{
                 position: absolute;
                 top: 100px; 
                 width: 65vw;
                 max-width: 750px;
-                -webkit-font-smoothing: antialiased;    
 
-                .workHeadDiv{ margin-bottom: 10px;
-                    -webkit-font-smoothing: antialiased;    
-                    .workHead{ font-size: 3rem; }
+                .workHeadDiv{ 
+                    margin-bottom: 10px;
+
+                    .workHead{ 
+                        font-size: 3rem;
+                     }
                 }
     
-                .workParaDiv{ margin-bottom: 40px;
-                    -webkit-font-smoothing: antialiased;
-                    .workPara{ font-size: 1.3rem; }
+                .workParaDiv{ 
+                    margin-bottom: 40px;
+                    
+                    .workPara{ 
+                        font-size: 1.3rem;
+                     }
                 }
             }
+            // WORK TEXT
+            // =================
 
-
-
-            .workDiv{
-                @include flex-center();
+            .workDiv{                
                 width: 100%;
-                position: absolute;
-                top: 300px;
                 max-width: 1110px;
-                // min-height: 830px;
-               
+                @include flex-center();
+                top: 300px;
+                position: absolute;
 
-                .workSubDiv{
-                    padding-top: 30px;
-                    padding-bottom: 30px;
+                .workSubDiv{                    
                     height: 100%;
                     width: auto;
-                    display: grid;
+                    max-width: 1260px;
+                    display: grid;                    
                     grid-template-columns: repeat(3, 30vw);
                     grid-template-rows: auto;
                     justify-items: center;
                     justify-content: center;
                     grid-gap:2%;
-                    max-width: 1260px;
+                    padding-top: 30px;
+                    padding-bottom: 30px;                    
 
-                    .workExample{
-                        @include flex-center();
-                        align-self: center;
+
+                    .workExample{                        
                         width: 100%;
                         height: 20vw;
-                        background: #019ed3;
+                        @include flex-center();
+                        align-self: center;
                         border-radius: 5px;
                         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
                         transition: all .35s ease-in-out;
+                        background: #019ed3;
 
                         h1{
                             font-size: calc(3vw + 0.5rem);
@@ -279,12 +285,12 @@ strong{
                             filter:brightness(120%);
                             cursor: pointer;
                             box-shadow: 0 6px 17px rgba(0, 0, 0, 0.7);
-                        }                        
-
+                        }
                     }
                 }                    
             }   
-
+            // ======================
+            // WORK SEGMENT
             @media(min-width: 1400px) {
                 height: 530px;
                 .workDiv{
@@ -310,7 +316,7 @@ strong{
             }
                       
             @media(max-width: 900px) {
-                height: 80vh;
+                height: 100vh;
                 .textDiv{
                     width: 70%;
                     .workParaDiv{
@@ -336,8 +342,8 @@ strong{
                 }
             }
 
-            @media(max-width: 850px) {
-                height: 65vh;
+            @media(max-width: 800px) {
+                height: 90vh;
             }            
             
             @media(max-width: 740px) {
@@ -402,30 +408,37 @@ strong{
                     }
                 }
             }
+
+            @media(max-width: 420px) {
+                .textDiv{
+                    width: 80vw;
+                }
+            }
+             // WORK SEGMENT
+             // ======================
          };
     
         .skillsSegment{ 
             @include flex-center();
-            flex-direction: column;
+           
             width: 100%;
-            height: 100%;
+            height: auto;
             padding-top: 50px;
             padding-bottom: 50px;
             background: #383838;
-
+ 
+                // ======================
+                // SKILLS TEXT
             .skillsHeaderDiv{
                 display: flex;
-                justify-content: flex-start;
+                justify-content: space-evenly;
                 flex-direction: column;
-                // width: 100%;
                 width: 65vw;
+                height: 30%;
                 max-width: 750px;
-                margin-bottom: 40px;
-                height: 20%;;
-                
+                margin-bottom: 45px;
 
                 .skillsHeader{
-                    
                     color: #ffffff;
                     font-size: 3rem;
                 }                   
@@ -433,9 +446,8 @@ strong{
                 .skillsPara{
                     color: #ffffff;
                     font-size: 1.3rem;
-                    margin-bottom: 10px;
                 }                
-                
+
                 @media(max-width: 750px){
                     .skillsPara{
                         font-size: 1.2rem;
@@ -443,17 +455,29 @@ strong{
                 }
 
                 @media(max-width: 550px) {
+                    margin-top: 50px;
+                    margin-bottom: 20px;
                     width: 75vw;
-                    margin-bottom: 90px;
                     .skillsPara{
                         font-size: 1.1rem;
                         margin-top: 9px;
                         
                     }
                 }
-            }
+
+                @media(max-width: 420px) {
+                    width: 80vw;
+                    .skillsPara{
+                        font-size: 1.05rem;
+                    }
+                }
+
+            }                
+            // SKILLS TEXT
+                // ======================
+
             .skillsDiv{
-                height: 60%;
+                height: 70%;
                 width: 100%;            
                 display: flex;
                 align-items: flex-start;
@@ -464,7 +488,6 @@ strong{
                 .leftSideSkills, .rightSideSkills, .skillsBlue, .skillsGrey{
                     @include flex-center();
                     justify-content: flex-start;
-                    flex-direction: column;
 
                     .skillsHeadDiv{
                         margin-bottom: 10px;
@@ -484,9 +507,7 @@ strong{
                         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
     
                         .skillsGrey{
-                           
                             background: #383838;
-                            width: 100px;
                             height: auto;
                             width: auto;
                             padding: 15px 40px;
@@ -504,6 +525,8 @@ strong{
                         }
                     }
                     
+                    // ======================
+                    // SKILLS DIV
                     @media(min-width: 1250px) {
                         .skillsBlue{
                             .skillsGrey{
@@ -566,6 +589,8 @@ strong{
                             }
                         }
                     }
+                    // SKILLS DIV
+                    // ======================
      
                 }
                 
