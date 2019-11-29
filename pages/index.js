@@ -38,13 +38,22 @@ const index = () => {
                             <div className="workExample">
                                 <h1>New Age Oils</h1>
                             </div>
+                            <div className="workExample">
+                                <h1>Example 4</h1>
+                            </div>
+                            <div className="workExample">
+                                <h1>Example 5</h1>
+                            </div>
+                            <div className="workExample">
+                                <h1>Example 6</h1>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div className="skillsSegment">
                     <div className="skillsHeaderDiv">
                         <h1 className="skillsHeader">Skills</h1>
-                        <p className="skillsPara">Each day brings new challenges, and every day that passes brings new lessons. I love learning, it keeps me going. Things get tough quite often, but theres always a way.</p>
+                        <p className="skillsPara">Each day brings new challenges, and every day that passes brings new lessons. I <strong>love learning</strong>, it keeps me going. Things get tough quite often, but theres <strong>always</strong> a way.</p>
                     </div>
                     <div className="skillsDiv">
                         <div className="leftSideSkills">
