@@ -46,7 +46,7 @@ const index = () => {
                             </div>
                             <div className="workExample">
                                 <h1>Example 6</h1>
-                            </div>
+                            </div>                                
                         </div>
                     </div>
                 </div>
