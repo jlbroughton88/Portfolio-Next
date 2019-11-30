@@ -33,10 +33,10 @@ const index = () => {
                                 <h1>Pokedex</h1>
                             </div>
                             <div className="workExample">
-                                <h1>Heavenly Details</h1>
+                                <h1>Heavenly</h1>
                             </div>
                             <div className="workExample">
-                                <h1>New Age Oils</h1>
+                                <h1>New Age</h1>
                             </div>
                             <div className="workExample">
                                 <h1>Example 4</h1>
