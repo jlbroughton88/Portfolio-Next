@@ -46,6 +46,26 @@ h1, h2, h3, h4, h5, h6, p, li {
 strong {
   font-weight: 800; }
 
+.textDiv {
+  height: 25%;
+  width: 65vw;
+  max-width: 750px;
+  margin: 100px 0 50px 0; }
+  .textDiv .headerDiv {
+    margin: 0 0 10px 0; }
+    .textDiv .headerDiv .header {
+      font-size: 3rem; }
+  .textDiv .paraDiv .para {
+    font-size: 1.3rem; }
+  @media (max-width: 750px) {
+    .textDiv {
+      width: 80%; }
+      .textDiv .paraDiv .para {
+        font-size: 1.15rem; } }
+  @media (max-width: 550px) {
+    .textDiv .para {
+      font-size: 1.05rem; } }
+
 .motherDiv {
   background-color: #02536D;
   height: 100%;
@@ -93,19 +113,6 @@ strong {
       flex-direction: column;
       height: auto;
       background-color: #383838; }
-      .motherDiv .mainDiv .workSegment .textDiv {
-        position: relative;
-        height: 25%;
-        width: 65vw;
-        max-width: 750px; }
-        .motherDiv .mainDiv .workSegment .textDiv .workHeadDiv {
-          margin: 0 0 10px 0; }
-          .motherDiv .mainDiv .workSegment .textDiv .workHeadDiv .workHead {
-            font-size: 3rem; }
-        .motherDiv .mainDiv .workSegment .textDiv .workParaDiv {
-          margin: 0 0 40px 0; }
-          .motherDiv .mainDiv .workSegment .textDiv .workParaDiv .workPara {
-            font-size: 1.3rem; }
       .motherDiv .mainDiv .workSegment .workDiv {
         height: 70%;
         max-width: 1110px;
@@ -135,7 +142,7 @@ strong {
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
             transition: all .35s ease-in-out;
             background-color: #019ed3;
-            margin: 1.5vw 1.5vw; }
+            margin: 0.5vw 0.5vw; }
             .motherDiv .mainDiv .workSegment .workDiv .workSubDiv .workExample h1 {
               font-size: calc(3vw + 0.5rem); }
             .motherDiv .mainDiv .workSegment .workDiv .workSubDiv .workExample:hover {
@@ -144,10 +151,11 @@ strong {
               cursor: pointer; }
       @media (max-width: 750px) {
         .motherDiv .mainDiv .workSegment .textDiv .workParaDiv .workPara {
-          font-size: 1.2rem; }
+          font-size: 1.1rem; }
         .motherDiv .mainDiv .workSegment .workDiv .workSubDiv .workExample {
           width: 42vw;
-          height: 25vw; } }
+          height: 25vw;
+          margin: 1.5vw 1.5vw; } }
     .motherDiv .mainDiv .skillsSegment {
       display: flex;
       justify-content: center;
@@ -155,33 +163,6 @@ strong {
       flex-direction: column;
       height: auto;
       background-color: #383838; }
-      .motherDiv .mainDiv .skillsSegment .skillsHeaderDiv {
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
-        width: 65%;
-        height: 30%;
-        max-width: 750px;
-        margin: 100px 0 50px 0; }
-        .motherDiv .mainDiv .skillsSegment .skillsHeaderDiv .skillsHeader {
-          font-size: 3rem; }
-        .motherDiv .mainDiv .skillsSegment .skillsHeaderDiv .skillsPara {
-          font-size: 1.3rem; }
-        @media (max-width: 800px) {
-          .motherDiv .mainDiv .skillsSegment .skillsHeaderDiv .skillsPara {
-            font-size: 1.2rem; } }
-        @media (max-width: 550px) {
-          .motherDiv .mainDiv .skillsSegment .skillsHeaderDiv {
-            margin: 50px 0 20px 0;
-            width: 75vw; }
-            .motherDiv .mainDiv .skillsSegment .skillsHeaderDiv .skillsPara {
-              font-size: 1.1rem;
-              margin: 9px 0 0 0; } }
-        @media (max-width: 420px) {
-          .motherDiv .mainDiv .skillsSegment .skillsHeaderDiv {
-            width: 80vw; }
-            .motherDiv .mainDiv .skillsSegment .skillsHeaderDiv .skillsPara {
-              font-size: 1.05rem; } }
       .motherDiv .mainDiv .skillsSegment .skillsDiv {
         height: 70%;
         width: 50%;

@@ -134,6 +134,45 @@ strong{
     font-weight: 800;
 }
 
+// Headers
+.textDiv{
+    height: 25%;
+    width: 65vw;
+    max-width: 750px;
+    margin: 100px 0 50px 0;
+
+    .headerDiv{ 
+        margin: 0 0 10px 0;
+
+        .header{ 
+            font-size: 3rem;
+         }
+    }
+
+    .paraDiv{ 
+
+        .para{ 
+            font-size: 1.3rem;
+         }
+    }
+
+    @media(max-width: 750px) {
+            width: 80%;
+
+        .paraDiv{
+                   .para{
+            font-size: 1.15rem;
+        } 
+        }
+
+    }
+
+    @media(max-width: 550px) {
+        .para{
+            font-size: 1.05rem;
+        } 
+    }
+}
 
 .motherDiv{
     background-color: #02536D;
@@ -141,16 +180,15 @@ strong{
     min-height: 100%;
     overflow-y: scroll;
 
-    
     &::-webkit-scrollbar{
         width: 0px;
         height: 0px;
         background-color: transparent;
-}
-
+    }
+   
     .mainDiv{
         height: calc(100% - 50px);
-        
+
         .introSegment{ 
             @include flex-center();
             height: calc(100vh - 50px);
@@ -179,36 +217,11 @@ strong{
             }
          };
 
-
     // WORK
         .workSegment{ 
             @include flex-center();
             height: auto;
             background-color: #383838;
-
-            .textDiv{
-                position: relative;
-                height: 25%;
-                width: 65vw;
-                max-width: 750px;
-                // margin: 100px 0 50px 0;
-
-                .workHeadDiv{ 
-                    margin: 0 0 10px 0;
-
-                    .workHead{ 
-                        font-size: 3rem;
-                     }
-                }
-    
-                .workParaDiv{ 
-                    margin: 0 0 40px 0;
-                    
-                    .workPara{ 
-                        font-size: 1.3rem;
-                     }
-                }
-            }
 
             .workDiv{        
                 height: 70%;
@@ -225,7 +238,6 @@ strong{
                     justify-items: center;
                     justify-content: center;         
 
-
                     .workExample{
                         height:22vw;
                         width: 28vw;
@@ -236,8 +248,7 @@ strong{
                         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
                         transition: all .35s ease-in-out;
                         background-color: #019ed3;
-                        margin: 1.5vw 1.5vw;
-
+                        margin: 0.5vw 0.5vw;
 
                         h1{
                             font-size: calc(3vw + 0.5rem);
@@ -250,14 +261,13 @@ strong{
                         }
                     }
                 }      
-                
             }   
 
             @media(max-width: 750px) {
                 .textDiv{
                     .workParaDiv{
                         .workPara{
-                            font-size: 1.2rem;
+                            font-size: 1.1rem;
                         }
                     }
                 }
@@ -266,22 +276,11 @@ strong{
                         .workExample{
                             width: 42vw;
                             height: 25vw;
+                            margin: 1.5vw 1.5vw;
                         }
                     }
                 }
             }
-
-            // @media(max-width: 700px) {
-            //     .workDiv{
-            //         .workSubDiv{
-            //             .workExample{
-            //                 height:100%;
-            //                 width: 100%;
-            //             }
-            //         }
-            //     }
-            // }
-
          };
     
 
@@ -290,50 +289,6 @@ strong{
             @include flex-center();
             height: auto;
             background-color: #383838;
- 
-            .skillsHeaderDiv{
-                display: flex;
-                justify-content: space-evenly;
-                flex-direction: column;
-                width: 65%;
-                height: 30%;
-                max-width: 750px;
-                margin: 100px 0 50px 0;
-
-                .skillsHeader{
-                    font-size: 3rem;
-                }                   
-
-                .skillsPara{
-
-                    font-size: 1.3rem;
-                }                
-
-                @media(max-width:800px){
-                    .skillsPara{
-                        font-size: 1.2rem;
-                    }
-                }
-
-                @media(max-width: 550px) {
-                    margin: 50px 0 20px 0;
-                    width: 75vw;
-                    .skillsPara{
-                        font-size: 1.1rem;
-                        margin: 9px 0 0 0 ;
-                        
-                    }
-                }
-
-                @media(max-width: 420px) {
-                    width: 80vw;
-                    .skillsPara{
-                        font-size: 1.05rem;
-                    }
-                }
-
-            }                
-
             
             .skillsDiv{
                 height: 70%;

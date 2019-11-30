@@ -18,12 +18,12 @@ const index = () => {
                     <p className="introP">Jacob Broughton</p>
                 </header>
                 <div className="workSegment">
-                    <div className="textDiv">
-                        <div className="workHeadDiv">
-                            <h1 className="workHead">Work</h1>
+                    <div className="workHeaderDiv textDiv">
+                        <div className="headerDiv">
+                            <h1 className="workHeader header">Work</h1>
                         </div>
-                        <div className="workParaDiv">
-                            <p className="workPara">I'm a <strong>full-stack developer</strong> living in Matthews, NC. I'm <strong>passionate</strong> about creating a great experience for the user, and a smooth process behind the scenes.</p>
+                        <div className="paraDiv">
+                            <p className="workPara para">I'm a <strong>full-stack developer</strong> living in Matthews, NC. I'm <strong>passionate</strong> about creating a great experience for the user, and a smooth process behind the scenes.</p>
                         </div>
                     </div>
 
@@ -46,14 +46,18 @@ const index = () => {
                             </div>
                             <div className="workExample">
                                 <h1>Example 6</h1>
-                            </div>                                
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div className="skillsSegment">
-                    <div className="skillsHeaderDiv">
-                        <h1 className="skillsHeader">Skills</h1>
-                        <p className="skillsPara">Each day brings new challenges, and every day that passes brings new lessons. I <strong>love learning</strong>, it keeps me going. Things get tough quite often, but theres <strong>always</strong> a way.</p>
+                    <div className="skillsHeaderDiv textDiv">
+                        <div className="headerDiv">
+                            <h1 className="skillsHeader header">Skills</h1>
+                        </div>
+                        <div className="paraDiv">
+                            <p className="skillsPara para">Each day brings new challenges, and every day that passes brings new lessons. I <strong>love learning</strong>, it keeps me going. Things get tough quite often, but theres <strong>always</strong> a way.</p>
+                        </div>
                     </div>
                     <div className="skillsDiv">
                         <div className="leftSideSkills">
