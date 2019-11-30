@@ -66,6 +66,14 @@ strong {
     .textDiv .para {
       font-size: 1.05rem; } }
 
+.workSegment, .skillsSegment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  background-color: #383838; }
+
 .motherDiv {
   background-color: #02536D;
   height: 100%;
@@ -106,123 +114,156 @@ strong {
           font-family: "Open Sans";
           content: ' & I create great experiences on the internet.';
           color: #ffffff; }
-    .motherDiv .mainDiv .workSegment {
+    .motherDiv .mainDiv .workSegment .workDiv {
+      height: 70%;
+      max-width: 1110px;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      height: auto;
-      background-color: #383838; }
-      .motherDiv .mainDiv .workSegment .workDiv {
-        height: 70%;
-        max-width: 1110px;
+      position: relative; }
+      .motherDiv .mainDiv .workSegment .workDiv .workSubDiv {
+        position: relative;
+        max-width: 1260px;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        position: relative; }
-        .motherDiv .mainDiv .workSegment .workDiv .workSubDiv {
-          position: relative;
-          max-width: 1260px;
-          display: flex;
-          align-self: center;
-          flex-wrap: wrap;
-          justify-items: center;
-          justify-content: center; }
-          .motherDiv .mainDiv .workSegment .workDiv .workSubDiv .workExample {
-            height: 22vw;
-            width: 28vw;
-            max-width: 350px;
-            max-height: 280px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            border-radius: 5px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
-            transition: all .35s ease-in-out;
-            background-color: #019ed3;
-            margin: 0.5vw 0.5vw; }
-            .motherDiv .mainDiv .workSegment .workDiv .workSubDiv .workExample h1 {
-              font-size: calc(3vw + 0.5rem); }
-            .motherDiv .mainDiv .workSegment .workDiv .workSubDiv .workExample:hover {
-              box-shadow: none;
-              filter: brightness(120%);
-              cursor: pointer; }
-      @media (max-width: 750px) {
-        .motherDiv .mainDiv .workSegment .textDiv .workParaDiv .workPara {
-          font-size: 1.1rem; }
+        align-self: center;
+        flex-wrap: wrap;
+        justify-items: center;
+        justify-content: center; }
         .motherDiv .mainDiv .workSegment .workDiv .workSubDiv .workExample {
-          width: 42vw;
-          height: 25vw;
-          margin: 1.5vw 1.5vw; } }
-    .motherDiv .mainDiv .skillsSegment {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      height: auto;
-      background-color: #383838; }
-      .motherDiv .mainDiv .skillsSegment .skillsDiv {
-        height: 70%;
-        width: 50%;
-        display: flex;
-        align-items: flex-start;
-        flex-direction: row;
-        max-width: 675px; }
-        .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills {
-          width: 50%; }
-        .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey {
+          height: 22vw;
+          width: 27vw;
+          max-width: 350px;
+          max-height: 280px;
           display: flex;
           justify-content: center;
           align-items: center;
           flex-direction: column;
-          justify-content: flex-start; }
-          .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills .skillsHeadDiv, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills .skillsHeadDiv, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue .skillsHeadDiv, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey .skillsHeadDiv {
-            margin: 0 0 10px 0; }
-            .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills .skillsHeadDiv .skillsHead, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills .skillsHeadDiv .skillsHead, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue .skillsHeadDiv .skillsHead, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey .skillsHeadDiv .skillsHead {
-              font-size: 1.4rem; }
-          .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills .skillsBlue, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills .skillsBlue, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue .skillsBlue, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey .skillsBlue {
-            background-color: #019ED3;
-            width: auto;
-            height: auto;
-            padding: 10px 8px;
-            border-radius: 5px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7); }
-            .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey .skillsBlue .skillsGrey {
-              background-color: #383838;
-              height: auto;
-              width: auto;
-              padding: 15px 40px;
-              border-radius: 5px; }
+          border-radius: 5px;
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+          transition: all .35s ease-in-out;
+          background-color: #019ed3;
+          margin: 0.75vw 0.75vw; }
+          .motherDiv .mainDiv .workSegment .workDiv .workSubDiv .workExample h1 {
+            font-size: calc(3vw + 0.5rem); }
+          .motherDiv .mainDiv .workSegment .workDiv .workSubDiv .workExample:hover {
+            box-shadow: none;
+            filter: brightness(120%);
+            cursor: pointer; }
+    @media (max-width: 750px) {
+      .motherDiv .mainDiv .workSegment .textDiv .workParaDiv .workPara {
+        font-size: 1.1rem; }
+      .motherDiv .mainDiv .workSegment .workDiv .workSubDiv .workExample {
+        width: 42vw;
+        height: 25vw;
+        margin: 1.5vw 1.5vw; } }
+    .motherDiv .mainDiv .skillsSegment .skillsDiv {
+      height: 70%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: row;
+      max-width: 675px; }
+      .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills {
+        margin: 5%; }
+      .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start; }
+        .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills .skillsHeadDiv, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills .skillsHeadDiv, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue .skillsHeadDiv, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey .skillsHeadDiv {
+          margin: 0 0 10px 0; }
+          .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills .skillsHeadDiv .skillsHead, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills .skillsHeadDiv .skillsHead, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue .skillsHeadDiv .skillsHead, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey .skillsHeadDiv .skillsHead {
+            font-size: 1.4rem; }
+        .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills .skillsBlue, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills .skillsBlue, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue .skillsBlue, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey .skillsBlue {
+          background-color: #019ED3;
+          padding: 10px 8px;
+          border-radius: 5px;
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7); }
+          .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey .skillsBlue .skillsGrey {
+            background-color: #383838;
+            padding: 15px 40px;
+            border-radius: 5px; }
+            .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills .skillsBlue .skillsGrey ul li, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills .skillsBlue .skillsGrey ul li, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue .skillsBlue .skillsGrey ul li, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey .skillsBlue .skillsGrey ul li {
+              margin: 5px;
+              font-size: 1.15rem; }
+        @media (min-width: 1250px) {
+          .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey .skillsBlue .skillsGrey {
+            padding: 30px 50px; }
+            .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills .skillsBlue .skillsGrey ul li, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills .skillsBlue .skillsGrey ul li, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue .skillsBlue .skillsGrey ul li, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey .skillsBlue .skillsGrey ul li {
+              font-size: 1.6rem; } }
+        @media (min-width: 1000px) and (max-width: 1249px) {
+          .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey .skillsBlue .skillsGrey {
+            padding: 20px 45px; }
+            .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills .skillsBlue .skillsGrey ul li, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills .skillsBlue .skillsGrey ul li, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue .skillsBlue .skillsGrey ul li, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey .skillsBlue .skillsGrey ul li {
+              font-size: 1.4rem; } }
+        @media (max-width: 530px) {
+          .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills .skillsHeadDiv .skillsHead, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills .skillsHeadDiv .skillsHead, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue .skillsHeadDiv .skillsHead, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey .skillsHeadDiv .skillsHead {
+            font-size: 1.2rem; }
+          .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey .skillsBlue .skillsGrey {
+            padding: 15px 20px; }
+            .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills .skillsBlue .skillsGrey ul, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills .skillsBlue .skillsGrey ul, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue .skillsBlue .skillsGrey ul, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey .skillsBlue .skillsGrey ul {
+              margin: 0 0 0 5px; }
               .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills .skillsBlue .skillsGrey ul li, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills .skillsBlue .skillsGrey ul li, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue .skillsBlue .skillsGrey ul li, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey .skillsBlue .skillsGrey ul li {
-                margin: 5px;
-                font-size: 1.15rem; }
-          @media (min-width: 1250px) {
-            .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey .skillsBlue .skillsGrey {
-              padding: 30px 50px; }
-              .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills .skillsBlue .skillsGrey ul li, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills .skillsBlue .skillsGrey ul li, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue .skillsBlue .skillsGrey ul li, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey .skillsBlue .skillsGrey ul li {
-                font-size: 1.6rem; } }
-          @media (min-width: 1000px) and (max-width: 1249px) {
-            .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey .skillsBlue .skillsGrey {
-              padding: 20px 45px; }
-              .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills .skillsBlue .skillsGrey ul li, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills .skillsBlue .skillsGrey ul li, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue .skillsBlue .skillsGrey ul li, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey .skillsBlue .skillsGrey ul li {
-                font-size: 1.4rem; } }
-          @media (max-width: 530px) {
-            .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills .skillsHeadDiv .skillsHead, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills .skillsHeadDiv .skillsHead, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue .skillsHeadDiv .skillsHead, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey .skillsHeadDiv .skillsHead {
-              font-size: 1.2rem; }
-            .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey .skillsBlue .skillsGrey {
-              padding: 15px 20px; }
-              .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills .skillsBlue .skillsGrey ul, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills .skillsBlue .skillsGrey ul, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue .skillsBlue .skillsGrey ul, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey .skillsBlue .skillsGrey ul {
-                margin: 0 0 0 5px; }
-                .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills .skillsBlue .skillsGrey ul li, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills .skillsBlue .skillsGrey ul li, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue .skillsBlue .skillsGrey ul li, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey .skillsBlue .skillsGrey ul li {
-                  font-size: 0.95rem; } }
-          @media (max-width: 425px) {
-            .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey .skillsBlue .skillsGrey {
-              padding: 5px 15px; } }
-        @media (min-width: 1000px) {
-          .motherDiv .mainDiv .skillsSegment .skillsDiv {
-            height: 80%; } }
+                font-size: 0.95rem; } }
+        @media (max-width: 425px) {
+          .motherDiv .mainDiv .skillsSegment .skillsDiv .leftSideSkills .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .rightSideSkills .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsBlue .skillsBlue .skillsGrey, .motherDiv .mainDiv .skillsSegment .skillsDiv .skillsGrey .skillsBlue .skillsGrey {
+            padding: 5px 15px; } }
+      @media (min-width: 1000px) {
+        .motherDiv .mainDiv .skillsSegment .skillsDiv {
+          height: 80%; } }
+    .motherDiv .mainDiv .letsTalkSegment {
+      width: 100%;
+      height: 200px;
+      background: #019ed3; }
+      .motherDiv .mainDiv .letsTalkSegment .mainTalkDiv {
+        display: flex;
+        flex-direction: row;
+        padding: 5%;
+        width: 100%;
+        height: 100%; }
+        .motherDiv .mainDiv .letsTalkSegment .mainTalkDiv .letsTalkLeft {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          width: 50%;
+          height: 100%;
+          border: red; }
+        .motherDiv .mainDiv .letsTalkSegment .mainTalkDiv .letsTalkRight {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          width: 50%;
+          height: 100%;
+          border: white; }
+          .motherDiv .mainDiv .letsTalkSegment .mainTalkDiv .letsTalkRight .talkCTA {
+            opacity: 0.9;
+            width: none;
+            color: #ffffff;
+            font-size: 3.5rem;
+            padding: 5px 8px;
+            transition: all 350ms ease-in-out; }
+            .motherDiv .mainDiv .letsTalkSegment .mainTalkDiv .letsTalkRight .talkCTA:hover {
+              opacity: 1;
+              filter: brightness(120%);
+              filter: drop-shadow(0 2px 2px #383838); }
+        @media (max-width: 550px) {
+          .motherDiv .mainDiv .letsTalkSegment .mainTalkDiv {
+            flex-direction: column; }
+            .motherDiv .mainDiv .letsTalkSegment .mainTalkDiv .letsTalkLeft {
+              width: 100%;
+              height: 50%; }
+              .motherDiv .mainDiv .letsTalkSegment .mainTalkDiv .letsTalkLeft .talkHead {
+                width: inherit; }
+            .motherDiv .mainDiv .letsTalkSegment .mainTalkDiv .letsTalkRight {
+              width: 100%;
+              height: 50%; }
+              .motherDiv .mainDiv .letsTalkSegment .mainTalkDiv .letsTalkRight .talkCTA {
+                align-self: flex-start; } }
 
 * {
   margin: 0; }
@@ -292,7 +333,6 @@ p {
   display: flex;
   flex-direction: column;
   position: relative;
-  margin-top: 600px;
   clear: both;
   height: 300px;
   width: 100%;

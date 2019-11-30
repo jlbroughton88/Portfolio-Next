@@ -49,26 +49,6 @@
     }
 }
 
-:root {
-    @media(min-width: 600px) {
-            --gradient: linear-gradient(
-            45deg,
-            #019ed3,
-            #383838
-        )
-    }
-
-    @media(max-width: 599px) {
-        --gradient: linear-gradient(
-            180deg,
-            #019ed3,
-            #383838
-        )
-    }
-
-
-
-}
 
 @mixin bg-gradient-bundle{
         background-image: var(--gradient);
@@ -94,6 +74,26 @@
     animation: name-animate 2s infinite alternate;
 }
 
+:root {
+    @media(min-width: 600px) {
+            --gradient: linear-gradient(
+            45deg,
+            #019ed3,
+            #383838
+        )
+    }
+
+    @media(max-width: 599px) {
+        --gradient: linear-gradient(
+            180deg,
+            #019ed3,
+            #383838
+        )
+    }
+
+
+
+}
 // Open Sans Regular
 @font-face{
     font-family: "Open Sans";
@@ -150,18 +150,17 @@ strong{
     }
 
     .paraDiv{ 
-
         .para{ 
             font-size: 1.3rem;
          }
     }
 
     @media(max-width: 750px) {
-            width: 80%;
+        width: 80%;
 
         .paraDiv{
-                   .para{
-            font-size: 1.15rem;
+            .para{
+                font-size: 1.15rem;
         } 
         }
 
@@ -172,6 +171,12 @@ strong{
             font-size: 1.05rem;
         } 
     }
+}
+
+.workSegment, .skillsSegment{
+    @include flex-center();
+    height: auto;
+    background-color: #383838;
 }
 
 .motherDiv{
@@ -189,6 +194,7 @@ strong{
     .mainDiv{
         height: calc(100% - 50px);
 
+        // INTRO =====================================
         .introSegment{ 
             @include flex-center();
             height: calc(100vh - 50px);
@@ -217,12 +223,8 @@ strong{
             }
          };
 
-    // WORK
+        // WORK =====================================
         .workSegment{ 
-            @include flex-center();
-            height: auto;
-            background-color: #383838;
-
             .workDiv{        
                 height: 70%;
                 max-width: 1110px;
@@ -240,7 +242,7 @@ strong{
 
                     .workExample{
                         height:22vw;
-                        width: 28vw;
+                        width: 27vw;
                         max-width: 350px;
                         max-height: 280px;
                         @include flex-center();
@@ -248,7 +250,7 @@ strong{
                         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
                         transition: all .35s ease-in-out;
                         background-color: #019ed3;
-                        margin: 0.5vw 0.5vw;
+                        margin: 0.75vw 0.75vw;
 
                         h1{
                             font-size: calc(3vw + 0.5rem);
@@ -286,20 +288,17 @@ strong{
 
          // SKILLS =====================================
         .skillsSegment{ 
-            @include flex-center();
-            height: auto;
-            background-color: #383838;
-            
             .skillsDiv{
                 height: 70%;
-                width: 50%;
+                width: 100%;
                 display: flex;
+                justify-content: center;
                 align-items: flex-start;
                 flex-direction: row;
                 max-width: 675px;
 
                 .leftSideSkills, .rightSideSkills{
-                    width: 50%;
+                    margin: 5%;
                 }
 
                 .leftSideSkills, .rightSideSkills, .skillsBlue, .skillsGrey{
@@ -316,16 +315,12 @@ strong{
     
                     .skillsBlue{
                         background-color: #019ED3;
-                        width: auto;
-                        height: auto;
                         padding: 10px 8px;
                         border-radius: 5px;
                         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
     
                         .skillsGrey{
                             background-color: #383838;
-                            height: auto;
-                            width: auto;
                             padding: 15px 40px;
                             border-radius: 5px;
         
@@ -398,7 +393,72 @@ strong{
             }
          };
     
-        .letsTalkSegment{  };
+         // LETS TALK =====================================
+        .letsTalkSegment{ 
+            width: 100%;
+            height: 200px;
+            background: #019ed3;
+
+
+            .mainTalkDiv{
+                display: flex;
+                flex-direction: row;
+                padding: 5%;
+                width: 100%;
+                height: 100%;
+
+                .letsTalkLeft{
+                    @include flex-center();
+                    width: 50%;
+                    height: 100%;
+                    border: red;
+                }
+
+                .letsTalkRight{
+                    @include flex-center();
+                    width: 50%;
+                    height: 100%;
+                    border: white;
+
+                        .talkCTA{
+                            opacity: 0.9;
+                            width: none;
+                            color: #ffffff;
+                            font-size: 3.5rem;
+                            padding: 5px 8px;
+                            transition: all 350ms ease-in-out;
+
+                            &:hover{
+                                opacity: 1;
+                                filter: brightness(120%);
+                                filter: drop-shadow(0 2px 2px #383838);
+                            }
+                        }
+                }
+
+                @media(max-width: 550px) {
+                    flex-direction: column;
+
+                    .letsTalkLeft{
+                        width: 100%;
+                        height: 50%;
+
+                        .talkHead{
+                            width: inherit;
+                        }
+                    }
+
+                    .letsTalkRight{
+                        width: 100%;
+                        height: 50%;
+
+                        .talkCTA{
+                            align-self: flex-start;
+                        }
+                    }
+                }
+            }
+         };
     }
 }
 
