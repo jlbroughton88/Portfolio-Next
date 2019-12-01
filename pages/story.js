@@ -1,13 +1,12 @@
 import Navbar from "./comps/navbar";
 import Footer from "./comps/footer";
-import "../public/css/story.scss"
+import "../public/css/story.scss";
 
 const Story = () => (
     <div className="motherDivStory">
         <Navbar />
-        <div className="mainStoryDiv">
-
-        </div>
+        <main className="mainStoryDiv">
+        </main>
         <Footer />
 
 

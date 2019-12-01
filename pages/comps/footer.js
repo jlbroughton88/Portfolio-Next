@@ -6,35 +6,35 @@ import GithubFooter from "./icons/githubFooter"
 
 const Footer = () => (
     <footer className="motherDivFooter">
-        <div className="topDiv">
+        <section className="topDiv">
             <div className="subTopDiv">
-                <div className="socialsDivFooter">
-                    <div className="linkedInDivFooter">
+                <section className="socialsDivFooter">
+                    <a href="https://www.linkedin.com/in/jacob-broughton-637189164/" className="linkedInDivFooter">
                         <LinkedinFooter/>
-                    </div>
-                    <div className="githubDivFooter">
+                    </a>
+                    <a href="https://github.com/jlbroughton88" className="githubDivFooter">
                         <GithubFooter/>
-                    </div>
-                    <div className="instagramDivFooter">
+                    </a>
+                    <a href="https://www.instagram.com/jakelbroughton.dev/" className="instagramDivFooter">
                         <InstagramFooter/>
-                    </div>
+                    </a>
                     
-                </div>
+                </section>
             </div>
-        </div>
-        <div className="bottomDiv">
+        </section>
+        <section className="bottomDiv">
             <div className="subBottomDiv">
                 <div className="contactDivContainer">
-                    <div className="contactDivFooter">
+                    <section className="contactDivFooter">
                         <p id="nameFooter"><strong>Jacob Broughton</strong></p>
                         <p id="emailFooter">Jbroughtondev@gmail.com</p>
                         <p id="numberFooter">(704)770-8371</p>
                         <p id="cityFooter">Matthews, NC</p>
-                    </div>
+                    </section>
 
                 </div>
             </div>
-        </div>
+        </section>
     </footer>
 )
 

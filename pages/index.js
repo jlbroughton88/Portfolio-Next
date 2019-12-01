@@ -14,12 +14,12 @@ const index = () => {
 
         <div className="motherDiv">
             <Navbar />
-            <div className="mainDiv">
+            <main className="mainDiv">
                 <header className="introSegment">
                     <p className="introP">Jacob Broughton</p>
-                    <DownArrow className="downArrowSVG"/>
+                    <DownArrow className="downArrowSVG" />
                 </header>
-                <div className="workSegment">
+                <section className="workSegment">
                     <div className="workHeaderDiv textDiv">
                         <div className="headerDiv">
                             <h1 className="workHeader header">Work</h1>
@@ -51,18 +51,18 @@ const index = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="skillsSegment">
-                    <div className="skillsHeaderDiv textDiv">
+                </section>
+                <section className="skillsSegment">
+                    <section className="skillsHeaderDiv textDiv">
                         <div className="headerDiv">
                             <h1 className="skillsHeader header">Skills</h1>
                         </div>
                         <div className="paraDiv">
                             <p className="skillsPara para">Each day brings new challenges, and every day that passes brings new lessons. I <strong>love learning</strong>, it keeps me going. Things get tough quite often, but theres <strong>always</strong> a way.</p>
                         </div>
-                    </div>
+                    </section>
                     <div className="skillsDiv">
-                        <div className="leftSideSkills">
+                        <section className="leftSideSkills">
                             <div className="skillsHeadDiv">
                                 <h3 className="skillsHead">Proficient w/</h3>
                             </div>
@@ -79,12 +79,13 @@ const index = () => {
                                         <li>MongoDB</li>
                                         <li>Mongoose</li>
                                         <li>ES6</li>
+                                        <li>Handlebars</li>
                                         <li>GIT</li>
                                     </ul>
                                 </div>
                             </div>
-                        </div>
-                        <div className="rightSideSkills">
+                        </section>
+                        <section className="rightSideSkills">
                             <div className="skillsHeadDiv">
                                 <h3 className="skillsHead">Experience w/</h3>
                             </div>
@@ -102,11 +103,10 @@ const index = () => {
                                     </ul>
                                 </div>
                             </div>
-                        </div>
+                        </section>
                     </div>
-                </div>
-
-                <div className="letsTalkSegment">
+                </section>
+                <section className="letsTalkSegment">
                     <div className="mainTalkDiv">
                         <div className="letsTalkLeft">
                             <h2 className="talkHead">Looking for a developer?</h2>
@@ -115,11 +115,11 @@ const index = () => {
                             <a href="mailto:jlbroughton@gmail.com?subject=Developer Portfolio Inquiry" className="talkCTA">Lets Talk.</a>
                         </div>
                     </div>
-                </div>
+                </section>
                 <Footer />
-            </div>
+            </main>
 
-            
+
 
 
             <style jsx global>{`
