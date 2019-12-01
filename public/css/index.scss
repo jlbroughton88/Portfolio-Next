@@ -192,12 +192,12 @@ strong{
     }
    
     .mainDiv{
-        height: calc(100% - 50px);
+        height: calc(100vh - 70px);
 
         // INTRO =====================================
         .introSegment{ 
             @include flex-center();
-            height: calc(100vh - 50px);
+            height: calc(100vh - 70px);
             padding: 0 10% 0 10%;
             background-color: #019ed3;
             // @include bg-gradient-bundle();
@@ -221,7 +221,11 @@ strong{
                 }
 
             }
-         };
+
+            @media(max-width: 500px) {
+                height: calc(100vh - 70px);
+            }
+        };
 
         // WORK =====================================
         .workSegment{ 

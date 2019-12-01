@@ -19,7 +19,7 @@ a{
     color: inherit;
 }
 
-p{ margin: 0; }
+p{ margin: 0; font-family: "Open Sans Bold"};
 
 
 .motherDivFooter{
@@ -97,6 +97,7 @@ p{ margin: 0; }
                         #nameFooter{
                             color: #f4c400;
                             font-size: 1.2rem;
+                            font-family: "Open Sans Bold";
                         }
 
                         #emailFooter, #numberFooter, #cityFooter {
