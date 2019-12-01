@@ -2014,6 +2014,7 @@ const DownArrow = () => {
     display: "inline-block"
   };
   return __jsx("svg", {
+    className: "downArrow",
     height: "100%",
     version: "1.1",
     xmlns: "http://www.w3.org/2000/svg",
