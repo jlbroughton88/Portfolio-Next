@@ -19,7 +19,8 @@
       "pages/comps/icons/logo.js": 11,
       "pages/comps/navbar.js": 12,
       "pages/index.js": 13,
-      "pages/story.js": 14
+      "pages/story.js": 14,
+      "pages/comps/icons/downArrow.js": 15
     },
     "bySource": {},
     "usedIds": [
@@ -30,6 +31,7 @@
       12,
       13,
       14,
+      15,
       2,
       3,
       4,

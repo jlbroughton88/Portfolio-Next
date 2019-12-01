@@ -6,6 +6,7 @@ import LinkedIn from "./comps/icons/linkedIn";
 import Github from "./comps/icons/github";
 import Email from "./comps/icons/email";
 import ListIcon from "./comps/icons/listIcon";
+import DownArrow from "./comps/icons/downArrow"
 
 const index = () => {
 
@@ -16,6 +17,7 @@ const index = () => {
             <div className="mainDiv">
                 <header className="introSegment">
                     <p className="introP">Jacob Broughton</p>
+                    <DownArrow className="downArrowSVG"/>
                 </header>
                 <div className="workSegment">
                     <div className="workHeaderDiv textDiv">

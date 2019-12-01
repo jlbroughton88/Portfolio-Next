@@ -134,6 +134,16 @@ strong{
     font-weight: 800;
 }
 
+svg{
+    position: absolute;
+    display: inline-block;
+    align-self: center;
+    width: 25px;
+    top: 90%;
+    height: 35px;
+    fill: #383838;
+}
+
 // Headers
 .textDiv{
     height: 25%;
@@ -168,9 +178,20 @@ strong{
     }
 
     @media(max-width: 550px) {
-        .para{
+        .paraDiv{
+                    .para{
             font-size: 1.05rem;
         } 
+        }
+
+    }
+
+    @media(max-width: 420px) {
+       .paraDiv{
+          .para{
+        //    font-size: .6rem;
+       } 
+       }
     }
 }
 
@@ -201,6 +222,7 @@ strong{
             height: calc(100vh - 70px);
             padding: 0 10% 0 10%;
             background-color: #019ed3;
+            position: relative;
             // @include bg-gradient-bundle();
 
             .introP{
@@ -313,6 +335,7 @@ strong{
 
                 .leftSideSkills, .rightSideSkills{
                     margin: 5%;
+                    margin-top: 0;
                 }
 
                 .leftSideSkills, .rightSideSkills, .skillsBlue, .skillsGrey{
