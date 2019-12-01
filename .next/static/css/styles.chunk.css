@@ -56,6 +56,7 @@ strong {
     .textDiv .headerDiv .header {
       font-size: 3rem; }
   .textDiv .paraDiv .para {
+    font-family: "Open Sans";
     font-size: 1.3rem; }
   @media (max-width: 750px) {
     .textDiv {
@@ -94,6 +95,7 @@ strong {
       padding: 0 10% 0 10%;
       background-color: #019ed3; }
       .motherDiv .mainDiv .introSegment .introP {
+        display: inline-block;
         font-size: calc(2vw + 1.2rem);
         font-family: "Open Sans Bold";
         animation: name-animate 2s infinite alternate;
@@ -114,9 +116,12 @@ strong {
           font-family: "Open Sans";
           content: ' & I create great experiences on the internet.';
           color: #ffffff; }
+        @media (max-width: 400px) {
+          .motherDiv .mainDiv .introSegment .introP {
+            font-size: calc(1.0vw + 1.2rem); } }
       @media (max-width: 500px) {
         .motherDiv .mainDiv .introSegment {
-          height: calc(100vh - 70px); } }
+          height: calc(88vh - 70px); } }
     .motherDiv .mainDiv .workSegment .workDiv {
       height: 70%;
       max-width: 1110px;
@@ -227,7 +232,9 @@ strong {
         flex-direction: row;
         padding: 5%;
         width: 100%;
-        height: 100%; }
+        height: 100%;
+        max-width: 850px;
+        margin: auto; }
         .motherDiv .mainDiv .letsTalkSegment .mainTalkDiv .letsTalkLeft {
           display: flex;
           justify-content: center;
@@ -290,7 +297,7 @@ nav {
     font-weight: 900; }
   nav .leftSide {
     height: 100%;
-    width: 200px;
+    width: 250px;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -23,7 +23,7 @@ const index = () => {
                             <h1 className="workHeader header">Work</h1>
                         </div>
                         <div className="paraDiv">
-                            <p className="workPara para">I'm a <strong>full-stack developer</strong> living in Matthews, NC. I'm <strong>passionate</strong> about creating a great experience for the user, and a smooth process behind the scenes.</p>
+                            <p className="workPara para">I'm a <strong>full-stack developer</strong> living in Matthews, NC. I'm <strong>passionate</strong> about creating a fluid experience for the user, and a smooth process behind the scenes.</p>
                         </div>
                     </div>
 
