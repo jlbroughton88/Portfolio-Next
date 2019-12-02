@@ -32,24 +32,24 @@ const index = () => {
 
                     <div className="workDiv">
                         <div className="workSubDiv">
-                            <div className="workExample">
+                            <a href="https://pokedex-jb.herokuapp.com/" className="workExample">
                                 <h1>Pokedex</h1>
-                            </div>
-                            <div className="workExample">
+                            </a>
+                            <a href="https://heavenly-details.herokuapp.com/" className="workExample">
                                 <h1>Heavenly Details</h1>
-                            </div>
-                            <div className="workExample">
+                            </a>
+                            <a href="https://new-age-oils.herokuapp.com/" className="workExample">
                                 <h1>New Age Oils</h1>
-                            </div>
-                            <div className="workExample">
+                            </a>
+                            <a href="https://crud-car-list.herokuapp.com/" className="workExample">
                                 <h1>CRUD Car List</h1>
-                            </div>
-                            <div className="workExample">
+                            </a>
+                            <a href="https://www.jlbroughton.com" className="workExample">
                                 <h1>Portfolio (V2)</h1>
-                            </div>
-                            <div className="workExample">
+                            </a>
+                            <a href="https://jbroughton-portfolio.herokuapp.com/" className="workExample">
                                 <h1>Portfolio (V1)</h1>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </section>

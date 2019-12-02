@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "zxms");
+/******/ 	return __webpack_require__(__webpack_require__.s = "zZGc");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2843,7 +2843,7 @@ module.exports = __webpack_require__("UDep");
 /***/ "LZ9C":
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"devFiles\":[],\"pages\":{\"/\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/css/styles.ae2bf150.chunk.css\",\"static/chunks/styles.443bfd7d50013a0890e1.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"],\"/_app\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"],\"/_error\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"],\"/_polyfills\":[\"static/runtime/polyfills-ae2215d25cdd41213621.js\"],\"/comps/footer\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/css/styles.ae2bf150.chunk.css\",\"static/chunks/styles.443bfd7d50013a0890e1.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"],\"/comps/icons/downArrow\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"],\"/comps/icons/email\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"],\"/comps/icons/github\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"],\"/comps/icons/githubFooter\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"],\"/comps/icons/instagramFooter\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"],\"/comps/icons/linkedIn\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"],\"/comps/icons/linkedinFooter\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"],\"/comps/icons/listIcon\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"],\"/comps/icons/logo\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"],\"/comps/letsTalk\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/css/styles.ae2bf150.chunk.css\",\"static/chunks/styles.443bfd7d50013a0890e1.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"],\"/comps/navbar\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/css/styles.ae2bf150.chunk.css\",\"static/chunks/styles.443bfd7d50013a0890e1.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"],\"/index\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/css/styles.ae2bf150.chunk.css\",\"static/chunks/styles.443bfd7d50013a0890e1.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"],\"/story\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/css/styles.ae2bf150.chunk.css\",\"static/chunks/styles.443bfd7d50013a0890e1.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"]}}");
+module.exports = JSON.parse("{\"devFiles\":[],\"pages\":{\"/\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/css/styles.45fba798.chunk.css\",\"static/chunks/styles.443bfd7d50013a0890e1.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"],\"/_app\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"],\"/_error\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"],\"/_polyfills\":[\"static/runtime/polyfills-ae2215d25cdd41213621.js\"],\"/comps/footer\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/css/styles.45fba798.chunk.css\",\"static/chunks/styles.443bfd7d50013a0890e1.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"],\"/comps/icons/downArrow\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"],\"/comps/icons/email\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"],\"/comps/icons/github\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"],\"/comps/icons/githubFooter\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"],\"/comps/icons/instagramFooter\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"],\"/comps/icons/linkedIn\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"],\"/comps/icons/linkedinFooter\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"],\"/comps/icons/listIcon\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"],\"/comps/icons/logo\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"],\"/comps/letsTalk\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/css/styles.45fba798.chunk.css\",\"static/chunks/styles.443bfd7d50013a0890e1.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"],\"/comps/navbar\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/css/styles.45fba798.chunk.css\",\"static/chunks/styles.443bfd7d50013a0890e1.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"],\"/index\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/css/styles.45fba798.chunk.css\",\"static/chunks/styles.443bfd7d50013a0890e1.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"],\"/story\":[\"static/runtime/webpack-9369c5c69dbf6d4912cb.js\",\"static/chunks/commons.724b47f612a7bdd31dcb.js\",\"static/css/styles.45fba798.chunk.css\",\"static/chunks/styles.443bfd7d50013a0890e1.js\",\"static/runtime/main-f0537efefac42e54ba4f.js\"]}}");
 
 /***/ }),
 
@@ -7109,24 +7109,7 @@ module.exports = function (C, x) {
 
 /***/ }),
 
-/***/ "zn7N":
-/***/ (function(module, exports, __webpack_require__) {
-
-// most Object methods by ES6 should accept primitives
-var $export = __webpack_require__("Y7ZC");
-var core = __webpack_require__("WEpk");
-var fails = __webpack_require__("KUxP");
-module.exports = function (KEY, exec) {
-  var fn = (core.Object || {})[KEY] || Object[KEY];
-  var exp = {};
-  exp[KEY] = exec(fn);
-  $export($export.S + $export.F * fails(function () { fn(1); }), 'Object', exp);
-};
-
-
-/***/ }),
-
-/***/ "zxms":
+/***/ "zZGc":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7184,7 +7167,7 @@ var private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_7___n
         unstable_getStaticProps,
         reactLoadableManifest: private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_7__,
         canonicalBase: "",
-        buildId: "d549D8dlzB5USKxn1ky--",
+        buildId: "ytMN_686dZmiZ9JqdqutI",
         assetPrefix: "",
         ampBindInitData: false,
       }
@@ -7193,7 +7176,7 @@ var private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_7___n
       if (req.url.match(/_next\/data/)) {
         sprData = true
         req.url = req.url
-          .replace(new RegExp('/_next/data/d549D8dlzB5USKxn1ky\-\-/'), '/')
+          .replace(new RegExp('/_next/data/ytMN_686dZmiZ9JqdqutI/'), '/')
           .replace(/\.json$/, '')
       }
       const parsedUrl = Object(url__WEBPACK_IMPORTED_MODULE_0__["parse"])(req.url, true)
@@ -7259,6 +7242,23 @@ var private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_7___n
       }
     }
   
+
+/***/ }),
+
+/***/ "zn7N":
+/***/ (function(module, exports, __webpack_require__) {
+
+// most Object methods by ES6 should accept primitives
+var $export = __webpack_require__("Y7ZC");
+var core = __webpack_require__("WEpk");
+var fails = __webpack_require__("KUxP");
+module.exports = function (KEY, exec) {
+  var fn = (core.Object || {})[KEY] || Object[KEY];
+  var exp = {};
+  exp[KEY] = exec(fn);
+  $export($export.S + $export.F * fails(function () { fn(1); }), 'Object', exp);
+};
+
 
 /***/ })
 

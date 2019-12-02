@@ -163,7 +163,7 @@ strong {
           background-color: #019ed3;
           margin: 9px; }
           .motherDiv .mainDiv .workSegment .workDiv .workSubDiv .workExample h1 {
-            font-size: calc(2.6vw + 0.5rem); }
+            font-size: calc(2.4vw + 0.5rem); }
           .motherDiv .mainDiv .workSegment .workDiv .workSubDiv .workExample:hover {
             box-shadow: none;
             filter: brightness(120%);
