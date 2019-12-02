@@ -8,7 +8,7 @@
 // Text Tags
 .motherDivStory{
        h1, h2, h3, h4, h5, h6, p{
-        color: #383838;
+        color: #ffffff;
     }
 
     h1{
@@ -29,7 +29,8 @@
     overflow-y: scroll;
 
     .mainStoryDiv{
-        background: #019ed3;
+        // background: #019ed3;
+        background-color: #383838;
         .storySection{
             margin: auto;
             padding: 2.5% 5%;

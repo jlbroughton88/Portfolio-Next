@@ -36,19 +36,19 @@ const index = () => {
                                 <h1>Pokedex</h1>
                             </div>
                             <div className="workExample">
-                                <h1>Heavenly</h1>
+                                <h1>Heavenly Details</h1>
                             </div>
                             <div className="workExample">
-                                <h1>New Age</h1>
+                                <h1>New Age Oils</h1>
                             </div>
                             <div className="workExample">
-                                <h1>Example 4</h1>
+                                <h1>CRUD Car List</h1>
                             </div>
                             <div className="workExample">
-                                <h1>Example 5</h1>
+                                <h1>Portfolio (V2)</h1>
                             </div>
                             <div className="workExample">
-                                <h1>Example 6</h1>
+                                <h1>Portfolio (V1)</h1>
                             </div>
                         </div>
                     </div>

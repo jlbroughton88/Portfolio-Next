@@ -163,7 +163,7 @@ strong {
           background-color: #019ed3;
           margin: 9px; }
           .motherDiv .mainDiv .workSegment .workDiv .workSubDiv .workExample h1 {
-            font-size: calc(3vw + 0.5rem); }
+            font-size: calc(2.6vw + 0.5rem); }
           .motherDiv .mainDiv .workSegment .workDiv .workSubDiv .workExample:hover {
             box-shadow: none;
             filter: brightness(120%);
@@ -420,7 +420,7 @@ p {
             align-self: flex-start; } }
 
 .motherDivStory h1, .motherDivStory h2, .motherDivStory h3, .motherDivStory h4, .motherDivStory h5, .motherDivStory h6, .motherDivStory p {
-  color: #383838; }
+  color: #ffffff; }
 
 .motherDivStory h1 {
   font-size: 2.5rem; }
@@ -435,7 +435,7 @@ p {
   min-height: 100%;
   overflow-y: scroll; }
   .motherDivStory .mainStoryDiv {
-    background: #019ed3; }
+    background-color: #383838; }
     .motherDivStory .mainStoryDiv .storySection {
       margin: auto;
       padding: 2.5% 5%; }
