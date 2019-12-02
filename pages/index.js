@@ -6,7 +6,8 @@ import LinkedIn from "./comps/icons/linkedIn";
 import Github from "./comps/icons/github";
 import Email from "./comps/icons/email";
 import ListIcon from "./comps/icons/listIcon";
-import DownArrow from "./comps/icons/downArrow"
+import DownArrow from "./comps/icons/downArrow";
+import LetsTalk from "./comps/letsTalk";
 
 const index = () => {
 
@@ -106,16 +107,7 @@ const index = () => {
                         </section>
                     </div>
                 </section>
-                <section className="letsTalkSegment">
-                    <div className="mainTalkDiv">
-                        <div className="letsTalkLeft">
-                            <h2 className="talkHead">Looking for a developer?</h2>
-                        </div>
-                        <div className="letsTalkRight">
-                            <a href="mailto:jlbroughton@gmail.com?subject=Developer Portfolio Inquiry" className="talkCTA">Lets Talk.</a>
-                        </div>
-                    </div>
-                </section>
+                <LetsTalk/>
                 <Footer />
             </main>
 

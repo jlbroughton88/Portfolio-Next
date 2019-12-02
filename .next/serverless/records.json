@@ -20,7 +20,8 @@
       "pages/comps/navbar.js": 12,
       "pages/index.js": 13,
       "pages/story.js": 14,
-      "pages/comps/icons/downArrow.js": 15
+      "pages/comps/icons/downArrow.js": 15,
+      "pages/comps/letsTalk.js": 16
     },
     "bySource": {},
     "usedIds": [
@@ -32,6 +33,7 @@
       13,
       14,
       15,
+      16,
       2,
       3,
       4,

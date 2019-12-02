@@ -4,8 +4,8 @@
     "/": [
       "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
       "static/chunks/commons.724b47f612a7bdd31dcb.js",
-      "static/css/styles.500f1b86.chunk.css",
-      "static/chunks/styles.a4f3bdfb4a7a1d470617.js",
+      "static/css/styles.d7df287b.chunk.css",
+      "static/chunks/styles.443bfd7d50013a0890e1.js",
       "static/runtime/main-f0537efefac42e54ba4f.js"
     ],
     "/_app": [
@@ -24,8 +24,8 @@
     "/comps/footer": [
       "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
       "static/chunks/commons.724b47f612a7bdd31dcb.js",
-      "static/css/styles.500f1b86.chunk.css",
-      "static/chunks/styles.a4f3bdfb4a7a1d470617.js",
+      "static/css/styles.d7df287b.chunk.css",
+      "static/chunks/styles.443bfd7d50013a0890e1.js",
       "static/runtime/main-f0537efefac42e54ba4f.js"
     ],
     "/comps/icons/downArrow": [
@@ -73,25 +73,32 @@
       "static/chunks/commons.724b47f612a7bdd31dcb.js",
       "static/runtime/main-f0537efefac42e54ba4f.js"
     ],
+    "/comps/letsTalk": [
+      "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
+      "static/chunks/commons.724b47f612a7bdd31dcb.js",
+      "static/css/styles.d7df287b.chunk.css",
+      "static/chunks/styles.443bfd7d50013a0890e1.js",
+      "static/runtime/main-f0537efefac42e54ba4f.js"
+    ],
     "/comps/navbar": [
       "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
       "static/chunks/commons.724b47f612a7bdd31dcb.js",
-      "static/css/styles.500f1b86.chunk.css",
-      "static/chunks/styles.a4f3bdfb4a7a1d470617.js",
+      "static/css/styles.d7df287b.chunk.css",
+      "static/chunks/styles.443bfd7d50013a0890e1.js",
       "static/runtime/main-f0537efefac42e54ba4f.js"
     ],
     "/index": [
       "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
       "static/chunks/commons.724b47f612a7bdd31dcb.js",
-      "static/css/styles.500f1b86.chunk.css",
-      "static/chunks/styles.a4f3bdfb4a7a1d470617.js",
+      "static/css/styles.d7df287b.chunk.css",
+      "static/chunks/styles.443bfd7d50013a0890e1.js",
       "static/runtime/main-f0537efefac42e54ba4f.js"
     ],
     "/story": [
       "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
       "static/chunks/commons.724b47f612a7bdd31dcb.js",
-      "static/css/styles.500f1b86.chunk.css",
-      "static/chunks/styles.a4f3bdfb4a7a1d470617.js",
+      "static/css/styles.d7df287b.chunk.css",
+      "static/chunks/styles.443bfd7d50013a0890e1.js",
       "static/runtime/main-f0537efefac42e54ba4f.js"
     ]
   }

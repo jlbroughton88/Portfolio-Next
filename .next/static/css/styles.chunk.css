@@ -234,60 +234,6 @@ strong {
       @media (min-width: 1000px) {
         .motherDiv .mainDiv .skillsSegment .skillsDiv {
           height: 80%; } }
-    .motherDiv .mainDiv .letsTalkSegment {
-      width: 100%;
-      height: 200px;
-      background: #019ed3; }
-      .motherDiv .mainDiv .letsTalkSegment .mainTalkDiv {
-        display: flex;
-        flex-direction: row;
-        padding: 5%;
-        width: 100%;
-        height: 100%;
-        max-width: 850px;
-        margin: auto; }
-        .motherDiv .mainDiv .letsTalkSegment .mainTalkDiv .letsTalkLeft {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-direction: column;
-          width: 50%;
-          height: 100%;
-          border: red; }
-        .motherDiv .mainDiv .letsTalkSegment .mainTalkDiv .letsTalkRight {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-direction: column;
-          width: 50%;
-          height: 100%;
-          border: white; }
-          .motherDiv .mainDiv .letsTalkSegment .mainTalkDiv .letsTalkRight .talkCTA {
-            display: flex;
-            align-items: center;
-            opacity: 0.9;
-            height: 100%;
-            width: none;
-            color: #ffffff;
-            font-size: 5rem;
-            padding: 0;
-            transition: all 350ms ease-in-out;
-            font-weight: 500; }
-            .motherDiv .mainDiv .letsTalkSegment .mainTalkDiv .letsTalkRight .talkCTA:hover {
-              opacity: 0.3; }
-        @media (max-width: 550px) {
-          .motherDiv .mainDiv .letsTalkSegment .mainTalkDiv {
-            flex-direction: column; }
-            .motherDiv .mainDiv .letsTalkSegment .mainTalkDiv .letsTalkLeft {
-              width: 100%;
-              height: 50%; }
-              .motherDiv .mainDiv .letsTalkSegment .mainTalkDiv .letsTalkLeft .talkHead {
-                width: inherit; }
-            .motherDiv .mainDiv .letsTalkSegment .mainTalkDiv .letsTalkRight {
-              width: 100%;
-              height: 50%; }
-              .motherDiv .mainDiv .letsTalkSegment .mainTalkDiv .letsTalkRight .talkCTA {
-                align-self: flex-start; } }
 
 * {
   margin: 0; }
@@ -418,15 +364,81 @@ p {
           .motherDivFooter .bottomDiv .subBottomDiv .contactDivContainer .contactDivFooter #emailFooter, .motherDivFooter .bottomDiv .subBottomDiv .contactDivContainer .contactDivFooter #numberFooter, .motherDivFooter .bottomDiv .subBottomDiv .contactDivContainer .contactDivFooter #cityFooter {
             color: #ffffff; }
 
-html, body {
-  margin: auto;
-  padding: 0;
-  height: 100%;
-  width: 100%; }
+.letsTalkSegment {
+  width: 100%;
+  height: 200px;
+  background: #019ed3; }
+  .letsTalkSegment .mainTalkDiv {
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    width: 100%;
+    height: 100%;
+    max-width: 850px;
+    margin: auto; }
+    .letsTalkSegment .mainTalkDiv .letsTalkLeft {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 50%;
+      height: 100%;
+      border: red; }
+    .letsTalkSegment .mainTalkDiv .letsTalkRight {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 50%;
+      height: 100%;
+      border: white; }
+      .letsTalkSegment .mainTalkDiv .letsTalkRight .talkCTA {
+        display: flex;
+        align-items: center;
+        opacity: 0.9;
+        height: 100%;
+        width: none;
+        color: #ffffff;
+        font-size: 5rem;
+        padding: 0;
+        transition: all 350ms ease-in-out;
+        font-weight: 500; }
+        .letsTalkSegment .mainTalkDiv .letsTalkRight .talkCTA:hover {
+          opacity: 0.3; }
+    @media (max-width: 550px) {
+      .letsTalkSegment .mainTalkDiv {
+        flex-direction: column; }
+        .letsTalkSegment .mainTalkDiv .letsTalkLeft {
+          width: 100%;
+          height: 50%; }
+          .letsTalkSegment .mainTalkDiv .letsTalkLeft .talkHead {
+            width: inherit; }
+        .letsTalkSegment .mainTalkDiv .letsTalkRight {
+          width: 100%;
+          height: 50%; }
+          .letsTalkSegment .mainTalkDiv .letsTalkRight .talkCTA {
+            align-self: flex-start; } }
 
-.motherDivStory .mainStoryDiv .storySection {
-  margin: auto;
-  padding: 2.5% 5%; }
+.motherDivStory h1, .motherDivStory h2, .motherDivStory h3, .motherDivStory h4, .motherDivStory h5, .motherDivStory h6, .motherDivStory p {
+  color: #383838; }
+
+.motherDivStory h1 {
+  font-size: 2.5rem; }
+
+.motherDivStory p {
+  font-size: 1.15rem; }
+
+.motherDivStory {
+  width: 100%;
+  background-color: #383838;
+  height: 100%;
+  min-height: 100%;
+  overflow-y: scroll; }
+  .motherDivStory .mainStoryDiv {
+    background: #019ed3; }
+    .motherDivStory .mainStoryDiv .storySection {
+      margin: auto;
+      padding: 2.5% 5%; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/
