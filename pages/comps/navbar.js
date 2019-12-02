@@ -15,11 +15,11 @@ const navbar = () => (
 
             <div className="rightSide">
                 <div className="navMenuDiv">
-                    <Link href="/story">
+                    {/* <Link href="/story">
                         <a className="myStory">
                             <h3>My Story</h3>
                         </a>
-                        </Link>
+                        </Link> */}
                 </div>
             </div>
 

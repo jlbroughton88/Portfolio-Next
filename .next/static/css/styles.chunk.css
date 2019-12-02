@@ -263,15 +263,18 @@ strong {
           height: 100%;
           border: white; }
           .motherDiv .mainDiv .letsTalkSegment .mainTalkDiv .letsTalkRight .talkCTA {
+            display: flex;
+            align-items: center;
             opacity: 0.9;
+            height: 100%;
             width: none;
             color: #ffffff;
             font-size: 5rem;
-            padding: 5px 8px;
-            transition: all 350ms ease-in-out; }
+            padding: 0;
+            transition: all 350ms ease-in-out;
+            font-weight: 500; }
             .motherDiv .mainDiv .letsTalkSegment .mainTalkDiv .letsTalkRight .talkCTA:hover {
-              opacity: 0.3;
-              filter: brightness(120%); }
+              opacity: 0.3; }
         @media (max-width: 550px) {
           .motherDiv .mainDiv .letsTalkSegment .mainTalkDiv {
             flex-direction: column; }
@@ -420,6 +423,10 @@ html, body {
   padding: 0;
   height: 100%;
   width: 100%; }
+
+.motherDivStory .mainStoryDiv .storySection {
+  margin: auto;
+  padding: 2.5% 5%; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

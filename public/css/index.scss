@@ -459,16 +459,19 @@ strong{
                     border: white;
 
                         .talkCTA{
+                            display: flex;
+                            align-items: center;
                             opacity: 0.9;
+                            height: 100%;
                             width: none;
                             color: #ffffff;
                             font-size: 5rem;
-                            padding: 5px 8px;
+                            padding: 0;
                             transition: all 350ms ease-in-out;
+                            font-weight: 500;
 
                             &:hover{
                                 opacity: 0.3;
-                                filter: brightness(120%);
                             }
                         }
                 }
