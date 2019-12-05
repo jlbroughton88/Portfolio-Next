@@ -73,6 +73,22 @@
                             }
                         }
                     }
+
+                    @media(max-width: 550px) {
+                        .letsTalkRight{
+                            .talkCTA{
+                                font-size: 3.75rem;
+                            }
+                        }
+                    }
+
+                    @media(max-width: 400px) {
+                        .letsTalkRight{
+                            .talkCTA{
+                                font-size: 3.5rem;
+                            }
+                        }
+                    }
                 }
              };
              

@@ -16,23 +16,6 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/index.scss": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
   "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/letsTalk.scss": [
     {
       "modules": {
@@ -50,7 +33,7 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/navbar.scss": [
+  "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/story.scss": [
     {
       "modules": {
         "byIdentifier": {},
@@ -67,7 +50,24 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/story.scss": [
+  "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/index.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/navbar.scss": [
     {
       "modules": {
         "byIdentifier": {},
@@ -105,22 +105,22 @@
       "static/runtime/webpack.js": 0,
       "commons": 1,
       "styles": 2,
-      "static/198AcNifMCd_6D1IlTBKb/pages/_app.js": 3,
-      "static/198AcNifMCd_6D1IlTBKb/pages/_error.js": 4,
-      "static/198AcNifMCd_6D1IlTBKb/pages/comps/footer.js": 5,
-      "static/198AcNifMCd_6D1IlTBKb/pages/comps/icons/downArrow.js": 6,
-      "static/198AcNifMCd_6D1IlTBKb/pages/comps/icons/email.js": 7,
-      "static/198AcNifMCd_6D1IlTBKb/pages/comps/icons/github.js": 8,
-      "static/198AcNifMCd_6D1IlTBKb/pages/comps/icons/githubFooter.js": 9,
-      "static/198AcNifMCd_6D1IlTBKb/pages/comps/icons/instagramFooter.js": 10,
-      "static/198AcNifMCd_6D1IlTBKb/pages/comps/icons/linkedIn.js": 11,
-      "static/198AcNifMCd_6D1IlTBKb/pages/comps/icons/linkedinFooter.js": 12,
-      "static/198AcNifMCd_6D1IlTBKb/pages/comps/icons/listIcon.js": 13,
-      "static/198AcNifMCd_6D1IlTBKb/pages/comps/icons/logo.js": 14,
-      "static/198AcNifMCd_6D1IlTBKb/pages/comps/letsTalk.js": 15,
-      "static/198AcNifMCd_6D1IlTBKb/pages/comps/navbar.js": 16,
-      "static/198AcNifMCd_6D1IlTBKb/pages/index.js": 17,
-      "static/198AcNifMCd_6D1IlTBKb/pages/story.js": 18,
+      "static/j15AVJWD_7asy4ZZWvwcV/pages/_app.js": 3,
+      "static/j15AVJWD_7asy4ZZWvwcV/pages/_error.js": 4,
+      "static/j15AVJWD_7asy4ZZWvwcV/pages/comps/footer.js": 5,
+      "static/j15AVJWD_7asy4ZZWvwcV/pages/comps/icons/downArrow.js": 6,
+      "static/j15AVJWD_7asy4ZZWvwcV/pages/comps/icons/email.js": 7,
+      "static/j15AVJWD_7asy4ZZWvwcV/pages/comps/icons/github.js": 8,
+      "static/j15AVJWD_7asy4ZZWvwcV/pages/comps/icons/githubFooter.js": 9,
+      "static/j15AVJWD_7asy4ZZWvwcV/pages/comps/icons/instagramFooter.js": 10,
+      "static/j15AVJWD_7asy4ZZWvwcV/pages/comps/icons/linkedIn.js": 11,
+      "static/j15AVJWD_7asy4ZZWvwcV/pages/comps/icons/linkedinFooter.js": 12,
+      "static/j15AVJWD_7asy4ZZWvwcV/pages/comps/icons/listIcon.js": 13,
+      "static/j15AVJWD_7asy4ZZWvwcV/pages/comps/icons/logo.js": 14,
+      "static/j15AVJWD_7asy4ZZWvwcV/pages/comps/letsTalk.js": 15,
+      "static/j15AVJWD_7asy4ZZWvwcV/pages/comps/navbar.js": 16,
+      "static/j15AVJWD_7asy4ZZWvwcV/pages/index.js": 17,
+      "static/j15AVJWD_7asy4ZZWvwcV/pages/story.js": 18,
       "static/runtime/main.js": 19,
       "static/runtime/polyfills.js": 20
     },

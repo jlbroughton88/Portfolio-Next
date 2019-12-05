@@ -146,7 +146,12 @@ strong{
     @keyframes upDown{
         from {transform: translateY(0)}
         to{ transform: translateY(15px) };
+    }    
+    
+    @media(max-width: 501px) {
+        top:75%;
     }
+
 }
 
 // Headers
@@ -249,16 +254,19 @@ strong{
                     color: #ffffff;
                 }
 
+  
+
                 @media(max-width: 400px) {
                     font-size: calc(1.0vw + 1.2rem);
                 }
 
+
+
+                @media(max-width: 501px) {
+                    margin-bottom: 100px;
+                }
             }
 
-            // @media(max-width: 500px) {
-            //     height: calc(88vh - 70px);
-            //     // min-height: calc(100vh - 115px);
-            // }
         };
 
         // WORK =====================================
