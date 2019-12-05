@@ -141,6 +141,12 @@ strong{
     top: 90%;
     height: 35px;
     fill: #383838;
+    animation: upDown 1s alternate infinite;
+
+    @keyframes upDown{
+        from {transform: translateY(0)}
+        to{ transform: translateY(15px) };
+    }
 }
 
 // Headers
@@ -249,10 +255,10 @@ strong{
 
             }
 
-            @media(max-width: 500px) {
-                height: calc(88vh - 70px);
-                // min-height: calc(100vh - 115px);
-            }
+            // @media(max-width: 500px) {
+            //     height: calc(88vh - 70px);
+            //     // min-height: calc(100vh - 115px);
+            // }
         };
 
         // WORK =====================================
