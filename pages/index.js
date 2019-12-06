@@ -93,6 +93,7 @@ const index = () => {
                             <div className="skillsBlue">
                                 <div className="skillsGrey">
                                     <ul>
+                                        <li>C#</li>
                                         <li>JQuery</li>
                                         <li>Python</li>
                                         <li>MySql</li>
