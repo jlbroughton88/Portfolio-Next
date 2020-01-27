@@ -32,6 +32,9 @@ const index = () => {
 
                     <div className="workDiv">
                         <div className="workSubDiv">
+                        <a href="https://bug-tracker-jb.herokuapp.com/" className="workExample">
+                                <h1>Bug Tracker</h1>
+                            </a>
                             <a href="https://pokedex-jb.herokuapp.com/" className="workExample">
                                 <h1>Pokedex</h1>
                             </a>
