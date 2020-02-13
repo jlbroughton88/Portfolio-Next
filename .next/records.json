@@ -1,21 +1,4 @@
 {
-  "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/story.scss": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
   "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/index.scss": [
     {
       "modules": {
@@ -51,6 +34,23 @@
     }
   ],
   "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/navbar.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/story.scss": [
     {
       "modules": {
         "byIdentifier": {},
@@ -105,22 +105,22 @@
       "static/runtime/webpack.js": 0,
       "commons": 1,
       "styles": 2,
-      "static/oiIE8r2zTE-ZaOzDMaLQo/pages/_app.js": 3,
-      "static/oiIE8r2zTE-ZaOzDMaLQo/pages/_error.js": 4,
-      "static/oiIE8r2zTE-ZaOzDMaLQo/pages/comps/footer.js": 5,
-      "static/oiIE8r2zTE-ZaOzDMaLQo/pages/comps/icons/downArrow.js": 6,
-      "static/oiIE8r2zTE-ZaOzDMaLQo/pages/comps/icons/email.js": 7,
-      "static/oiIE8r2zTE-ZaOzDMaLQo/pages/comps/icons/github.js": 8,
-      "static/oiIE8r2zTE-ZaOzDMaLQo/pages/comps/icons/githubFooter.js": 9,
-      "static/oiIE8r2zTE-ZaOzDMaLQo/pages/comps/icons/instagramFooter.js": 10,
-      "static/oiIE8r2zTE-ZaOzDMaLQo/pages/comps/icons/linkedIn.js": 11,
-      "static/oiIE8r2zTE-ZaOzDMaLQo/pages/comps/icons/linkedinFooter.js": 12,
-      "static/oiIE8r2zTE-ZaOzDMaLQo/pages/comps/icons/listIcon.js": 13,
-      "static/oiIE8r2zTE-ZaOzDMaLQo/pages/comps/icons/logo.js": 14,
-      "static/oiIE8r2zTE-ZaOzDMaLQo/pages/comps/letsTalk.js": 15,
-      "static/oiIE8r2zTE-ZaOzDMaLQo/pages/comps/navbar.js": 16,
-      "static/oiIE8r2zTE-ZaOzDMaLQo/pages/index.js": 17,
-      "static/oiIE8r2zTE-ZaOzDMaLQo/pages/story.js": 18,
+      "static/mrirFDUhIhtT8PgwMYNg6/pages/_app.js": 3,
+      "static/mrirFDUhIhtT8PgwMYNg6/pages/_error.js": 4,
+      "static/mrirFDUhIhtT8PgwMYNg6/pages/comps/footer.js": 5,
+      "static/mrirFDUhIhtT8PgwMYNg6/pages/comps/icons/downArrow.js": 6,
+      "static/mrirFDUhIhtT8PgwMYNg6/pages/comps/icons/email.js": 7,
+      "static/mrirFDUhIhtT8PgwMYNg6/pages/comps/icons/github.js": 8,
+      "static/mrirFDUhIhtT8PgwMYNg6/pages/comps/icons/githubFooter.js": 9,
+      "static/mrirFDUhIhtT8PgwMYNg6/pages/comps/icons/instagramFooter.js": 10,
+      "static/mrirFDUhIhtT8PgwMYNg6/pages/comps/icons/linkedIn.js": 11,
+      "static/mrirFDUhIhtT8PgwMYNg6/pages/comps/icons/linkedinFooter.js": 12,
+      "static/mrirFDUhIhtT8PgwMYNg6/pages/comps/icons/listIcon.js": 13,
+      "static/mrirFDUhIhtT8PgwMYNg6/pages/comps/icons/logo.js": 14,
+      "static/mrirFDUhIhtT8PgwMYNg6/pages/comps/letsTalk.js": 15,
+      "static/mrirFDUhIhtT8PgwMYNg6/pages/comps/navbar.js": 16,
+      "static/mrirFDUhIhtT8PgwMYNg6/pages/index.js": 17,
+      "static/mrirFDUhIhtT8PgwMYNg6/pages/story.js": 18,
       "static/runtime/main.js": 19,
       "static/runtime/polyfills.js": 20
     },
