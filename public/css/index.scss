@@ -284,8 +284,8 @@ strong{
                     display: flex;       
                     align-self: center;
                     flex-wrap: wrap;
-                    justify-items: center;
-                    justify-content: center;         
+                    justify-items:center;
+                    justify-content: flex-start;         
 
                     .workExample{
                         height:22vw;

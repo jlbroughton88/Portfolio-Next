@@ -4,7 +4,7 @@
     "/": [
       "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
       "static/chunks/commons.724b47f612a7bdd31dcb.js",
-      "static/css/styles.c5d2bfd6.chunk.css",
+      "static/css/styles.4a85cdd4.chunk.css",
       "static/chunks/styles.7ca3b038927d60a09cbc.js",
       "static/runtime/main-fc95c0bbd9895d30c560.js"
     ],
@@ -24,7 +24,7 @@
     "/comps/footer": [
       "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
       "static/chunks/commons.724b47f612a7bdd31dcb.js",
-      "static/css/styles.c5d2bfd6.chunk.css",
+      "static/css/styles.4a85cdd4.chunk.css",
       "static/chunks/styles.7ca3b038927d60a09cbc.js",
       "static/runtime/main-fc95c0bbd9895d30c560.js"
     ],
@@ -76,28 +76,28 @@
     "/comps/letsTalk": [
       "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
       "static/chunks/commons.724b47f612a7bdd31dcb.js",
-      "static/css/styles.c5d2bfd6.chunk.css",
+      "static/css/styles.4a85cdd4.chunk.css",
       "static/chunks/styles.7ca3b038927d60a09cbc.js",
       "static/runtime/main-fc95c0bbd9895d30c560.js"
     ],
     "/comps/navbar": [
       "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
       "static/chunks/commons.724b47f612a7bdd31dcb.js",
-      "static/css/styles.c5d2bfd6.chunk.css",
+      "static/css/styles.4a85cdd4.chunk.css",
       "static/chunks/styles.7ca3b038927d60a09cbc.js",
       "static/runtime/main-fc95c0bbd9895d30c560.js"
     ],
     "/index": [
       "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
       "static/chunks/commons.724b47f612a7bdd31dcb.js",
-      "static/css/styles.c5d2bfd6.chunk.css",
+      "static/css/styles.4a85cdd4.chunk.css",
       "static/chunks/styles.7ca3b038927d60a09cbc.js",
       "static/runtime/main-fc95c0bbd9895d30c560.js"
     ],
     "/story": [
       "static/runtime/webpack-9369c5c69dbf6d4912cb.js",
       "static/chunks/commons.724b47f612a7bdd31dcb.js",
-      "static/css/styles.c5d2bfd6.chunk.css",
+      "static/css/styles.4a85cdd4.chunk.css",
       "static/chunks/styles.7ca3b038927d60a09cbc.js",
       "static/runtime/main-fc95c0bbd9895d30c560.js"
     ]
