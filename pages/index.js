@@ -6,6 +6,7 @@ import LinkedIn from "./comps/icons/linkedIn";
 import Github from "./comps/icons/github";
 import Email from "./comps/icons/email";
 import ListIcon from "./comps/icons/listIcon";
+import MeWithGen from "../public/images/genesis4.jpg";
 import DownArrow from "./comps/icons/downArrow";
 import LetsTalk from "./comps/letsTalk";
 
@@ -88,7 +89,7 @@ const index = () => {
               <h1 className="skillsHeader header">Skills</h1>
             </div>
             <div className="paraDiv">
-              <p className="skillsPara para">
+              <p className="aboutPara para">
                 Each day brings new challenges, and every day that passes brings
                 new lessons. I <strong>love learning</strong>, it keeps me
                 going. Things get tough quite often, but theres{" "}
@@ -111,6 +112,7 @@ const index = () => {
                     <li>React JS</li>
                     <li>ExpressJS</li>
                     <li>Node.js</li>
+                    <li>MySql</li>
                     <li>MongoDB</li>
                     <li>Mongoose</li>
                     <li>ES6</li>
@@ -141,6 +143,22 @@ const index = () => {
               </div>
             </section>
           </div>
+        </section>
+        <section className="aboutSegment">
+          {/* <div className="aboutHeaderDiv textDiv">
+            <div className="headerDiv">
+              <h1 className="aboutHead header">About</h1>
+            </div>
+            <div className="paraDiv">
+              <p className="aboutPara para">
+                As cliche as it sounds, coding has really become a big part of my life. I wake up each day at 6 and get straight to whichever project i'm working on. I ge
+              </p>
+            </div> */}
+          {/* </div> */}
+          <div className="surroundDiv">
+            <img className="imageDiv" src={MeWithGen} alt="Me"/>
+          </div>
+          
         </section>
         <LetsTalk />
         <Footer />

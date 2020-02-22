@@ -1,452 +1,470 @@
-@mixin flex-center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-@mixin flex-start{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
+@mixin flex-start {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
 }
 
-@mixin the-color{
-    color: #D6F2F9;
-    background-color: #02536D;
+@mixin the-color {
+  color: #d6f2f9;
+  background-color: #02536d;
 }
 
-@mixin list-standard{
-    margin: 0;
-    display: flex;
-   
-    justify-content: space-evenly;
-    padding: none;
-    list-style-image: url("https://img.icons8.com/material-sharp/15/000000/pentagon.png");
+@mixin list-standard {
+  margin: 0;
+  display: flex;
+
+  justify-content: space-evenly;
+  padding: none;
+  list-style-image: url("https://img.icons8.com/material-sharp/15/000000/pentagon.png");
 }
 
-@mixin social-icons{
-    filter: drop-shadow( 0 7px 3px rgba(0, 0, 0, .3));
-    -o-filter:drop-shadow( 0 7px 3px rgba(0, 0, 0, .3));
-    -ms-filter:drop-shadow( 0 7px 3px rgba(0, 0, 0, .3));
-    -moz-filter:drop-shadow( 0 7px 3px rgba(0, 0, 0, .3));
-    -webkit-filter: drop-shadow( 0 7px 3px rgba(0, 0, 0, .3));
-    fill: #333;
-    -webkit-transition: fill ease-in-out 0.25s;
-    -moz-transition: fill ease-in-out 0.25s;
-    -o-transition: fill ease-in-out 0.25s;
-    transition: fill ease-in-out 0.25s;
-    height: 100%; 
-    
-    &:hover{
-        fill: #00bcc5;
+@mixin social-icons {
+  filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
+  -o-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
+  -ms-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
+  -moz-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
+  -webkit-filter: drop-shadow(0 7px 3px rgba(0, 0, 0, 0.3));
+  fill: #333;
+  -webkit-transition: fill ease-in-out 0.25s;
+  -moz-transition: fill ease-in-out 0.25s;
+  -o-transition: fill ease-in-out 0.25s;
+  transition: fill ease-in-out 0.25s;
+  height: 100%;
+
+  &:hover {
+    fill: #00bcc5;
+  }
+
+  @media (max-width: 600px) {
+    height: 80%;
+  }
+}
+
+@mixin bg-gradient-bundle {
+  background-image: var(--gradient);
+  background-size: 500%;
+  background-position: cover;
+  animation: bg-animate 7s infinite alternate;
+  animation-delay: 1s;
+}
+
+@mixin name-gradient-bundle {
+  @keyframes name-animate {
+    from {
+      color: #282828;
+      filter: brightness(1);
     }
-    
-
-    @media(max-width: 600px) {
-        height: 80%;
+    to {
+      color: #383838;
+      filter: brightness(1.4);
     }
-}
+  }
 
-
-@mixin bg-gradient-bundle{
-        background-image: var(--gradient);
-        background-size: 500%;
-        background-position: cover;
-        animation: bg-animate 7s infinite alternate;
-        animation-delay: 1s;
-}
-
-@mixin name-gradient-bundle{
-
-    @keyframes name-animate {
-       from {
-           color: #282828;
-           filter: brightness(1);
-        }
-       to { 
-           color: #383838;
-           filter: brightness(1.4);
-        }
-    };
-    
-    animation: name-animate 2s infinite alternate;
+  animation: name-animate 2s infinite alternate;
 }
 
 :root {
-    @media(min-width: 600px) {
-            --gradient: linear-gradient(
-            45deg,
-            #019ed3,
-            #383838
-        )
-    }
+  @media (min-width: 600px) {
+    --gradient: linear-gradient(45deg, #019ed3, #383838);
+  }
 
-    @media(max-width: 599px) {
-        --gradient: linear-gradient(
-            180deg,
-            #019ed3,
-            #383838
-        )
-    }
-
-
-
+  @media (max-width: 599px) {
+    --gradient: linear-gradient(180deg, #019ed3, #383838);
+  }
 }
 
 // Open Sans Regular
-@font-face{
-    font-family: "Open Sans";
-    src: url("../fonts/open-sans/OpenSans-Regular.ttf") format("TrueType");
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/open-sans/OpenSans-Regular.ttf") format("TrueType");
 }
 
 // Open Sans Semi Bold
-@font-face{
-    font-family: "Open Sans Bold";
-    src: url("../fonts/open-sans/OpenSans-Bold.ttf") format("TrueType");
+@font-face {
+  font-family: "Open Sans Bold";
+  src: url("../fonts/open-sans/OpenSans-Bold.ttf") format("TrueType");
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body{
-    // display: flex;
-    margin: auto;
-    height: 100%;
-    font-family: "Open Sans";
-    cursor: default;
-    scroll-behavior: smooth;
+html,
+body {
+  // display: flex;
+  margin: auto;
+  height: 100%;
+  font-family: "Open Sans";
+  cursor: default;
+  scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4, h5, h6, p, li {
-    opacity: 0.9;
-    -webkit-font-smoothing: antialiased;
-    color: #ffffff;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+  opacity: 0.9;
+  -webkit-font-smoothing: antialiased;
+  color: #ffffff;
 }
 
-strong{
-    font-weight: 800;
+strong {
+  font-weight: 800;
 }
 
-.downArrow{
-    position: absolute;
-    display: inline-block;
-    align-self: center;
-    width: 25px;
-    top: 90%;
-    height: 35px;
-    fill: #383838;
-    animation: upDown 1s alternate infinite;
+.downArrow {
+  position: absolute;
+  display: inline-block;
+  align-self: center;
+  width: 25px;
+  top: 90%;
+  height: 35px;
+  fill: #383838;
+  animation: upDown 1s alternate infinite;
 
-    @keyframes upDown{
-        from {transform: translateY(0)}
-        to{ transform: translateY(15px) };
-    }    
-    
-    @media(max-width: 501px) {
-        top:75%;
+  @keyframes upDown {
+    from {
+      transform: translateY(0);
     }
+    to {
+      transform: translateY(15px);
+    }
+  }
 
+  @media (max-width: 501px) {
+    top: 75%;
+  }
 }
 
 // Headers
-.textDiv{
-    height: 25%;
-    width: 65vw;
-    max-width: 750px;
-    margin: 100px 0 50px 0;
+.textDiv {
+  height: 25%;
+  width: 65vw;
+  max-width: 750px;
+  margin: 100px 0 50px 0;
 
-    .headerDiv{ 
-        margin: 0 0 10px 0;
+  .headerDiv {
+    margin: 0 0 10px 0;
 
-        .header{ 
-            font-size: 3rem;
-         }
+    .header {
+      font-size: 3rem;
     }
+  }
 
-    .paraDiv{ 
-        .para{ 
-            font-family: "Open Sans";
-            font-size: 1.3rem;
-         }
+  .paraDiv {
+    .para {
+      font-family: "Open Sans";
+      font-size: 1.3rem;
     }
+  }
 
-    @media(max-width: 750px) {
-        width: 80%;
+  @media (max-width: 750px) {
+    width: 80%;
 
-        .paraDiv{
-            .para{
-                font-size: 1.15rem;
-        } 
-        }
-
+    .paraDiv {
+      .para {
+        font-size: 1.15rem;
+      }
     }
+  }
 
-    @media(max-width: 550px) {
-        .paraDiv{
-                    .para{
-            font-size: 1.05rem;
-        } 
-        }
-
+  @media (max-width: 550px) {
+    .paraDiv {
+      .para {
+        font-size: 1.05rem;
+      }
     }
-
-    @media(max-width: 420px) {
-       .paraDiv{
-          .para{
-        //    font-size: .6rem;
-       } 
-       }
-    }
+  }
 }
 
-.workSegment, .skillsSegment{
-    @include flex-center();
-    height: auto;
-    background-color: #383838;
+.workSegment,
+.skillsSegment,
+.aboutSegment {
+  @include flex-center();
+  height: auto;
+  background-color: #383838;
 }
 
-.motherDiv{
-    background-color: #383838;
-    height: 100%;
-    min-height: 100%;
-    overflow-y: scroll;
+.motherDiv {
+  background-color: #383838;
+  height: 100%;
+  min-height: 100%;
+  overflow-y: scroll;
 
-    &::-webkit-scrollbar{
-        width: 0px;
-        height: 0px;
-        background-color: transparent;
+  &::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    background-color: transparent;
+  }
+
+  .mainDiv {
+    height: calc(100vh - 70px);
+
+    // INTRO =====================================
+    .introSegment {
+      @include flex-center();
+      height: calc(100vh - 70px);
+      padding: 0 10% 0 10%;
+      background-color: #019ed3;
+      position: relative;
+      // @include bg-gradient-bundle();
+
+      .introP {
+        display: inline-block;
+        font-size: calc(2vw + 1.2rem);
+        font-family: "Open Sans Bold";
+        @include name-gradient-bundle();
+        font-weight: 800;
+
+        &::before {
+          font-family: "Open Sans";
+          content: "My name is ";
+          color: #ffffff;
+        }
+
+        &::after {
+          font-family: "Open Sans";
+          content: " & I create great experiences on the internet.";
+          color: #ffffff;
+        }
+
+        @media (max-width: 400px) {
+          font-size: calc(1vw + 1.2rem);
+        }
+
+        @media (max-width: 501px) {
+          margin-bottom: 100px;
+        }
+      }
     }
-   
-    .mainDiv{
-        height: calc(100vh - 70px);
 
-        // INTRO =====================================
-        .introSegment{ 
+    // WORK =====================================
+    .workSegment {
+      .workDiv {
+        height: 70%;
+        max-width: 1110px;
+        @include flex-center();
+        position: relative;
+
+        .workSubDiv {
+          position: relative;
+          max-width: 1260px;
+          display: flex;
+          align-self: center;
+          flex-wrap: wrap;
+          justify-items: center;
+          justify-content: center;
+
+          .workExample {
+            height: 22vw;
+            width: 27vw;
+            max-width: 350px;
+            max-height: 280px;
             @include flex-center();
-            height: calc(100vh - 70px);
-            padding: 0 10% 0 10%;
+            border-radius: 5px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+            transition: all 0.35s ease-in-out;
             background-color: #019ed3;
-            position: relative;
-            // @include bg-gradient-bundle();
+            // margin: 0.75vw 0.75vw;
+            margin: 9px;
 
-            .introP{
-                display: inline-block;
-                font-size: calc(2vw + 1.2rem);
-                font-family: "Open Sans Bold";
-                @include name-gradient-bundle();
-                font-weight: 800;
+            h1 {
+              font-size: calc(2.4vw + 0.5rem);
+              text-align: center;
 
-                &::before{
-                    font-family: "Open Sans";
-                    content: 'My name is ';
-                    color: #ffffff;
-                }
-
-                &::after{
-                    font-family: "Open Sans";
-                    content: ' & I create great experiences on the internet.';
-                    color: #ffffff;
-                }
-
-  
-
-                @media(max-width: 400px) {
-                    font-size: calc(1.0vw + 1.2rem);
-                }
-
-
-
-                @media(max-width: 501px) {
-                    margin-bottom: 100px;
-                }
+              @media (max-width: 750px) {
+                font-size: calc(2.85vw + 0.5rem);
+              }
             }
 
-        };
-
-        // WORK =====================================
-        .workSegment{ 
-            .workDiv{        
-                height: 70%;
-                max-width: 1110px;
-                @include flex-center();
-                position: relative;
-
-                .workSubDiv{  
-                    position: relative;
-                    max-width: 1260px;
-                    display: flex;       
-                    align-self: center;
-                    flex-wrap: wrap;
-                    justify-items:center;
-                    justify-content: center;         
-
-                    .workExample{
-                        height:22vw;
-                        width: 27vw;
-                        max-width: 350px;
-                        max-height: 280px;
-                        @include flex-center();
-                        border-radius: 5px;
-                        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
-                        transition: all .35s ease-in-out;
-                        background-color: #019ed3;
-                        // margin: 0.75vw 0.75vw;
-                        margin: 9px;
-
-                        h1{
-                            font-size: calc(2.4vw + 0.5rem);
-                            text-align: center;
-
-                            @media(max-width: 750px) {
-                                font-size: calc(2.85vw + 0.5rem);
-                            }
-                        }
-
-                        &:hover{
-                            box-shadow: none;
-                            filter:brightness(120%);
-                            cursor: pointer;
-                        }
-                    }
-                }      
-            }   
-
-            @media(max-width: 750px) {
-                .textDiv{
-                    .workParaDiv{
-                        .workPara{
-                            font-size: 1.1rem;
-                        }
-                    }
-                }
-                .workDiv{
-                    .workSubDiv{
-                        .workExample{
-                            width: 42vw;
-                            height: 25vw;
-                            margin: 8px;
-                        }
-                    }
-                }
+            &:hover {
+              box-shadow: none;
+              filter: brightness(120%);
+              cursor: pointer;
             }
-         };
-    
+          }
+        }
+      }
 
-         // SKILLS =====================================
-        .skillsSegment{ 
-            .skillsDiv{
-                height: 70%;
-                width: 100%;
-                display: flex;
-                justify-content: center;
-                align-items: flex-start;
-                flex-direction: row;
-                max-width: 675px;
-                padding-bottom: 100px;
-
-                .leftSideSkills, .rightSideSkills{
-                    margin: 5%;
-                    margin-top: 0;
-                }
-
-                .leftSideSkills, .rightSideSkills, .skillsBlue, .skillsGrey{
-                    @include flex-center();
-                    justify-content: flex-start;
-
-                    .skillsHeadDiv{
-                        margin: 0 0 10px 0;
-
-                        .skillsHead{
-                            font-size: 1.4rem;
-                        }
-                    }
-    
-                    .skillsBlue{
-                        background-color: #019ED3;
-                        padding: 10px 8px;
-                        border-radius: 5px;
-                        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
-    
-                        .skillsGrey{
-                            background-color: #383838;
-                            padding: 15px 40px;
-                            border-radius: 5px;
-        
-                            ul{ 
-                                li{
-                                    margin: 5px;
-                                    font-size: 1.15rem;
-                                }
-                            }
-                        }
-                    }
-                    
-                    @media(min-width: 1250px) {
-                        .skillsBlue{
-                            .skillsGrey{
-                                padding: 30px 50px;
-                                ul{
-                                    li{
-                                        font-size: 1.6rem;
-                                    }
-                                }
-                            }
-                        }
-                    }
-
-                    @media(min-width: 1000px) and (max-width: 1249px) {
-                        .skillsBlue{
-                            .skillsGrey{
-                                padding: 20px 45px;
-                                ul{
-                                    li{
-                                        font-size: 1.4rem;
-                                    }
-                                }
-                            }
-                        }
-                    }
-
-                    @media(max-width: 530px) {
-                        .skillsHeadDiv{
-                            .skillsHead{
-                                font-size: 1.2rem;
-                            }
-                        }
-                        .skillsBlue{
-                            .skillsGrey{
-                                padding: 15px 20px;
-                                ul{
-                                    margin: 0 0 0 5px;
-                                    li{
-                                        font-size: 0.95rem;
-                                    }
-                                }
-                            }
-                        }
-                    }
-
-                    @media(max-width: 425px) {
-                        .skillsBlue{
-                            .skillsGrey{
-                                padding: 5px 15px;
-                            }
-                        }
-                    }
-                }
-
-                @media(min-width: 1000px) {
-                    height: 80%;
-                }
+      @media (max-width: 750px) {
+        .textDiv {
+          .workParaDiv {
+            .workPara {
+              font-size: 1.1rem;
             }
-         };
+          }
+        }
+        .workDiv {
+          .workSubDiv {
+            .workExample {
+              width: 42vw;
+              height: 25vw;
+              margin: 8px;
+            }
+          }
+        }
+      }
     }
-}
 
+    // SKILLS =====================================
+    .skillsSegment {
+      .skillsDiv {
+        height: 70%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: row;
+        max-width: 675px;
+         margin-bottom: 100px;;
+        // padding-bottom: 100px;
+
+        .leftSideSkills,
+        .rightSideSkills {
+          margin: 5%;
+          margin-top: 0;
+        }
+
+        .leftSideSkills,
+        .rightSideSkills,
+        .skillsBlue,
+        .skillsGrey {
+          @include flex-center();
+          justify-content: flex-start;
+
+          .skillsHeadDiv {
+            margin: 0 0 10px 0;
+
+            .skillsHead {
+              font-size: 1.4rem;
+            }
+          }
+
+          .skillsBlue {
+            background-color: #019ed3;
+            padding: 10px 8px;
+            border-radius: 5px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+
+            .skillsGrey {
+              background-color: #383838;
+              padding: 15px 40px;
+              border-radius: 5px;
+
+              ul {
+                li {
+                  margin: 5px;
+                  font-size: 1.15rem;
+                }
+              }
+            }
+          }
+
+          @media (min-width: 1250px) {
+            .skillsBlue {
+              .skillsGrey {
+                padding: 30px 50px;
+                ul {
+                  li {
+                    font-size: 1.6rem;
+                  }
+                }
+              }
+            }
+          }
+
+          @media (min-width: 1000px) and (max-width: 1249px) {
+            .skillsBlue {
+              .skillsGrey {
+                padding: 20px 45px;
+                ul {
+                  li {
+                    font-size: 1.4rem;
+                  }
+                }
+              }
+            }
+          }
+
+          @media (max-width: 530px) {
+            .skillsHeadDiv {
+              .skillsHead {
+                font-size: 1.2rem;
+              }
+            }
+            .skillsBlue {
+              .skillsGrey {
+                padding: 15px 20px;
+                ul {
+                  margin: 0 0 0 5px;
+                  li {
+                    font-size: 0.95rem;
+                  }
+                }
+              }
+            }
+          }
+          
+
+          @media (max-width: 425px) {
+            .skillsBlue {
+              .skillsGrey {
+                padding: 5px 15px;
+              }
+            }
+          } 
+        }
+
+        @media (min-width: 1000px) {
+          height: 80%;
+        }
+      }
+    }
+
+    .aboutSegment {
+      display: flex;
+      justify-content: center;
+      height: auto;
+      margin-bottom: 130px;
+      .surroundDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        background-color: #019ed3;
+        padding: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+        border-radius: 5px;
+        max-width: 1130px;
+        
+        .imageDiv {
+          width: 100%;
+          height: auto;
+          border-radius: 5px;
+         
+          
+        }
+
+        @media(max-width: 530px) {
+          width: 87%;
+        }
+      }
+    }
+  }
+}
