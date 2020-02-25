@@ -33,6 +33,7 @@ const index = () => {
             </div>
           </div>
 
+          <p className="workNotice">&nbsp;&nbsp;Some of these apps / sites are hosted via Heroku's basic plan, so you may experience a slow initial load time due to their "sleeping dyno" functionality on down-times.</p>
           <div className="workDiv">
             <div className="workSubDiv">
               <a
@@ -48,7 +49,7 @@ const index = () => {
                 <h1>Bug Tracker</h1>
               </a>
               <a
-                href="https://pokedex-jb.herokuapp.com/"
+                href="https://pokedex-beta.now.sh/"
                 className="workExample"
               >
                 <h1>Pokedex</h1>

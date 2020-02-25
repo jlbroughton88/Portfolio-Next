@@ -16,23 +16,6 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/footer.scss": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
   "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/story.scss": [
     {
       "modules": {
@@ -50,7 +33,7 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/navbar.scss": [
+  "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/footer.scss": [
     {
       "modules": {
         "byIdentifier": {},
@@ -68,6 +51,23 @@
     }
   ],
   "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/letsTalk.scss": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/@zeit/next-css/node_modules/css-loader/index.js??ref--6-1!node_modules/sass-loader/lib/loader.js??ref--6-2!public/css/navbar.scss": [
     {
       "modules": {
         "byIdentifier": {},
@@ -107,62 +107,46 @@
       "styles": 2,
       "static/runtime/main.js": 3,
       "static/runtime/polyfills.js": 4,
-      "static/xqaGMvZOMocOxbQorrwTM/pages/_app.js": 5,
-      "static/xqaGMvZOMocOxbQorrwTM/pages/_error.js": 6,
-      "static/xqaGMvZOMocOxbQorrwTM/pages/comps/footer.js": 7,
-      "static/xqaGMvZOMocOxbQorrwTM/pages/comps/icons/downArrow.js": 8,
-      "static/xqaGMvZOMocOxbQorrwTM/pages/comps/icons/email.js": 9,
-      "static/xqaGMvZOMocOxbQorrwTM/pages/comps/icons/github.js": 10,
-      "static/xqaGMvZOMocOxbQorrwTM/pages/comps/icons/githubFooter.js": 11,
-      "static/xqaGMvZOMocOxbQorrwTM/pages/comps/icons/instagramFooter.js": 12,
-      "static/xqaGMvZOMocOxbQorrwTM/pages/comps/icons/linkedIn.js": 13,
-      "static/xqaGMvZOMocOxbQorrwTM/pages/comps/icons/linkedinFooter.js": 14,
-      "static/xqaGMvZOMocOxbQorrwTM/pages/comps/icons/listIcon.js": 15,
-      "static/xqaGMvZOMocOxbQorrwTM/pages/comps/icons/logo.js": 16,
-      "static/xqaGMvZOMocOxbQorrwTM/pages/comps/letsTalk.js": 17,
-      "static/xqaGMvZOMocOxbQorrwTM/pages/comps/navbar.js": 18,
-      "static/xqaGMvZOMocOxbQorrwTM/pages/index.js": 19,
-      "static/xqaGMvZOMocOxbQorrwTM/pages/story.js": 20,
-      "static/SU3Wawc0nDVCrm7JvPSLf/pages/_app.js": 21,
-      "static/SU3Wawc0nDVCrm7JvPSLf/pages/_error.js": 22,
-      "static/SU3Wawc0nDVCrm7JvPSLf/pages/comps/footer.js": 23,
-      "static/SU3Wawc0nDVCrm7JvPSLf/pages/comps/icons/downArrow.js": 24,
-      "static/SU3Wawc0nDVCrm7JvPSLf/pages/comps/icons/email.js": 25,
-      "static/SU3Wawc0nDVCrm7JvPSLf/pages/comps/icons/github.js": 26,
-      "static/SU3Wawc0nDVCrm7JvPSLf/pages/comps/icons/githubFooter.js": 27,
-      "static/SU3Wawc0nDVCrm7JvPSLf/pages/comps/icons/instagramFooter.js": 28,
-      "static/SU3Wawc0nDVCrm7JvPSLf/pages/comps/icons/linkedIn.js": 29,
-      "static/SU3Wawc0nDVCrm7JvPSLf/pages/comps/icons/linkedinFooter.js": 30,
-      "static/SU3Wawc0nDVCrm7JvPSLf/pages/comps/icons/listIcon.js": 31,
-      "static/SU3Wawc0nDVCrm7JvPSLf/pages/comps/icons/logo.js": 32,
-      "static/SU3Wawc0nDVCrm7JvPSLf/pages/comps/letsTalk.js": 33,
-      "static/SU3Wawc0nDVCrm7JvPSLf/pages/comps/navbar.js": 34,
-      "static/SU3Wawc0nDVCrm7JvPSLf/pages/index.js": 35,
-      "static/SU3Wawc0nDVCrm7JvPSLf/pages/story.js": 36
+      "static/wGHgoclJMB5dPFpCuAn6C/pages/_app.js": 5,
+      "static/wGHgoclJMB5dPFpCuAn6C/pages/_error.js": 6,
+      "static/wGHgoclJMB5dPFpCuAn6C/pages/comps/footer.js": 7,
+      "static/wGHgoclJMB5dPFpCuAn6C/pages/comps/icons/downArrow.js": 8,
+      "static/wGHgoclJMB5dPFpCuAn6C/pages/comps/icons/email.js": 9,
+      "static/wGHgoclJMB5dPFpCuAn6C/pages/comps/icons/github.js": 10,
+      "static/wGHgoclJMB5dPFpCuAn6C/pages/comps/icons/githubFooter.js": 11,
+      "static/wGHgoclJMB5dPFpCuAn6C/pages/comps/icons/instagramFooter.js": 12,
+      "static/wGHgoclJMB5dPFpCuAn6C/pages/comps/icons/linkedIn.js": 13,
+      "static/wGHgoclJMB5dPFpCuAn6C/pages/comps/icons/linkedinFooter.js": 14,
+      "static/wGHgoclJMB5dPFpCuAn6C/pages/comps/icons/listIcon.js": 15,
+      "static/wGHgoclJMB5dPFpCuAn6C/pages/comps/icons/logo.js": 16,
+      "static/wGHgoclJMB5dPFpCuAn6C/pages/comps/letsTalk.js": 17,
+      "static/wGHgoclJMB5dPFpCuAn6C/pages/comps/navbar.js": 18,
+      "static/wGHgoclJMB5dPFpCuAn6C/pages/index.js": 19,
+      "static/wGHgoclJMB5dPFpCuAn6C/pages/story.js": 20
     },
     "bySource": {},
     "usedIds": [
       0,
       1,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
       2,
-      21,
-      22,
-      23,
-      24,
-      25,
-      26,
-      27,
-      28,
-      29,
+      20,
       3,
-      30,
-      31,
-      32,
-      33,
-      34,
-      35,
-      36,
-      4
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
     ]
   }
 }

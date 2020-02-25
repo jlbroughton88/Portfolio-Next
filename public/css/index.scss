@@ -256,11 +256,27 @@ strong {
 
     // WORK =====================================
     .workSegment {
+      .workNotice{
+        width: 80%;
+        max-width: 750px;
+        font-size: 0.85rem;   
+        margin-bottom: 20px;     
+        
+        &:before{
+          content: 'Notice';
+          background: yellow;
+          color: black;
+          padding: 1px 5px;
+          font-size: 0.85rem;
+        }
+      }
       .workDiv {
         height: 70%;
         max-width: 1110px;
         @include flex-center();
         position: relative;
+
+
 
         .workSubDiv {
           position: relative;
