@@ -18,7 +18,6 @@ const Footer = () => (
                     <a href="https://www.instagram.com/jakelbroughton.dev/" className="instagramDivFooter">
                         <InstagramFooter/>
                     </a>
-                    
                 </section>
             </div>
         </section>

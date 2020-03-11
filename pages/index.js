@@ -33,48 +33,62 @@ const index = () => {
             </div>
           </div>
 
-          <p className="workNotice">&nbsp;&nbsp;Some of these apps / sites are hosted via Heroku's basic plan, so you may experience a slow initial load time due to their "sleeping dyno" functionality on down-times.</p>
+          <p className="workNotice">
+            &nbsp;&nbsp;Some of these apps / sites are hosted via Heroku's basic
+            plan, so you may experience a slow initial load time due to their
+            "sleeping dyno" functionality on down-times.
+          </p>
           <div className="workDiv">
             <div className="workSubDiv">
+            <a
+                href="https://h3-staffing.now.sh/"
+                className="workExample"
+              >
+                <h1>H3 Staffing</h1>
+              </a>
               <a
                 href="https://www.broughtondetailing.com/"
                 className="workExample"
               >
                 <h1>Broughton Detailing</h1>
               </a>
+
               <a
                 href="https://bug-tracker-jb.herokuapp.com/"
                 className="workExample"
               >
                 <h1>Bug Tracker</h1>
               </a>
-              <a
-                href="https://pokedex-beta.now.sh/"
-                className="workExample"
-              >
+
+              <a href="https://pokedex-beta.now.sh/" className="workExample">
                 <h1>Pokedex</h1>
               </a>
+
               <a
                 href="https://heavenly-details.herokuapp.com/"
                 className="workExample"
               >
                 <h1>Heavenly Details</h1>
               </a>
+
               <a
                 href="https://new-age-oils.herokuapp.com/"
                 className="workExample"
               >
                 <h1>New Age Oils</h1>
               </a>
+
               <a
                 href="https://crud-car-list.herokuapp.com/"
                 className="workExample"
               >
                 <h1>CRUD Car List</h1>
               </a>
+
               <a href="https://www.jlbroughton.com" className="workExample">
                 <h1>Portfolio (V2)</h1>
               </a>
+
               <a
                 href="https://jbroughton-portfolio.herokuapp.com/"
                 className="workExample"
@@ -157,9 +171,8 @@ const index = () => {
             </div> */}
           {/* </div> */}
           <div className="surroundDiv">
-            <img className="imageDiv" src={MeWithGen} alt="Me"/>
+            <img className="imageDiv" src={MeWithGen} alt="Me" />
           </div>
-          
         </section>
         <LetsTalk />
         <Footer />
